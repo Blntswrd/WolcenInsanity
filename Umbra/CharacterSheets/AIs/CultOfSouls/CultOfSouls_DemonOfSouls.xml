@@ -1,0 +1,129 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_DemonOfSouls" EntityName="cultofsouls_demonofsouls" Scale="1" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,damned,undead,elite,frost,range" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1.2" DamageModifier="1.2" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="50" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_CultOfSouls_DemonOfSouls_DefaultAttack01" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="20.0">
+        <Range Min="0.0" Preferred="2.2" Max="6.0" MinWeight="40.0" PreferredWeight="40.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_CultOfSouls_DemonOfSouls_DefaultAttack_Ranged" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0" MaxRepeats="3">
+        <Range Min="5.0" Preferred="8.0" Max="15.0" MinWeight="0.0" PreferredWeight="8.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_bansheescream" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="20.0">
+        <Range Min="4.0" Preferred="10.0" Max="22.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_spectralteleport_escape" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="20.0">
+        <Range Min="0.0" Preferred="3.0" Max="4.0" MinWeight="10.0" PreferredWeight="10.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_spectralteleport_abduct" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="30.0">
+        <Range Min="8.0" Preferred="16.0" Max="30.0" MinWeight="0.0" PreferredWeight="30.0" MaxWeight="70.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_soulstorm_part1" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="20.0">
+        <Range Min="0.0" Preferred="10.0" Max="16.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_possess_part1" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="20.0">
+        <Range Min="5.0" Preferred="7.0" Max="22.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_summonspecters" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="4.0" Preferred="7.0" Max="14.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_CultOfSouls_DemonOfSouls_DefaultAttack_Ranged" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0" MaxRepeats="5">
+        <Range Min="0.0" Preferred="8.0" Max="15.0" MinWeight="0.0" PreferredWeight="8.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_demonofsouls_spectralteleport_abduct" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="30.0">
+        <Range Min="8.0" Preferred="16.0" Max="30.0" MinWeight="0.0" PreferredWeight="30.0" MaxWeight="70.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Approach>
+  </Skills>
+  <HUD UIName="@ui_AIName_CoS_DemonOfSouls" ZIconOffset="4.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Demonofsouls" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.9,0.9,0.5" />
+    <MouseSelection SelectionCapsuleRadius="2.2" SelectionCapsuleHeight="1.8" SelectionCapsuleZOffset="-1.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.5" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.6" SphereZOffset="0.6" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Claw31" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02_1" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Claw41" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02_1" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Claw51" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02_1" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Claw01" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Claw11" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Claw21" LinkedBoneName="Bip01 FK Claws" ParticleName="U_Monster.Tomb_Bearer.Soul_Trail_02" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01" ParticleName="U_Monster.DeomonOfSoul.Under_Soul_01" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="DemonOfSouls_voice" />
+</MetaData>

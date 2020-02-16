@@ -1,0 +1,65 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_UndeadSpiker_frost" EntityName="cultofsouls_spiker_frost" Scale="1" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,damned,lieutenant,frost,range" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="2.5" WalkSpeed="2.5" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Lieutenant" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Lieutenant" />
+  <Corpses PresetName="" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <Perception>
+      <Proximity />
+    </Perception>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_undeadlancer_spearthrow_frost" Orientated="Before" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.5" Preferred="10.0" Max="12.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_coss_spiker_mortar_frost" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="6.0" Preferred="10.0" Max="12.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_CoS_FrostZombieLancer" ZIconOffset="3.0" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="AI_coss_spiker_deathskill_frost" />
+  <GameplayParticles PresetName="size_large" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.7,0.7,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.35" SelectionCapsuleHeight="1.2" SelectionCapsuleZOffset="-0.6" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Head" ParticleName="U_Monster.FrostVariation.Frost_Spiker_EyesLight" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.FrostVariation.Frost_Spiker_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="CultZombie_Warrior_voice" />
+</MetaData>

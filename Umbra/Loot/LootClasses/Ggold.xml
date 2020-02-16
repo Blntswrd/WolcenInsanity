@@ -1,0 +1,137 @@
+<MetaData>
+  <LootClass Name="NoDrop_0">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_1">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_2">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_3">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_4">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_5">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_6">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_7">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_8">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="NoDrop_9">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="Gold_trash">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="GOLD_1_5" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <Item Name="GOLD_3_7" MinLevel="7" MaxLevel="9999" Weight="20" />
+      <Item Name="GOLD_7_13" MinLevel="11" MaxLevel="9999" Weight="50" />
+      <Item Name="GOLD_10_16" MinLevel="16" MaxLevel="9999" Weight="100" />
+      <Item Name="GOLD_14_20" MinLevel="20" MaxLevel="9999" Weight="200" />
+      <Item Name="GOLD_20_25" MinLevel="30" MaxLevel="9999" Weight="400" />
+      <Item Name="GOLD_35_40" MinLevel="40" MaxLevel="9999" Weight="800" />
+      <Item Name="GOLD_40_45" MinLevel="50" MaxLevel="9999" Weight="1200" />
+      <Item Name="GOLD_45_50" MinLevel="60" MaxLevel="9999" Weight="1600" />
+      <Item Name="GOLD_50_55" MinLevel="70" MaxLevel="9999" Weight="2000" />
+      <LootClass Name="NoDrop_0" MinLevel="1" MaxLevel="6" Weight="5" />
+      <LootClass Name="NoDrop_1" MinLevel="7" MaxLevel="10" Weight="10" />
+      <LootClass Name="NoDrop_2" MinLevel="11" MaxLevel="15" Weight="25" />
+      <LootClass Name="NoDrop_3" MinLevel="16" MaxLevel="19" Weight="50" />
+      <LootClass Name="NoDrop_4" MinLevel="20" MaxLevel="29" Weight="100" />
+      <LootClass Name="NoDrop_5" MinLevel="30" MaxLevel="39" Weight="200" />
+      <LootClass Name="NoDrop_6" MinLevel="40" MaxLevel="49" Weight="400" />
+      <LootClass Name="NoDrop_7" MinLevel="50" MaxLevel="59" Weight="800" />
+      <LootClass Name="NoDrop_8" MinLevel="60" MaxLevel="69" Weight="1200" />
+      <LootClass Name="NoDrop_9" MinLevel="70" MaxLevel="9999" Weight="1600" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Gold_elite">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="GOLD_10_16" MinLevel="1" MaxLevel="9999" Weight="1" />
+      <Item Name="GOLD_14_20" MinLevel="7" MaxLevel="9999" Weight="10" />
+      <Item Name="GOLD_20_25" MinLevel="11" MaxLevel="9999" Weight="10" />
+      <Item Name="GOLD_35_40" MinLevel="16" MaxLevel="9999" Weight="100" />
+      <Item Name="GOLD_40_45" MinLevel="20" MaxLevel="9999" Weight="100" />
+      <Item Name="GOLD_45_50" MinLevel="30" MaxLevel="9999" Weight="1000" />
+      <Item Name="GOLD_50_55" MinLevel="40" MaxLevel="9999" Weight="1000" />
+      <Item Name="GOLD_55_60" MinLevel="50" MaxLevel="9999" Weight="10000" />
+      <Item Name="GOLD_60_65" MinLevel="60" MaxLevel="9999" Weight="10000" />
+      <Item Name="GOLD_65_70" MinLevel="70" MaxLevel="9999" Weight="10000" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Gold_chest">
+    <Pick Value="9" />
+    <Level Value="1" />
+    <Rarity Legendary="1" Normal="777" Rare="7" Magic="77" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="GOLD_1_5" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <Item Name="GOLD_3_7" MinLevel="7" MaxLevel="9999" Weight="20" />
+      <Item Name="GOLD_7_13" MinLevel="11" MaxLevel="9999" Weight="50" />
+      <Item Name="GOLD_10_16" MinLevel="16" MaxLevel="9999" Weight="100" />
+      <Item Name="GOLD_14_20" MinLevel="20" MaxLevel="9999" Weight="200" />
+      <Item Name="GOLD_20_25" MinLevel="30" MaxLevel="9999" Weight="400" />
+      <Item Name="GOLD_35_40" MinLevel="40" MaxLevel="9999" Weight="800" />
+      <Item Name="GOLD_40_45" MinLevel="50" MaxLevel="9999" Weight="1200" />
+      <Item Name="GOLD_45_50" MinLevel="60" MaxLevel="9999" Weight="1600" />
+      <Item Name="GOLD_50_55" MinLevel="70" MaxLevel="9999" Weight="2000" />
+      <LootClass Name="NoDrop_0" MinLevel="1" MaxLevel="9999" Weight="0" />
+    </Loot>
+  </LootClass>
+</MetaData>

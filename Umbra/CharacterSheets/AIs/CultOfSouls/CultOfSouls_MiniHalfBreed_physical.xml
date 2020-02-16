@@ -1,0 +1,99 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_MiniHalfBreed_physical" EntityName="cultofsouls_mini_halfbreed_physical" Scale="0.65" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,damned,trash,physical,melee,weak" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.5" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.5" DamageModifier="0.5" XPModifier="0.5" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCorpsePreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Swarm" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_MiniHalfBreed_Physical_DefaultAttack" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="3.0">
+        <Range Min="0.0" Preferred="1.5" Max="2.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_minihalfbreed_jumpattack_physical" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="10.0" Max="20.0" MinWeight="0.0" PreferredWeight="5.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive>
+      <Skill Name="AI_minihalfbreed_jumpattack_physical" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="10.0" Max="20.0" MinWeight="0.0" PreferredWeight="5.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_minihalfbreed_jumpattack_physical" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="10.0" Max="20.0" MinWeight="0.0" PreferredWeight="5.0" MaxWeight="10.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Approach>
+  </Skills>
+  <HUD UIName="@ui_AIName_CoS_MiniHalfBreedOfSoul_physical" ZIconOffset="2.0" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Omegababy" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.7,0.7,0.55" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="0.2" SelectionCapsuleZOffset="-0.7" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.2" SphereZOffset="0.2" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Halfbreed_Mini_voice" />
+</MetaData>

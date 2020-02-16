@@ -1,0 +1,66 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_ZombieSoldier" EntityName="cultofsouls_undead_soldier" Scale="1.33" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,undead,trash,physical,melee,heavy" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="2.0" />
+  <Attributes Archetype="archetype_trash" HealthModifier="2.0" DamageModifier="1.0" XPModifier="2" Protection="" />
+  <Movement MovementSpeed="2" WalkSpeed="2" />
+  <InterruptionParams InterruptChance="0.02" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_UndeadZombie_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <Pick Model="Objects/characters/mobs/Humanoid/Zombie/COSS_ZombieWarrior/COSS_ZombieWarrior_1Axe1Shd.cdf" Weight="1">
+      <CosmeticDropOverride CosmeticDropPreset="ZombieSoldierAxeAndShield" />
+    </Pick>
+    <Pick Model="Objects/characters/mobs/Humanoid/Zombie/COSS_ZombieWarrior/COSS_ZombieWarrior_1Mas1Shd.cdf" Weight="1">
+      <CosmeticDropOverride CosmeticDropPreset="ZombieSoldierMaceAndShield" />
+    </Pick>
+    <Pick Model="Objects/characters/mobs/Humanoid/Zombie/COSS_ZombieWarrior/COSS_ZombieWarrior_1Swd1Shd.cdf" Weight="1">
+      <CosmeticDropOverride CosmeticDropPreset="ZombieSoldierSwordAndShield" />
+    </Pick>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_CoS_ZombieWarrior" ZIconOffset="3.0" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.1" DeathSkill="" OnDeathMaterial="Objects\characters\mobs\Atlas\mobs_zombies\atlas_mobs_zombies_NoWeapon.mtl" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="325" />
+    <MouseSelection SelectionCapsuleRadius="1.0" SelectionCapsuleHeight="0.6" SelectionCapsuleZOffset="-0.3" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Head" ParticleName="U_Monster.FrostVariation.Frost_Zombie_EyesLight" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.FrostVariation.Frost_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="CultZombie_Warrior_voice" />
+</MetaData>

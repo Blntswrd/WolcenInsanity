@@ -1,0 +1,23 @@
+<MetaData>
+  <SpawnClass Name="sc_Sty_ACT2_GloomValley_CommonCC_1">
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSpiderRanged" NumberMin="8" NumberMax="12" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_GloomValley_CommonCC_2">
+    <Spawn Type="Actor" ClassName="OutlawsTrapperShadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildScarab" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildHornet" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_GloomValley_UncommonCC_1">
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBear" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThugShadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_GloomValley_UncommonCC_2">
+    <Spawn Type="Actor" ClassName="OutlawsTrapperShadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildScarab" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThugShadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

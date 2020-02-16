@@ -1,0 +1,56 @@
+<MetaData>
+  <BaseEntity ID="Named_Instigator" EntityName="cultoffury_instigator" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="CultOfFury" />
+  <Keywords Value="heavy,elite,melee,fire,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_BossModifier_FireHomingProjectile" />
+    <Modifier Name="AI_BossModifier_BurnArea_Permanent" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="30.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_Named_Instigator_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine4" ParticleName="U_Monster_Alt.Instigator.named_wings_left" Offset="0,-.42,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="0" />
+    <BoneParticle BoneName="Bip01 Spine4" ParticleName="U_Monster_Alt.Instigator.named_wings_right" Offset="0,-.42,0" Dir="0,0,-1" Scale="1" FadeOut="1" IgnoreRotation="0" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster_Alt.Instigator.Permanent01_Named" Offset="0,-0.5,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="0" />
+  </BoneParticles>
+  <HUD UIName="@ui_AIName_Cofy_Instigator" ZIconOffset="4.6" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_large" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.2,1.2,1" IsPushable="0" RagdollMass="225" />
+    <MouseSelection SelectionCapsuleRadius="1.4" SelectionCapsuleHeight="0.8" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Instigator_voice" AllowGroupSounds="1" />
+</MetaData>

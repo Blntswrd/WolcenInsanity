@@ -1,0 +1,90 @@
+<MetaData>
+  <BaseEntity ID="Named_AuroraKnight" EntityName="templars_knight" Scale="1.3" CanKillAllies="0" />
+  <Faction Name="CultOfFury" />
+  <Keywords Value="elite,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_BossModifier_LightningStorm_Slow" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_TMPL_Knight_Prayer" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="100.0">
+        <Health Min="0.0" Max="0.7" Weight="100.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredCombo" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="5.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_HolyDive_Level1" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="10.0" Preferred="15.0" Max="25.0" MinWeight="0.0" PreferredWeight="2.0" MaxWeight="2.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredCharge_Level1" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="8.0" Max="10.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredFire_Level1" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="6.0" Max="10.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredOrbs_Level1" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="10.0" Max="25.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_HolyDive_Level2" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="10.0">
+        <Range Min="10.0" Preferred="15.0" Max="25.0" MinWeight="0.0" PreferredWeight="2.0" MaxWeight="2.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredCharge_Level2" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="8.0" Max="10.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredFire_Level2" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="6.0" Max="10.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_TMPL_Knight_SacredOrbs_Level2" Orientated="Never" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="10.0" Max="25.0" MinWeight="1.0" PreferredWeight="1.0" MaxWeight="1.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_TMPL_Knight_HolyDive_Level1" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="10.0" Preferred="15.0" Max="25.0" MinWeight="0.0" PreferredWeight="2.0" MaxWeight="2.0" />
+      </Skill>
+    </Approach>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Knight/COFY_Pac_Knight/COFY_Pac_Knight.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Knight/TMPL_Knight.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Named_AuroraKnight" ZIconOffset="4" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_large" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" IsPushable="0" RagdollMass="" />
+    <MouseSelection SelectionCapsuleRadius="1.0" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.0" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SurfaceType="armour" />
+  <RandomVoice>
+    <VoiceChoice VoiceName="Human_Male_Clean_A_voice" Weight="1" />
+    <VoiceChoice VoiceName="Human_Male_Clean_B_voice" Weight="1" />
+  </RandomVoice>
+</MetaData>

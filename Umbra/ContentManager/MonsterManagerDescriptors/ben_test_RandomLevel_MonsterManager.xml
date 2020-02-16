@@ -1,0 +1,226 @@
+<MetaData>
+  <MonsterManager Name="MM_ben_RandomLevel_test">
+    <DesignParams GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="1" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.02" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_B" SpawnClassFamily="Scf_WreckCoast_S_B" MandatoryContentKeywords="" />
+      <Entry Category="S_O" SpawnClassFamily="Scf_WreckCoast_S_O" MandatoryContentKeywords="" />
+      <Entry Category="S_S" SpawnClassFamily="Scf_A1_S_SC_Bspi" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_B" Percentage="60" />
+      <Entry Category="S_O" Percentage="30" />
+      <Entry Category="S_S" Percentage="10" />
+    </RMP>
+    <FMP />
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="30" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_B" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="15" GroupCountMin="1" GroupCountMax="2" Category="S_B" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_ben_RandomLevel_test_BossOnly">
+    <DesignParams GroupValueModifierPercent="0" GroupValueDispersionPercent="0" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="fixed" CP="10" DefaultSpawnerSpawnRadius="5" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="B_M" SpawnClassFamily="Scf_EG_OnlyBoss" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="B_M" Percentage="100" />
+    </RMP>
+    <FMP />
+    <SpawnPatterns />
+  </MonsterManager>
+  <MonsterManager Name="MM_CG_COSS_Lot_Easy_test">
+    <DesignParams GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="1" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.03" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Necropolis3_COS_ZF" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Necropolis3_COS_F" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_AnankisHall1_COS_FMMelee" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_AnankisHall1_COS_LS" MandatoryContentKeywords="" />
+      <Entry Category="S_HT2" SpawnClassFamily="Scf_Necropolis3_COS_MLB" MandatoryContentKeywords="" />
+      <Entry Category="S_HT3" SpawnClassFamily="Scf_AnankisHall1_COS_FMRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_HT4" SpawnClassFamily="Scf_Necropolis3_COS_ZS" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_AnankisHall1_COS_Lieutenant" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="15" />
+      <Entry Category="S_T2" Percentage="15" />
+      <Entry Category="S_T3" Percentage="15" />
+      <Entry Category="S_T4" Percentage="15" />
+      <Entry Category="S_HT2" Percentage="12" />
+      <Entry Category="S_HT3" Percentage="12" />
+      <Entry Category="S_HT4" Percentage="12" />
+      <Entry Category="S_L1" Percentage="4" />
+    </RMP>
+    <FMP />
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="30" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="15" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_CG_COSS_Few_Hard_test">
+    <DesignParams GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="1" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.012" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Necropolis3_COS_ZF" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Necropolis3_COS_F" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_AnankisHall1_COS_FMMelee" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_AnankisHall1_COS_LS" MandatoryContentKeywords="" />
+      <Entry Category="S_HT2" SpawnClassFamily="Scf_Necropolis3_COS_MLB" MandatoryContentKeywords="" />
+      <Entry Category="S_HT3" SpawnClassFamily="Scf_AnankisHall1_COS_FMRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_HT4" SpawnClassFamily="Scf_Necropolis3_COS_ZS" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_AnankisHall1_COS_Lieutenant" MandatoryContentKeywords="" />
+      <Entry Category="S_E1" SpawnClassFamily="Scf_AnankisHall2_COS_TPG" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="3" />
+      <Entry Category="S_T2" Percentage="3" />
+      <Entry Category="S_T3" Percentage="3" />
+      <Entry Category="S_T4" Percentage="3" />
+      <Entry Category="S_HT2" Percentage="3" />
+      <Entry Category="S_HT3" Percentage="3" />
+      <Entry Category="S_HT4" Percentage="3" />
+      <Entry Category="S_L1" Percentage="59" />
+      <Entry Category="S_E1" Percentage="20" />
+    </RMP>
+    <FMP />
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="5" CPMax="15" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="2" Category_EntityMax="2" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_CG_COSS_Average_Hard_test">
+    <DesignParams GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="1" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Necropolis3_COS_ZF" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Necropolis3_COS_F" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_AnankisHall1_COS_FMMelee" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_AnankisHall1_COS_LS" MandatoryContentKeywords="" />
+      <Entry Category="S_HT2" SpawnClassFamily="Scf_Necropolis3_COS_MLB" MandatoryContentKeywords="" />
+      <Entry Category="S_HT3" SpawnClassFamily="Scf_AnankisHall1_COS_FMRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_HT4" SpawnClassFamily="Scf_Necropolis3_COS_ZS" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_AnankisHall1_COS_Lieutenant" MandatoryContentKeywords="" />
+      <Entry Category="S_E1" SpawnClassFamily="Scf_AnankisHall2_COS_TPG" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="5" />
+      <Entry Category="S_T2" Percentage="5" />
+      <Entry Category="S_T3" Percentage="5" />
+      <Entry Category="S_T4" Percentage="5" />
+      <Entry Category="S_HT2" Percentage="5" />
+      <Entry Category="S_HT3" Percentage="5" />
+      <Entry Category="S_HT4" Percentage="5" />
+      <Entry Category="S_L1" Percentage="31" />
+      <Entry Category="S_E1" Percentage="20" />
+    </RMP>
+    <FMP />
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="20" CPMax="25" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="2" Category_EntityMax="2" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_CG_COSS_Lot_Hard_test">
+    <DesignParams GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="1" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.022" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Necropolis3_COS_ZF" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Necropolis3_COS_F" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_AnankisHall1_COS_FMMelee" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_AnankisHall1_COS_LS" MandatoryContentKeywords="" />
+      <Entry Category="S_HT2" SpawnClassFamily="Scf_Necropolis3_COS_MLB" MandatoryContentKeywords="" />
+      <Entry Category="S_HT3" SpawnClassFamily="Scf_AnankisHall1_COS_FMRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_HT4" SpawnClassFamily="Scf_Necropolis3_COS_ZS" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_AnankisHall1_COS_Lieutenant" MandatoryContentKeywords="" />
+      <Entry Category="S_E1" SpawnClassFamily="Scf_AnankisHall2_COS_TPG" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="5" />
+      <Entry Category="S_T2" Percentage="5" />
+      <Entry Category="S_T3" Percentage="5" />
+      <Entry Category="S_T4" Percentage="5" />
+      <Entry Category="S_HT2" Percentage="5" />
+      <Entry Category="S_HT3" Percentage="5" />
+      <Entry Category="S_HT4" Percentage="5" />
+      <Entry Category="S_L1" Percentage="31" />
+      <Entry Category="S_E1" Percentage="20" />
+    </RMP>
+    <FMP />
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="25" CPMax="30" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="2" Category_EntityMax="2" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+</MetaData>

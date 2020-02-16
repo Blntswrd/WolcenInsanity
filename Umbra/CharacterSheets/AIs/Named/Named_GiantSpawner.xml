@@ -1,0 +1,61 @@
+<MetaData>
+  <BaseEntity ID="Named_GiantSpawner" EntityName="svriir_beta_spawner" Scale="1.8" CanKillAllies="0" />
+  <Faction Name="Svriirs" />
+  <Keywords Value="svri,elite,giant,support,summoner,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_BossModifier_PoisonFromSky" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="30.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_Svriir_GiantSpawner_Eggthrow" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="100">
+        <Range Min="0.5" Preferred="8.0" Max="15.0" MinWeight="0.0" PreferredWeight="0.5" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_GiantSpawner_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3.5" Max="5" MinWeight="0.0" PreferredWeight="0.5" MaxWeight="1.0" />
+      </Skill>
+      <Skill Name="AI_Svriir_GiantSpawner_Buff" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="100.0">
+        <Range Min="0.5" Preferred="4.0" Max="6.0" MinWeight="0.0" PreferredWeight="0.5" MaxWeight="1.0" />
+        <Health Min="0.0" Max="0.75" Weight="0.0" />
+      </Skill>
+    </Offensive>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Reptile/Spawner/SVRI_Spawner_Giant/SVRI_Spawner_Giant.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Reptile/Spawner/SVRI_Spawner.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Named_GiantSpawner" ZIconOffset="3.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Alpha" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1" SelectionCapsuleHeight="0.5" SelectionCapsuleZOffset="-0.3" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Svriir_voice" />
+</MetaData>

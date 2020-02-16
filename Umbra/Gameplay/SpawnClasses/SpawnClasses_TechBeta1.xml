@@ -1,0 +1,62 @@
+<MetaData>
+  <SpawnClass Name="BT1_Easy_1">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Easy_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Easy_3">
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Easy_4">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Medium_1">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="3" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Medium_2">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Medium_3">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="0" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Medium_4">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Hard_1">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_Hard_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="4" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_VeryHard_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_VeryHard_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT1_VeryHard_3">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="2" NumberMax="3" LevelMin="5" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="2" LevelMin="5" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="2" LevelMin="5" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="2" LevelMin="5" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+</MetaData>

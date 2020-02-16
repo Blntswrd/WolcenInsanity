@@ -1,0 +1,466 @@
+<MetaData>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Basic_Normal">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="W" SpawnClassFamily="" MandatoryContentKeywords="weak" />
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="W" Percentage="20" />
+      <Entry Category="T" Percentage="45" />
+      <Entry Category="H" Percentage="15" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="150" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16.75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="manual">
+          <ManualTrigger CPMin="0" CPMax="250" />
+        </AdditiveTriggerParams>
+        <EventChoices>
+          <EventChoice Weight="90" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="Normal" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Limitation_ByKeyword AIKeyword="weak" MaxNumberInGroup="10" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="W" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="W" Category_CPMin="2" Category_CPMax="4" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Basic_Rare">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="T" Percentage="55" />
+      <Entry Category="H" Percentage="25" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="80" CPMax="120" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16,75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="100" CPMax="200" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="100" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="manual">
+          <ManualTrigger CPMin="0" CPMax="250" />
+        </AdditiveTriggerParams>
+        <EventChoices>
+          <EventChoice Weight="90" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="Normal" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="10" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="7.5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="7.5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Goblin_Normal">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="W" SpawnClassFamily="" MandatoryContentKeywords="weak" />
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="W" Percentage="20" />
+      <Entry Category="T" Percentage="45" />
+      <Entry Category="H" Percentage="15" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="150" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16,75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="100" ThresholdMode="fixed" ThresholdMax="3" ThresholdMin="2" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Limitation_ByKeyword AIKeyword="weak" MaxNumberInGroup="10" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="W" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="W" Category_CPMin="2" Category_CPMax="4" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Goblin_Rare">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="T" Percentage="55" />
+      <Entry Category="H" Percentage="25" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="80" CPMax="120" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16,75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="100" CPMax="200" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="100" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="100" ThresholdMode="fixed" ThresholdMax="5" ThresholdMin="4" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="10" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="7.5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="7.5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Secondary_NoQuest">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="W" SpawnClassFamily="" MandatoryContentKeywords="weak" />
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="W" Percentage="20" />
+      <Entry Category="T" Percentage="45" />
+      <Entry Category="H" Percentage="15" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="150" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="13,5" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="19" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="6,5" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="2" Category_EntityMax="2" BossRank="Elder" />
+          <EventChoice Weight="20" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Elder" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="manual">
+          <ManualTrigger CPMin="0" CPMax="50" />
+        </AdditiveTriggerParams>
+        <EventChoices>
+          <EventChoice Weight="90" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="Normal" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Limitation_ByKeyword AIKeyword="weak" MaxNumberInGroup="10" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="W" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="W" Category_CPMin="2" Category_CPMax="4" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_Secondary_Quest">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="W" SpawnClassFamily="" MandatoryContentKeywords="weak" />
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="W" Percentage="20" />
+      <Entry Category="T" Percentage="45" />
+      <Entry Category="H" Percentage="15" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="150" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16,75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="manual">
+          <ManualTrigger CPMin="0" CPMax="50" />
+        </AdditiveTriggerParams>
+        <EventChoices>
+          <EventChoice Weight="90" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="Normal" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Limitation_ByKeyword AIKeyword="weak" MaxNumberInGroup="10" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="W" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="W" Category_CPMin="2" Category_CPMax="4" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_EG_NPC1_SVRIFW-RW_GoblinDungeon_Normal">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="3" GroupValueModifierPercent="50" GroupValueDispersionPercent="20" HConstraint_CountThreshold="3" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="3" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode SpreadPercent="10" PackPercent="75" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <Population iPick="1">
+      <Entry SCF="AdventureMode_Svriir_WildFire" Weight="1" />
+    </Population>
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.0185" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="10" />
+    <Categories>
+      <Entry Category="W" SpawnClassFamily="" MandatoryContentKeywords="weak" />
+      <Entry Category="T" SpawnClassFamily="" MandatoryContentKeywords="trash" />
+      <Entry Category="H" SpawnClassFamily="" MandatoryContentKeywords="heavy" />
+      <Entry Category="L" SpawnClassFamily="" MandatoryContentKeywords="lieutenant" />
+      <Entry Category="E" SpawnClassFamily="" MandatoryContentKeywords="elite" />
+    </Categories>
+    <RMP>
+      <Entry Category="W" Percentage="20" />
+      <Entry Category="T" Percentage="45" />
+      <Entry Category="H" Percentage="15" />
+      <Entry Category="L" Percentage="20" />
+    </RMP>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="150" CPMax="150" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="16,75" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="4" Category_EntityMax="4" BossRank="champion" />
+          <EventChoice Weight="22.25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="L" Category_EntityMin="3" Category_EntityMax="3" BossRank="Lord" />
+          <EventChoice Weight="25" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="champion" />
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="E" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="1" ThresholdMode="fixed" ThresholdMax="1" ThresholdMin="0" SCF="Scf_Named_Biome_Svriir_Desert" />
+        </EventChoices>
+      </Event>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="20" CPMax="50" PercentageDispersion="25" />
+        <EventChoices>
+          <EventChoice Weight="100" ThresholdMode="fixed" ThresholdMax="7" ThresholdMin="5" SCF="Scf_GoldenScarab" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <Constraints MaxDifferentMonstersInGroup="4">
+      <Limitation_ByName AIName="cultofsouls_lanternbearer" MaxNumberInGroup="1" />
+      <Limitation_ByName AIName="cultofsouls_specter" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="4" />
+      <Limitation_ByKeyword AIKeyword="elite" MaxNumberInGroup="1" />
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="5" />
+      <Limitation_ByKeyword AIKeyword="summoner" MaxNumberInGroup="2" />
+      <Limitation_ByKeyword AIKeyword="weak" MaxNumberInGroup="10" />
+      <Diversity_SingleCategory_SingleMonster Percentage="15" Category="T" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="W" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="H" />
+      <Diversity_SingleCategory_SingleMonster Percentage="5" Category="L" />
+    </Constraints>
+    <SpawnPatterns>
+      <Ambush Percentage="5" TriggerRadiusOverride="5" BaseSpawnRadiusOverride="15" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <SurroundingAssault Percentage="5" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="0" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="3" Category="T" Category_CPMin="3" Category_CPMax="6" DelayBeforeFirstSpawn="1" DelayBetweenGroups="2.5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="W" Category_CPMin="2" Category_CPMax="4" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="5" GroupCountMin="1" GroupCountMax="2" Category="H" Category_CPMin="4" Category_CPMax="8" DelayBeforeFirstSpawn="1" DelayBetweenGroups="3" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="10" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+</MetaData>

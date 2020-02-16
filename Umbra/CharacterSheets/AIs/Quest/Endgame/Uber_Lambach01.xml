@@ -1,0 +1,68 @@
+<MetaData>
+  <BaseEntity ID="Uber_Lambach01" EntityName="cultofflesh_lambach_01" Scale="2" CanKillAllies="0" />
+  <Faction Name="CultOfFlesh" />
+  <Keywords Value="cofe,undead,boss" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="50" DamageModifier="1" XPModifier="1" />
+  <Movement MovementSpeed="0" WalkSpeed="0" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <BreakBar MaxHealthPercent="25" CCEffectiveness="10" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_BossModifier_UberLambach_FleshBeam" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_UberLambach" fProba="" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="100.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_Uber_Lambach01_FleshLaser" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="20.0" Max="100.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_UBER_Lambach01_FleshAOE" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="20.0" Max="100.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_COFE_Lambach01_TentacleAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4" Preferred="20.0" Max="100.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_Uber_Lambach01_TentacleAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4" Preferred="20.0" Max="100.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="0.3" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Uber_Lambach01_MeleeAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="3.0">
+        <Range Min="0.0" Preferred="5" Max="7.2" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Uber_Lambach" ZIconOffset="3.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="2,2,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="1.3" SelectionCapsuleHeight="0.3" SelectionCapsuleZOffset="-1" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="flesh" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

@@ -1,0 +1,51 @@
+<MetaData>
+  <BaseEntity ID="WildBossSpiderRanged" EntityName="wild_spider_ranged" Scale="2" CanKillAllies="0" />
+  <Faction Name="Outlaws" />
+  <Keywords Value="trash,elite,range,physical" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="7" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="0.01" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Lieutenant" />
+  <Corpses PresetName="LieutenantCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="10.0" DistanceBias="1.0" DamageBias="1.0" AggressionBias="1.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_WILD_MercyArena_SpiderQueen_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="3.0" Max="6" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_WILD_MercyArena_SpiderQueen_DefaultRangedAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="7.5" Max="12.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_MercyArena_SpiderQueen" ZIconOffset="1.6" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Alpha" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.2" SelectionCapsuleHeight="-1.5" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.9" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="spider_voice" />
+</MetaData>

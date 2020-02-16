@@ -1,0 +1,15 @@
+<MetaData>
+  <SpawnClass Name="sc_Sty_ACT1_BanditOutpost_CommonCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LostSoul" NumberMin="9" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT1_BanditOutpost_CommonCC_2">
+    <Spawn Type="Actor" ClassName="SvriirSeaOmegaBaby" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirSeaOmega" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirSeaBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT1_BanditOutpost_CommonCC_3">
+    <Spawn Type="Actor" ClassName="WildHornet" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildScarab" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

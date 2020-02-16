@@ -1,0 +1,66 @@
+<MetaData>
+  <BaseEntity ID="Named_SiegeBeast01" EntityName="republic_siegebeast" Scale="1.25" CanKillAllies="0" />
+  <Faction Name="Republic" />
+  <Keywords Value="elite,melee,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="3" />
+  <Attributes Archetype="archetype_Named" HealthModifier="2" DamageModifier="1" XPModifier="1" Protection="" Movable="0" Hookable="0" />
+  <Movement MovementSpeed="2" WalkSpeed="2" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_BossModifier_RandomLightning" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="40.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Perception>
+      <Proximity DayMaxDistance="40" NightMaxDistance="40" DetectionTime="0.01" />
+    </Perception>
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_Named_SiegeBeast_JusticeFromAbove" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="25" Max="40" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Named_SiegeBeast_Bombardment" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="25" Max="40" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Named_SiegeBeast_Nova" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="2.0">
+        <Range Min="0" Preferred="6" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Named_SummonRepublic" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0" Preferred="6" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="0.9" Weight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Canon0" ParticleName="U_Monster_Alt.RepuBeast.permanent_cannon" Offset="0,0,0" Dir="0,1,0" Scale="1" FadeOut="0" IgnoreRotation="1" />
+  </BoneParticles>
+  <HUD UIName="@ui_AIName_Named_SiegeBeast01" ZIconOffset="5.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="2.5,1.7,1" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="2" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="-0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

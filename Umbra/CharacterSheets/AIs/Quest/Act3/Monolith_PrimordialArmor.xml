@@ -1,0 +1,53 @@
+<MetaData>
+  <BaseEntity ID="Monolith_PrimordialArmor" EntityName="primordials_armor" Scale="1.0" CanKillAllies="0" />
+  <Faction Name="PlayerFriendly" />
+  <Keywords Value="coss,damned,trash,frost,melee,heavy" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="2.0" />
+  <Attributes Archetype="archetype_trash" HealthModifier="4" DamageModifier="1.2" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="0.05" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="50.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <Support PresenceRadius="10.0" CombatRadius="20.0" TravelRadius="5.0" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_CultOfSouls_PrimordialArmor_DefaultAttack01" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="2" Preferred="3.0" Max="3.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_CultOfSouls_PrimordialArmor_DefaultAttack02" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="2" Preferred="3.0" Max="3.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Primordial_Armor" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" CanUseDownState="1" CanSelfRevive="1" SpendReviveTokensIfSelfRevive="0" DownStateDuration="20" DownStateReviveDuration="20" DownSkill="" LifeWhileDownAsPercentOfTotalLife="0" DefaultReviveTokens="1" MaximumReviveTokens="1" />
+  <GameplayParticles PresetName="size_PrimordialArmor" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="1.2" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01" ParticleName="U_Monster_Alt.primordialguardian.permanent_lightning" Offset="0,0,0" Dir="1,0,0" Scale="0.8" />
+    <BoneParticle BoneName="Bip01 Spine1" ParticleName="U_Monster_Alt.primordialguardian.permanent_center" Offset="0,0,0" Dir="0,0,1" Scale="0.5" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" SurfaceType="metal" />
+</MetaData>

@@ -1,0 +1,338 @@
+<MetaData>
+  <LootClass Name="NoLoot">
+    <Pick Value="0" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot />
+  </LootClass>
+  <LootClass Name="LC_Sobok">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="0" Magic="1" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Sobok" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Sobok">
+    <Pick Value="6" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Bosses" MinLevel="1" MaxLevel="60" Weight="50" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Sirkis">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Sirkis" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Dye_Sirkis" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Weapons_StarterBody">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Magic="0" Normal="1" Rare="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="60" MinLevel="1" Name="1h_Sword_Tier1" Weight="1" PickOnlyOnce="1" ForcePick="1" />
+      <Item MaxLevel="60" MinLevel="1" Name="2h_Staff_Tier1" Weight="1" PickOnlyOnce="1" ForcePick="1" />
+      <Item MaxLevel="60" MinLevel="1" Name="2h_Bow_Tier1" Weight="1" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Dye_Sirkis">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="1" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <KWItem AdditionalKW="" ForbiddenKW="" MandatoryKW="" MaxLevel="9999" MinLevel="1" Weight="1">
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_3" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_4" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_7" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_8" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_9" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_12" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_13" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_14" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_17" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_18" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_19" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_22" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_23" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_24" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_27" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_28" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_29" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_32" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_33" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_34" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_37" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_38" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_39" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_42" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_43" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_44" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_47" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_48" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_49" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_52" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_53" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_54" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_57" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_59" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_62" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_63" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_64" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_67" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_68" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_69" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_72" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_73" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_74" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_77" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_78" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_79" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_82" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_83" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_87" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_88" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_89" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_92" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_93" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_94" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_97" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_98" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_99" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_102" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_103" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_104" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_107" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_108" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_109" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_112" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_113" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_114" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_117" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_118" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_119" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_122" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_123" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_124" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_127" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_128" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_129" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_132" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_133" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_134" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_137" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_138" Weight="10" />
+        <Item MaxLevel="9999" MinLevel="1" Name="dye_139" Weight="10" />
+      </KWItem>
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Sirkis">
+    <Pick Value="7" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="1" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Bosses" MinLevel="1" MaxLevel="60" Weight="50" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Alastor">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="1" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Alastor" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Alastor">
+    <Pick Value="5" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Alastor" MinLevel="1" MaxLevel="60" Weight="50" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Naarlog">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="2" Magic="1" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Naarlog" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Naarlog">
+    <Pick Value="7" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Bosses" MinLevel="1" MaxLevel="60" Weight="50" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Deteron">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="3" Magic="1" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Deteron" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Deteron">
+    <Pick Value="8" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Deteron" MinLevel="1" MaxLevel="60" Weight="50" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Deteron" MinLevel="1" MaxLevel="60" Weight="75" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Yudai">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Yudai" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Yudai">
+    <Pick Value="8" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Potions_Yudai" MinLevel="1" MaxLevel="60" Weight="50" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Deteron" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Edric">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Edric" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Edric">
+    <Pick Value="6" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="60" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="60" Weight="500" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Gems_Edric" MinLevel="1" MaxLevel="60" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="60" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="60" Weight="10" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="10" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Lambach">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <NoDrop Value="0" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Lambach" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Reagent_leg" MinLevel="1" MaxLevel="9999" Weight="1" ForcePick="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Lambach">
+    <Pick Value="7" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="9999" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="9999" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="9999" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="9999" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Heimlock">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <NoDrop Value="0" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Heimlock" MinLevel="1" MaxLevel="60" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Heimlock">
+    <Pick Value="7" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_Bosses" MinLevel="1" MaxLevel="9999" Weight="300" />
+      <LootClass Name="Weapon_Bosses" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Accessories_Bosses" MinLevel="1" MaxLevel="9999" Weight="150" />
+      <LootClass Name="Gems_Bosses" MinLevel="1" MaxLevel="9999" Weight="75" />
+      <LootClass Name="Enneracts_Bosses" MinLevel="1" MaxLevel="9999" Weight="150" />
+      <LootClass Name="Uniques_Bosses" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="10" />
+    </Loot>
+  </LootClass>
+</MetaData>

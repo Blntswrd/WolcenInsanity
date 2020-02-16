@@ -1,0 +1,38 @@
+<MetaData>
+  <LootClass Name="LC_globes_test">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="health_globe" MinLevel="1" MaxLevel="60" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_healthglobe_trash">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="health_globe" MinLevel="1" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_apoglobe">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="apo_resource_globe" MinLevel="1" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_apoglobe_heimlock">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item Name="apo_resource_globe_heimlock" MinLevel="1" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+</MetaData>

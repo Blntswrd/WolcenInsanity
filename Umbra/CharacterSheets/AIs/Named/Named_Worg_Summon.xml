@@ -1,0 +1,51 @@
+<MetaData>
+  <BaseEntity ID="Named_Worg_summon" EntityName="outlaws_worg_02" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="Outlaws" />
+  <Keywords Value="worg,elite,melee,physical,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="0.66" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_BossModifier_HalfRendCircle_DZ" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_OutlawsWorgAlpha_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.5" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive />
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Named_WarHound" ZIconOffset="2" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0" DeathSkill="" />
+  <GameplayParticles PresetName="size_Worg" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.8,0.8,0.5" IsPushable="0" RagdollMass="325" />
+    <MouseSelection SelectionCapsuleRadius="1" SelectionCapsuleHeight="0" SelectionCapsuleZOffset="-0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.9" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="Worg_voice" />
+</MetaData>

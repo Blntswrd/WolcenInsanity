@@ -1,0 +1,94 @@
+<MetaData>
+  <BaseEntity ID="EndGame_Assassin" EntityName="outlaws_assassin" Scale="1.33" CanKillAllies="0" />
+  <Faction Name="ShadowOutlaws" />
+  <Keywords Value="outw,elite,melee,poison" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1.1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1" DamageModifier="1.0" XPModifier="1" Protection="" AttackSpeedModifier="0.9" />
+  <Movement MovementSpeed="8" WalkSpeed="8" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="50" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_RepublicAssassin_EvadeDash" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="3.0" Max="5.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <PrevSkillWeight type="bb">
+          <AI_RepublicAssassin_ForwardDash type="float" />
+        </PrevSkillWeight>
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_RepublicAssassin_DualBladesCombo_01" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="3.0" Max="3.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_RepublicAssassin_CrossbowShot" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="5.0" Preferred="6.0" Max="12.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="1.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_RepublicAssassin_ForwardDash" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="5.0" Preferred="8.0" Max="10.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_RepublicAssassin_ShadowStrike_01" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="7.0" Max="13.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_EndGame_SummonShamans" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0.0" Preferred="10" Max="20.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_RepublicAssassin_ShadowStrike_01" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="7.0" Max="13.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Approach>
+  </Skills>
+  <HUD UIName="@ui_AIName_Outlaws_Assassin" ZIconOffset="3.5" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.7,0.7,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.0" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-1.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.1" ProjectileCapsuleHeight="4.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Human_Male_Clean_A_voice" SurfaceType="armour" />
+</MetaData>

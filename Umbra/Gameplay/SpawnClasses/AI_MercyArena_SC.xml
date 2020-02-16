@@ -1,0 +1,10 @@
+<MetaData>
+  <SpawnClass Name="sc_MercyArenaDenMaster">
+    <Spawn Type="Actor" ClassName="MercyArena_Morgon" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="MercyArena_Morgon_rend" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="MercyArena_Morgon_toxic" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_MercyArena_Minispecters">
+    <Spawn Type="Actor" ClassName="MercyArena_MiniSpecter_shadow" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

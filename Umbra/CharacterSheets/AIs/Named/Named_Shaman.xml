@@ -1,0 +1,61 @@
+<MetaData>
+  <BaseEntity ID="Named_Shaman" EntityName="outlaws_shaman" Scale="1.6" CanKillAllies="0" />
+  <Faction Name="ShadowOutlaws" />
+  <Keywords Value="outw,elite,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="2" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6.5" WalkSpeed="6.5" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_BossModifier_HomingShadows" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="30.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_Named_Shaman_DefaultAttack_01" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Named_Shaman_Blast" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="7" Max="12" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Named_SummonShadowBandits" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0" Preferred="6" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="0.9" Weight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Named_Shaman" ZIconOffset="4.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Trapper" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.5" />
+    <MouseSelection SelectionCapsuleRadius="0.6" SelectionCapsuleHeight="1.6" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.6" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.3" SphereZOffset="0.3" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.ShadowVariation.Shadow_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="Shaman_voice" />
+</MetaData>

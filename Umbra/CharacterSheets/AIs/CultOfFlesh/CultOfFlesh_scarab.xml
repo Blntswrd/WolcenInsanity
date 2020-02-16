@@ -1,0 +1,53 @@
+<MetaData>
+  <BaseEntity ID="CultOfFlesh_Scarab" EntityName="cultofflesh_scarab" Scale="0.8" CanKillAllies="0" />
+  <Faction Name="CultOfFlesh" />
+  <Keywords Value="trash,heavy,melee,physical,cofe" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="2" />
+  <Attributes Archetype="archetype_trash" HealthModifier="2" DamageModifier="1.0" XPModifier="2" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COFE_Scarab_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="3.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive />
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="objects/characters/mobs/arthropode/scarab/cofe_scarab/cofe_scarab.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Arthropode/COFE_Scarab.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Cofe_Scarab" ZIconOffset="1.6" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Halfbreed" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,1" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="-0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="flesh" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="Scarab_voice" SurfaceType="shell" />
+</MetaData>

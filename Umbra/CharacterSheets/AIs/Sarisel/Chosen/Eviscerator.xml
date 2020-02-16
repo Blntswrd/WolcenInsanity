@@ -1,0 +1,88 @@
+<MetaData>
+  <BaseEntity ID="Eviscerator" EntityName="sarisel_chosen_eviscerator" Scale="1.35" CanKillAllies="0" />
+  <Faction Name="Chosen" />
+  <Keywords Value="elite,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="15" />
+  <Attributes Archetype="archetype_elite" HealthModifier="2.5" DamageModifier="2" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="10" WalkSpeed="10" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="50" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_Eviscerator_Initialization" />
+  </DefaultBossModifiers>
+  <LootClass />
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="720" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="SpecialMonster">
+      <AssaultOverride type="string" />
+      <PressuringOverride type="string" />
+      <IntroductionOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="100.0" MeleeAttack="True" FallBack="False" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="100.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+    <Perception>
+      <Proximity DayMaxDistance="100" NightMaxDistance="100" DetectionTime="0.01" />
+    </Perception>
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_Chosen_Eviscerator_Impale" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="9999.0">
+        <Range Min="0.0" Preferred="10" Max="100.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Eviscerator_ShadowStrike" Orientated="Never" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="7.0" Max="13.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Eviscerator_DualBladesCombo_01" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3.0" Max="3.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Eviscerator_ForwardDash" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="5.0" Preferred="8.0" Max="10.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_Eviscerator_StartPhase3" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Eviscerator_MultiplayerSkillRefresh" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Sarisel_Initialization" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Approach>
+    <Taunt>
+      <Skill Name="AI_Eviscerator_Taunt1" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="5000.0" Max="5000.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Eviscerator_Taunt2" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="5000.0" Max="5000.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Taunt>
+  </Skills>
+  <HUD UIName="@ui_AIName_Untainted_Eviscerator" ZIconOffset="3.5" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Eviscerator" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.7,0.5,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.1" SelectionCapsuleHeight="0.85" SelectionCapsuleZOffset="-0.45" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.0" ProjectileCapsuleHeight="0.3" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="CHOS_Eviscerator_voice" />
+  <BoneParticles>
+    <BoneParticle BoneName="R_Weapon_Bone" ParticleName="U_Monster.Charger.Charger_Back_Aura_02_BW" Offset="0,0,0" Dir="0,0,1" Scale="0.65" />
+    <BoneParticle BoneName="L_Weapon_Bone" ParticleName="U_Monster.Charger.Charger_Back_Aura_02_BW" Offset="0,0,0" Dir="0,0,1" Scale="0.65" />
+    <BoneParticle BoneName="Bip01 L Foot" ParticleName="U_Monster.Charger.Charger_Back_Aura_02_BW" Offset="0,0,0" Dir="0,0,1" Scale="0.5" />
+    <BoneParticle BoneName="Bip01 R Foot" ParticleName="U_Monster.Charger.Charger_Back_Aura_02_BW" Offset="0,0,0" Dir="0,0,1" Scale="0.5" />
+  </BoneParticles>
+</MetaData>

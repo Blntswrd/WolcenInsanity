@@ -1,0 +1,66 @@
+<MetaData>
+  <BaseEntity ID="WildBear_companion" EntityName="wild_bear" Scale="1.0" CanKillAllies="0" />
+  <Faction Name="PlayerFriendly" />
+  <Keywords Value="trash,physical,melee,heavy" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_summons" HealthModifier="5" DamageModifier="1.0" XPModifier="1" AttackSpeedModifier="2" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="" />
+  <Corpses PresetName="LieutenantCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="50.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <Support PresenceRadius="10.0" CombatRadius="20.0" TravelRadius="5.0" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_WILD_Bear_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_WILD_Bear_DefaultAttack_charge" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4.0" Preferred="4.0" Max="5.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_WILD_Bear_DefaultAttack_charge" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4.0" Preferred="4.0" Max="5.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Approach>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Non_Humanoid/Bear/Wild_Bear/WILD_Bear_01.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Non_Humanoid/Bear/WILD_Bear.adb" Weight="1" />
+    </ModelChoice>
+    <ModelChoice Model="Objects/characters/mobs/Non_Humanoid/Bear/Wild_Bear/WILD_Bear_02.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Non_Humanoid/Bear/WILD_Bear.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Wild_Bear" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,1" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.8" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="-1.2" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.9" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="bear_voice" />
+</MetaData>

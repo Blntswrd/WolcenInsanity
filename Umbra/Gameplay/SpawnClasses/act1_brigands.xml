@@ -1,0 +1,60 @@
+<MetaData>
+  <SpawnClass Name="bandits_1">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_1_2">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_1_3">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_2">
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_3">
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_4">
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="1" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_5">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_6">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_7">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_8">
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="1" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_9">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="1" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_10">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_11">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_12">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="bandits_13">
+    <Spawn Type="Actor" ClassName="OutlawsWarlord_Mercy" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="1" Center="0" SpawnOverTime="0.5" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Mercy" />
+  </SpawnClass>
+</MetaData>

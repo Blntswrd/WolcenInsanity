@@ -1,0 +1,853 @@
+<MetaData>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Specter_Easy">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_LostSoul" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_MiniSpecter_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_MiniHalfBreed_shadow" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="50" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_T3" Percentage="25" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Undead_Easy">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_Zombie_frost" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_Fanatic" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_DeathCloak" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_CultOfSouls_MiniLanternBearer" MandatoryContentKeywords="" />
+      <Entry Category="S_H1" SpawnClassFamily="Scf_CultOfSouls_ZombieSoldier" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_UndeadSpiker_frost" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="15" />
+      <Entry Category="S_T3" Percentage="25" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_H1" Percentage="20" />
+      <Entry Category="S_L1" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Specter_Medium">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_LostSoul" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_MiniSpecter_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_MiniHalfBreed_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_HalfBreed" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="35" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_T3" Percentage="25" />
+      <Entry Category="S_L1" Percentage="15" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Undead_Medium">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_Zombie_frost" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_Fanatic" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_DeathCloak" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_CultOfSouls_MiniLanternBearer" MandatoryContentKeywords="" />
+      <Entry Category="S_H1" SpawnClassFamily="Scf_CultOfSouls_ZombieSoldier" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_UndeadSpiker_frost" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_CultOfSouls_LanternBearer" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_CultOfSouls_Cultist" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="15" />
+      <Entry Category="S_T3" Percentage="25" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_H1" Percentage="20" />
+      <Entry Category="S_L1" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Goblin">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_LostSoul" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_MiniSpecter_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_MiniHalfBreed_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_HalfBreed" MandatoryContentKeywords="" />
+      <Entry Category="S_GS" SpawnClassFamily="Scf_Golden_Scarab" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="25" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_T3" Percentage="20" />
+      <Entry Category="S_L1" Percentage="10" />
+      <Entry Category="S_GS" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Specter_Hard">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.020" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_LostSoul" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_MiniSpecter_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_MiniHalfBreed_shadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_HalfBreed" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="35" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_T3" Percentage="25" />
+      <Entry Category="S_L1" Percentage="15" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_COSS_Undead_Hard">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.020" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_CultOfSouls_Zombie_frost" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_CultOfSouls_Fanatic" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_CultOfSouls_DeathCloak" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_CultOfSouls_MiniLanternBearer" MandatoryContentKeywords="" />
+      <Entry Category="S_H1" SpawnClassFamily="Scf_CultOfSouls_ZombieSoldier" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_CultOfSouls_UndeadSpiker_frost" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_CultOfSouls_LanternBearer" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_CultOfSouls_Cultist" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="15" />
+      <Entry Category="S_T3" Percentage="20" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_H1" Percentage="20" />
+      <Entry Category="S_L1" Percentage="5" />
+      <Entry Category="S_L2" Percentage="5" />
+      <Entry Category="S_L3" Percentage="5" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="40" CPMax="45" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="15" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="2" Category_EntityMax="2" BossRank="Lord" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L2" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="10" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L3" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_Mammals">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_WildRat" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_WildBat" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="70" />
+      <Entry Category="S_T2" Percentage="30" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_Mammals_Goblin">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_WildRat" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_WildBat" MandatoryContentKeywords="" />
+      <Entry Category="S_GS" SpawnClassFamily="Scf_Golden_Scarab" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="60" />
+      <Entry Category="S_T2" Percentage="20" />
+      <Entry Category="S_GS" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_Insects">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_WildHornet" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_WildSpiderMeleeSmall" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_WildScarab02" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="30" />
+      <Entry Category="S_T2" Percentage="50" />
+      <Entry Category="S_T3" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_Insects_Goblin">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_WildHornet" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_WildSpiderMeleeSmall" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_WildScarab02" MandatoryContentKeywords="" />
+      <Entry Category="S_GS" SpawnClassFamily="Scf_Golden_Scarab" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="25" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_T3" Percentage="30" />
+      <Entry Category="S_GS" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="2" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_OUTW_Easy">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditMelee01" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_OutlawsBanditMelee02" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_OutlawsBanditMelee03" MandatoryContentKeywords="" />
+      <Entry Category="S_T5" SpawnClassFamily="Scf_OutlawsWorg01" MandatoryContentKeywords="" />
+      <Entry Category="S_T6" SpawnClassFamily="Scf_OutlawsWorgAlpha" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsBrute" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsTrapper" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsKennelMaster" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="25" />
+      <Entry Category="S_T2" Percentage="10" />
+      <Entry Category="S_T3" Percentage="10" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_T5" Percentage="20" />
+      <Entry Category="S_T6" Percentage="10" />
+      <Entry Category="S_L1" Percentage="5" />
+      <Entry Category="S_L2" Percentage="5" />
+      <Entry Category="S_L3" Percentage="5" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_OUTW_Medium">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditMelee01" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_OutlawsBanditMelee02" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_OutlawsBanditMelee03" MandatoryContentKeywords="" />
+      <Entry Category="S_T5" SpawnClassFamily="Scf_OutlawsWorg01" MandatoryContentKeywords="" />
+      <Entry Category="S_T6" SpawnClassFamily="Scf_OutlawsWorgAlpha" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsBrute" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsTrapper" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsKennelMaster" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="10" />
+      <Entry Category="S_T3" Percentage="10" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_T5" Percentage="10" />
+      <Entry Category="S_T6" Percentage="10" />
+      <Entry Category="S_L1" Percentage="10" />
+      <Entry Category="S_L2" Percentage="10" />
+      <Entry Category="S_L3" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_OUTW_Hard">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.020" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditRanged" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditMelee01" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_OutlawsBanditMelee02" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_OutlawsBanditMelee03" MandatoryContentKeywords="" />
+      <Entry Category="S_T5" SpawnClassFamily="Scf_OutlawsWorg01" MandatoryContentKeywords="" />
+      <Entry Category="S_T6" SpawnClassFamily="Scf_OutlawsWorgAlpha" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsBrute" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsTrapper" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsKennelMaster" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="10" />
+      <Entry Category="S_T3" Percentage="10" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_T5" Percentage="10" />
+      <Entry Category="S_T6" Percentage="10" />
+      <Entry Category="S_L1" Percentage="10" />
+      <Entry Category="S_L2" Percentage="10" />
+      <Entry Category="S_L3" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L2" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L3" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_OUTW_Goblin">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Farmlands_Trash_B_EasyCP4" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Golden_Scarab" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_Farmlands_B_Br" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_Farmlands_B_Tr" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="60" />
+      <Entry Category="S_L1" Percentage="10" />
+      <Entry Category="S_L2" Percentage="10" />
+      <Entry Category="S_T2" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SOUTW_Easy">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditBowShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditDaggersShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_Outlaws_Shadow_Spirit" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsAssassin" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsBruteShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsShaman" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="20" />
+      <Entry Category="S_T2" Percentage="20" />
+      <Entry Category="S_T3" Percentage="35" />
+      <Entry Category="S_L1" Percentage="5" />
+      <Entry Category="S_L2" Percentage="5" />
+      <Entry Category="S_L3" Percentage="15" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SOUTW_Medium">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditBowShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditDaggersShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_OutlawsBandit2HSwordShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_OutlawsBanditPistolShieldShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsAssassin" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsBruteShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsKennelMasterShadow" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="10" />
+      <Entry Category="S_T2" Percentage="20" />
+      <Entry Category="S_T3" Percentage="20" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_L1" Percentage="15" />
+      <Entry Category="S_L2" Percentage="15" />
+      <Entry Category="S_L3" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SOUTW_Hard">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.020" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_OutlawsBanditBowShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_OutlawsBanditDaggersShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_OutlawsBandit2HSwordShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_T4" SpawnClassFamily="Scf_OutlawsBanditPistolShieldShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_OutlawsAssassin" MandatoryContentKeywords="" />
+      <Entry Category="S_L2" SpawnClassFamily="Scf_OutlawsBruteShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_L3" SpawnClassFamily="Scf_OutlawsKennelMasterShadow" MandatoryContentKeywords="" />
+      <Entry Category="S_E1" SpawnClassFamily="Scf_OutlawsSadisticThugShadow" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="10" />
+      <Entry Category="S_T2" Percentage="20" />
+      <Entry Category="S_T3" Percentage="20" />
+      <Entry Category="S_T4" Percentage="10" />
+      <Entry Category="S_L1" Percentage="10" />
+      <Entry Category="S_L2" Percentage="10" />
+      <Entry Category="S_L3" Percentage="10" />
+      <Entry Category="S_E1" Percentage="10" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L2" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L3" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SVRI_Easy">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Farmlands_S_Trash" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Farmlands_S_HeavyTrash" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_Farmlands_S_Lieutenant" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="60" />
+      <Entry Category="S_T2" Percentage="25" />
+      <Entry Category="S_L1" Percentage="15" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SVRI_Medium">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.017" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Farmlands_S_Trash" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Farmlands_S_HeavyTrash" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_Farmlands_S_Lieutenant" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="50" />
+      <Entry Category="S_T2" Percentage="30" />
+      <Entry Category="S_L1" Percentage="20" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SVRI_Hard">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.020" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Farmlands_S_Trash" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Farmlands_S_HeavyTrash" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_Farmlands_S_Lieutenant" MandatoryContentKeywords="" />
+      <Entry Category="S_E1" SpawnClassFamily="Scf_SvriirAlphaPoison" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="30" />
+      <Entry Category="S_T2" Percentage="30" />
+      <Entry Category="S_L1" Percentage="25" />
+      <Entry Category="S_E1" Percentage="15" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <AdditiveEvents>
+      <Event>
+        <AdditiveTriggerParams Mode="auto" CPMin="50" CPMax="55" PercentageDispersion="0" />
+        <EventChoices>
+          <EventChoice Weight="35" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" BossRank="champion" />
+          <EventChoice Weight="30" ThresholdMode="fixed" ThresholdMax="0" ThresholdMin="0" SCF="" Category="S_L1" Category_EntityMin="1" Category_EntityMax="1" BossRank="Lord" />
+        </EventChoices>
+      </Event>
+    </AdditiveEvents>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+  <MonsterManager Name="MM_SC_StoryMode_VOS1_SVRI_Goblin">
+    <DesignParams SpawnerCountBeforeFirstSpawnPattern="4" GroupValueModifierPercent="50" GroupValueDispersionPercent="25" HConstraint_CountThreshold="2" HConstraint_TriggerFactorPercent="30" CConstraint_CountThreshold="2" CConstraint_TriggerFactorPercent="50">
+      <ActivationTriggers>
+        <Entry Percentage="100" Factor="1.1" />
+      </ActivationTriggers>
+      <SpreadMode PackPercent="100" />
+    </DesignParams>
+    <MonsterLevelParams LevelMin="1" LevelMax="9999" />
+    <CombatPointsRepartition Mode="deduced" CPPerSquareMeter="0.014" DefaultSpawnerSpawnRadius="15" DefaultSpawnerTriggerHeight="20" />
+    <Categories>
+      <Entry Category="S_T1" SpawnClassFamily="Scf_Farmlands_S_Trash" MandatoryContentKeywords="" />
+      <Entry Category="S_T2" SpawnClassFamily="Scf_Farmlands_S_HeavyTrash" MandatoryContentKeywords="" />
+      <Entry Category="S_T3" SpawnClassFamily="Scf_Golden_Scarab" MandatoryContentKeywords="" />
+      <Entry Category="S_L1" SpawnClassFamily="Scf_Farmlands_S_Lieutenant" MandatoryContentKeywords="" />
+    </Categories>
+    <RMP>
+      <Entry Category="S_T1" Percentage="40" />
+      <Entry Category="S_T2" Percentage="20" />
+      <Entry Category="S_L1" Percentage="15" />
+      <Entry Category="S_T3" Percentage="25" />
+    </RMP>
+    <FMP />
+    <Constraints>
+      <Limitation_ByKeyword AIKeyword="heavy" MaxNumberInGroup="3" />
+      <Limitation_ByKeyword AIKeyword="lieutenant" MaxNumberInGroup="1" />
+    </Constraints>
+    <SpawnPatterns>
+      <SurroundingAssault Percentage="20" TriggerRadiusOverride="15" SpawnRadiusMin="7" SpawnRadiusMax="9" DelayBeforeFirstSpawn="1" DelayBetweenMonsterSpawn="0.1" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T1" Category_CPMin="5" Category_CPMax="10" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+      <ReinforcementGroup Percentage="10" GroupCountMin="1" GroupCountMax="2" Category="S_T2" Category_CPMin="7" Category_CPMax="12" DelayBeforeFirstSpawn="1" DelayBetweenGroups="5" DelayBetweenMonsterSpawn="0.1" SpawnDistanceFromPlayer="20" SpawnCountPerTick="1" />
+    </SpawnPatterns>
+  </MonsterManager>
+</MetaData>

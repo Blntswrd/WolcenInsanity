@@ -1,0 +1,157 @@
+<MetaData>
+  <SpawnClass Name="BT2_Easy_1">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="12" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_2">
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="5" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_3">
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_4">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_5">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_6">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_7">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Easy_8">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_1">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="15" NumberMax="20" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_2">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_4">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="15" NumberMax="20" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_5">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Medium_6">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="3" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_2">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_4">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_5">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_6">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_7">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_8">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_9">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="7" NumberMax="10" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_Hard_10">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="0" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="2" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_4">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="2" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_5">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="5" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_6">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="0" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+  <SpawnClass Name="BT2_VeryHard_7">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="10" NumberMax="15" LevelMin="1" LevelMax="9999" LevelOffset="0" XPBonusPercent="0" IgnoreAnimation="0" SpawnOverTime="1" />
+  </SpawnClass>
+</MetaData>

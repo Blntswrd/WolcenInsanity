@@ -1,0 +1,61 @@
+<MetaData>
+  <BaseEntity ID="CultOfFlesh_ColossalBreeder" EntityName="cultofflesh_colossal_breeder" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="CultOfFlesh" />
+  <Keywords Value="cofe,undead,lieutenant,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1.5" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="3" DamageModifier="1" XPModifier="3" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_cultofflesh_colossalBreeder_drop" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Lieutenant" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="" />
+  <Corpses PresetName="" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="False" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_CultOfFlesh_ColossalBreeder_StrongAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="2.0">
+        <Range Min="0.0" Preferred="5.0" Max="5.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_CultOfFlesh_ColossalBreeder_WeakAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="4.0" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Cofe_ColossalBreeder" ZIconOffset="4" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_colossalbreeder" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.4,1.4,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="2.0" SelectionCapsuleHeight="1.3" SelectionCapsuleZOffset="-1" />
+    <ProjectileCollision ProjectileCapsuleRadius="2" ProjectileCapsuleHeight="8" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="flesh" OverrideScale="1.15" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

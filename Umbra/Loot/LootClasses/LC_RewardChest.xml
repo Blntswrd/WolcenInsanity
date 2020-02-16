@@ -1,0 +1,37 @@
+<MetaData>
+  <LootClass Name="LC_RewardChest">
+    <Pick Value="5" />
+    <Level Value="1" />
+    <Rarity Legendary="20" Normal="0" Rare="50" Magic="100" />
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="9" MinLevel="1" Name="Potion_S_Health" Weight="1" />
+      <Item MaxLevel="19" MinLevel="10" Name="Potion_S_Health_2" Weight="1" />
+      <Item MaxLevel="29" MinLevel="20" Name="Potion_M_Health" Weight="1" />
+      <Item MaxLevel="39" MinLevel="30" Name="Potion_M_Health_2" Weight="1" />
+      <Item MaxLevel="49" MinLevel="40" Name="Potion_L_Health" Weight="1" />
+      <Item MaxLevel="59" MinLevel="50" Name="Potion_L_Health_2" Weight="1" />
+      <Item MaxLevel="69" MinLevel="60" Name="Potion_XL_Health" Weight="1" />
+      <Item MaxLevel="79" MinLevel="70" Name="Potion_XL_Health_2" Weight="1" />
+      <Item MaxLevel="9999" MinLevel="80" Name="Potion_XL_Health_3" Weight="1" />
+      <Item MaxLevel="9" MinLevel="1" Name="Potion_S_Rage" Weight="1" />
+      <Item MaxLevel="19" MinLevel="10" Name="Potion_S_Rage_2" Weight="1" />
+      <Item MaxLevel="29" MinLevel="20" Name="Potion_M_Rage" Weight="1" />
+      <Item MaxLevel="39" MinLevel="30" Name="Potion_M_Rage_2" Weight="1" />
+      <Item MaxLevel="49" MinLevel="40" Name="Potion_L_Rage" Weight="1" />
+      <Item MaxLevel="59" MinLevel="50" Name="Potion_L_Rage_2" Weight="1" />
+      <Item MaxLevel="69" MinLevel="60" Name="Potion_XL_Rage" Weight="1" />
+      <Item MaxLevel="79" MinLevel="70" Name="Potion_XL_Rage_2" Weight="1" />
+      <Item MaxLevel="9999" MinLevel="80" Name="Potion_XL_Rage_3" Weight="1" />
+      <Item MaxLevel="9" MinLevel="1" Name="Potion_S_Umbra" Weight="1" />
+      <Item MaxLevel="19" MinLevel="10" Name="Potion_S_Umbra_2" Weight="1" />
+      <Item MaxLevel="29" MinLevel="20" Name="Potion_M_Umbra" Weight="1" />
+      <Item MaxLevel="39" MinLevel="30" Name="Potion_M_Umbra_2" Weight="1" />
+      <Item MaxLevel="49" MinLevel="40" Name="Potion_L_Umbra" Weight="1" />
+      <Item MaxLevel="59" MinLevel="50" Name="Potion_L_Umbra_2" Weight="1" />
+      <Item MaxLevel="69" MinLevel="60" Name="Potion_XL_Umbra" Weight="1" />
+      <Item MaxLevel="79" MinLevel="70" Name="Potion_XL_Umbra_2" Weight="1" />
+      <Item MaxLevel="9999" MinLevel="80" Name="Potion_XL_Umbra_3" Weight="1" />
+    </Loot>
+  </LootClass>
+</MetaData>

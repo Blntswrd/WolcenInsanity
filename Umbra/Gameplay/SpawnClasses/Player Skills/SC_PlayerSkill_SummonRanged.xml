@@ -1,0 +1,26 @@
+<MetaData>
+  <SpawnClass Name="SC_SkillSummon_Ranged">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_v01">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_v01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_v02">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_v02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_v03">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_v03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_Explosive">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_Explosive" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_Explosive_v01">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_Explosive_v01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_Explosive_v02">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_Explosive_v02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_Ranged_Explosive_v03">
+    <Spawn Type="Actor" ClassName="SkillSummon_Ranged_Explosive_v03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

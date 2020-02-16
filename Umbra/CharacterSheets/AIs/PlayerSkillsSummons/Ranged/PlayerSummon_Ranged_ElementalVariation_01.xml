@@ -1,0 +1,67 @@
+<MetaData>
+  <BaseEntity ID="SkillSummon_Ranged_v01" EntityName="cultofsouls_undead" Scale="1.0" CanKillAllies="0" />
+  <Faction Name="Players" />
+  <Keywords Value="undead,trash,range" />
+  <MinionParams DamageType="poison" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.9" />
+  <Attributes Archetype="archetype_summons" HealthModifier="0.12" DamageModifier="0.35" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <LootClass>
+    <Loot Class="" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="0" />
+  <Kythera>
+    <Behavior Name="Warrior">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="50.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <Support PresenceRadius="10.0" CombatRadius="20.0" TravelRadius="5.0" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="summon_default_range" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.5" Preferred="10" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="L_Weapon_Bone" ParticleName="U_CommonVFX.Weapon_Enchant.Bow_Type.Bow.Bow_01_Poison" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="0" />
+  </BoneParticles>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Summon/PSUM_Range/PSUM_Range_poison.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Zombie/CHMP_ZombieWarrior_Bow.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Summon_Ranged" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="225" />
+    <MouseSelection SelectionCapsuleRadius="1.05" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" />
+  <RandomVoice>
+    <VoiceChoice VoiceName="CultZombie_A_voice" Weight="1" />
+    <VoiceChoice VoiceName="CultZombie_B_voice" Weight="1" />
+  </RandomVoice>
+</MetaData>

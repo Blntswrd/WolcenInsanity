@@ -1,0 +1,56 @@
+<MetaData>
+  <BaseEntity ID="PrimordialsGuardian" EntityName="primordials_guardian" Scale="1" CanKillAllies="0" />
+  <Faction Name="Primordial" />
+  <Keywords Value="undead,elite,range,frost" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_Friendly_PrimordialGuardian_DefaultAttack_Ranged" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="5.0" MaxRepeats="3">
+        <Range Min="8" Preferred="12" Max="15.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Friendly_primordialguardian_laser" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0.0" Preferred="12.0" Max="12.0" MinWeight="0.0" PreferredWeight="10.0" MaxWeight="10.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Primordial_Guardian" ZIconOffset="4.0" />
+  <Spawn SpawnAnimation="" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Primordialguardian" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.7,1.7,0.5" />
+    <MouseSelection SelectionCapsuleRadius="2.5" SelectionCapsuleHeight="0.3" />
+    <ProjectileCollision ProjectileCapsuleRadius="2.0" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.6" SphereZOffset="0.6" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01" ParticleName="U_Monster_Alt.primordialguardian.permanent_lightning" Offset="0,.5,0" Dir="1,0,0" Scale="1.5" />
+    <BoneParticle BoneName="Bip01 Spine1" ParticleName="U_Monster_Alt.primordialguardian.permanent_center" Offset="0,0,0" Dir="0,0,1" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="robot" OverrideScale="1.7" />
+    <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  </VisualParams>
+  <Audio SwitchSoundName="" SurfaceType="metal" />
+</MetaData>

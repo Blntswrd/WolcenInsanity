@@ -1,0 +1,46 @@
+<MetaData>
+  <BaseEntity ID="StormfallGuardRanged" EntityName="stormfall_guard_ranged" Scale="1" CanKillAllies="0" AttackRange="13" />
+  <Faction Name="PlayerFriendly" />
+  <Keywords Value="trash,range,physical" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.75" DamageModifier="1.0" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.01" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_NPC_Stormfall_Guard_Ranged_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" Tag="Ranged">
+        <Range Min="0.5" Preferred="8" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+  </Skills>
+  <HUD UIName="@ui_AIName_Stormfall_StormfallGuardRanged" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.3" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.5,0.5,0.5" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.0" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.40" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SurfaceType="armour" />
+  <RandomVoice>
+    <VoiceChoice VoiceName="Human_Male_Clean_A_voice" Weight="1" />
+    <VoiceChoice VoiceName="Human_Male_Clean_B_voice" Weight="1" />
+  </RandomVoice>
+</MetaData>

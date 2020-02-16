@@ -1,0 +1,90 @@
+<MetaData>
+  <BaseEntity ID="DebugAI" EntityName="cultofsouls_undead" Scale="1.0" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="dev" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_trash" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="2" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="6" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="0" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <Perception>
+      <Proximity DayMaxDistance="500" NightMaxDistance="500" DetectionTime="0.01" />
+    </Perception>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="500" MeleeAttack="False" FallBack="False" IdleWander="True" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="100" DistanceBias="100" DamageBias="1.0" AggressionBias="500" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_Debug_Combo" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="100000.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_01" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_02" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_03" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_04" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_05" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_06" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_07" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_08" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_09" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+      <Skill Name="AI_Debug_10" Orientated="BeforeCast" Interruptible="True" Enabled="False" BaseWeight="1.0">
+        <Range Min="1" Preferred="2.5" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+      </Skill>
+    </Offensive>
+  </Skills>
+  <HUD UIName="@ui_gold" ZIconOffset="0.0" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.5" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.5,0.5,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="0.7" SelectionCapsuleHeight="2.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

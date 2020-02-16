@@ -1,0 +1,21 @@
+<Metadata>
+  <Legendary MinPrefix="3" MaxPrefix="5" MinSuffix="2" MaxSuffix="6" SocketChance="100" UniqueSocketChance="0">
+    <Suffix Number="2" Frequency="50" />
+    <Suffix Number="3" Frequency="50" />
+    <Suffix Number="4" Frequency="40" />
+    <Suffix Number="5" Frequency="30" />
+    <Suffix Number="6" Frequency="20" />
+
+  </Legendary>
+  <Rare MinPrefix="2" MaxPrefix="3" MinSuffix="1" MaxSuffix="5" SocketChance="75" UniqueSocketChance="0">
+    <Suffix Number="1" Frequency="50" />
+    <Suffix Number="2" Frequency="50" />
+    <Suffix Number="3" Frequency="30" />
+    <Suffix Number="4" Frequency="10" />
+    <Suffix Number="5" Frequency="5" />
+  </Rare>
+  <Magic MinPrefix="1" MaxPrefix="1" MinSuffix="0" MaxSuffix="1" SocketChance="10" UniqueSocketChance="0">
+    <Suffix Number="0" Frequency="50" />
+    <Suffix Number="1" Frequency="50" />
+  </Magic>
+</Metadata>

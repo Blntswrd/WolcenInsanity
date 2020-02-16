@@ -1,0 +1,85 @@
+<MetaData>
+  <BaseEntity ID="SvriirSeaOmegaBaby" EntityName="svriir_omega_lizard" Scale=".75" CanKillAllies="0" />
+  <Faction Name="Svriirs" />
+  <Keywords Value="svri,trash,melee,physical,weak" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.6" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.2" DamageModifier="0.5" XPModifier="0.1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Swarm" />
+    <Perception>
+      <Proximity />
+    </Perception>
+    <BT FleeOnLowHealthChance="1.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Damage WarnThreshold="0.5" DecayRate="" LowHealth="0.25" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+    <SlowdownAtPathEnd type="bool" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_SvriirOmega_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="1.0" Max="2.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Reptile/Omega/SVRI_OmegaSeaBS/SVRI_OmegaSeaBS.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Reptile/Omega/SVRI_OmegaLandB.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Svriirs_Baby_2" ZIconOffset="1.8" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Omegababy" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.3,0.3,0.3" IsPushable="0" RagdollMass="225" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="-1.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Svriir_Baby_voice" AllowGroupSounds="1" />
+</MetaData>

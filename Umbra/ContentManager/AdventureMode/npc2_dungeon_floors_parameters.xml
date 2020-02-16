@@ -1,0 +1,281 @@
+<MetaData>
+  <EasyMode UnlockLevel="15" UIName="@ui_adventure_mode_level_selection_easy_mode" UIColor="green" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Adept">
+    <Slot EnemiesLevelMax="40" MagicFindOffset="0" ProductionMultiplier="0" />
+  </EasyMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_intermediate_mode" UIColor="blue" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Veteran">
+    <Slot EnemiesLevelOverride="40" MagicFindOffset="0" ItemQuantityMultiplier="1.00" ProductionMultiplier="1" />
+    <Slot EnemiesLevelOverride="43" MagicFindOffset="3" ItemQuantityMultiplier="1.01" ProductionMultiplier="1.02" />
+    <Slot EnemiesLevelOverride="46" MagicFindOffset="6" ItemQuantityMultiplier="1.02" ProductionMultiplier="1.07" />
+    <Slot EnemiesLevelOverride="49" MagicFindOffset="9" ItemQuantityMultiplier="1.03" ProductionMultiplier="1.14" />
+    <Slot EnemiesLevelOverride="52" MagicFindOffset="12" ItemQuantityMultiplier="1.04" ProductionMultiplier="1.24" />
+    <Slot EnemiesLevelOverride="55" MagicFindOffset="15" ItemQuantityMultiplier="1.05" ProductionMultiplier="1.36" />
+    <Slot EnemiesLevelOverride="58" MagicFindOffset="18" ItemQuantityMultiplier="1.06" ProductionMultiplier="1.50" />
+    <Slot EnemiesLevelOverride="61" MagicFindOffset="21" ItemQuantityMultiplier="1.07" ProductionMultiplier="1.66" />
+    <Slot EnemiesLevelOverride="64" MagicFindOffset="24" ItemQuantityMultiplier="1.08" ProductionMultiplier="1.84" />
+    <Slot EnemiesLevelOverride="67" MagicFindOffset="27" ItemQuantityMultiplier="1.09" ProductionMultiplier="2.04" />
+  </LevelOffsetMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_hard_mode" UIColor="red" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Champion">
+    <Slot EnemiesLevelOverride="70" MagicFindOffset="30" ItemQuantityMultiplier="1.10" ProductionMultiplier="2.26" />
+    <Slot EnemiesLevelOverride="73" MagicFindOffset="33" ItemQuantityMultiplier="1.11" ProductionMultiplier="2.50" />
+    <Slot EnemiesLevelOverride="76" MagicFindOffset="36" ItemQuantityMultiplier="1.12" ProductionMultiplier="2.75" />
+    <Slot EnemiesLevelOverride="79" MagicFindOffset="39" ItemQuantityMultiplier="1.13" ProductionMultiplier="3.02" />
+    <Slot EnemiesLevelOverride="82" MagicFindOffset="42" ItemQuantityMultiplier="1.14" ProductionMultiplier="3.31" />
+    <Slot EnemiesLevelOverride="85" MagicFindOffset="45" ItemQuantityMultiplier="1.15" ProductionMultiplier="3.62" />
+    <Slot EnemiesLevelOverride="88" MagicFindOffset="48" ItemQuantityMultiplier="1.16" ProductionMultiplier="3.94" />
+    <Slot EnemiesLevelOverride="91" MagicFindOffset="51" ItemQuantityMultiplier="1.17" ProductionMultiplier="4.28" />
+    <Slot EnemiesLevelOverride="94" MagicFindOffset="54" ItemQuantityMultiplier="1.18" ProductionMultiplier="4.64" />
+    <Slot EnemiesLevelOverride="97" MagicFindOffset="57" ItemQuantityMultiplier="1.19" ProductionMultiplier="5.01" />
+  </LevelOffsetMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_03" UIColor="orange" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Champion">
+    <Slot EnemiesLevelOverride="100" MagicFindOffset="60" ItemQuantityMultiplier="1.20" ProductionMultiplier="5.39" />
+    <Slot EnemiesLevelOverride="103" MagicFindOffset="63" ItemQuantityMultiplier="1.21" ProductionMultiplier="5.80" />
+    <Slot EnemiesLevelOverride="106" MagicFindOffset="66" ItemQuantityMultiplier="1.22" ProductionMultiplier="6.22" />
+    <Slot EnemiesLevelOverride="109" MagicFindOffset="69" ItemQuantityMultiplier="1.23" ProductionMultiplier="6.65" />
+    <Slot EnemiesLevelOverride="112" MagicFindOffset="72" ItemQuantityMultiplier="1.24" ProductionMultiplier="7.10" />
+    <Slot EnemiesLevelOverride="115" MagicFindOffset="75" ItemQuantityMultiplier="1.25" ProductionMultiplier="7.57" />
+    <Slot EnemiesLevelOverride="118" MagicFindOffset="78" ItemQuantityMultiplier="1.26" ProductionMultiplier="8.05" />
+    <Slot EnemiesLevelOverride="121" MagicFindOffset="81" ItemQuantityMultiplier="1.27" ProductionMultiplier="8.54" />
+    <Slot EnemiesLevelOverride="124" MagicFindOffset="84" ItemQuantityMultiplier="1.28" ProductionMultiplier="9.05" />
+    <Slot EnemiesLevelOverride="127" MagicFindOffset="87" ItemQuantityMultiplier="1.29" ProductionMultiplier="9.58" />
+  </LevelOffsetMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_04" UIColor="purple" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Champion">
+    <Slot EnemiesLevelOverride="130" MagicFindOffset="90" ItemQuantityMultiplier="1.30" ProductionMultiplier="10.12" />
+    <Slot EnemiesLevelOverride="133" MagicFindOffset="93" ItemQuantityMultiplier="1.31" ProductionMultiplier="10.67" />
+    <Slot EnemiesLevelOverride="136" MagicFindOffset="96" ItemQuantityMultiplier="1.32" ProductionMultiplier="11.24" />
+    <Slot EnemiesLevelOverride="139" MagicFindOffset="99" ItemQuantityMultiplier="1.33" ProductionMultiplier="11.82" />
+    <Slot EnemiesLevelOverride="142" MagicFindOffset="102" ItemQuantityMultiplier="1.34" ProductionMultiplier="12.42" />
+    <Slot EnemiesLevelOverride="145" MagicFindOffset="105" ItemQuantityMultiplier="1.35" ProductionMultiplier="13.03" />
+    <Slot EnemiesLevelOverride="148" MagicFindOffset="108" ItemQuantityMultiplier="1.36" ProductionMultiplier="13.66" />
+    <Slot EnemiesLevelOverride="151" MagicFindOffset="111" ItemQuantityMultiplier="1.37" ProductionMultiplier="14.30" />
+    <Slot EnemiesLevelOverride="154" MagicFindOffset="114" ItemQuantityMultiplier="1.38" ProductionMultiplier="14.95" />
+    <Slot EnemiesLevelOverride="157" MagicFindOffset="117" ItemQuantityMultiplier="1.39" ProductionMultiplier="15.62" />
+  </LevelOffsetMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_05" UIColor="yellow" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Champion">
+    <Slot EnemiesLevelOverride="187" MagicFindOffset="120" ItemQuantityMultiplier="1.40" ProductionMultiplier="16.30" />
+    <Slot EnemiesLevelOverride="188" MagicFindOffset="123" ItemQuantityMultiplier="1.41" ProductionMultiplier="17.00" />
+    <Slot EnemiesLevelOverride="189" MagicFindOffset="126" ItemQuantityMultiplier="1.42" ProductionMultiplier="17.71" />
+    <Slot EnemiesLevelOverride="190" MagicFindOffset="129" ItemQuantityMultiplier="1.43" ProductionMultiplier="18.43" />
+    <Slot EnemiesLevelOverride="191" MagicFindOffset="132" ItemQuantityMultiplier="1.44" ProductionMultiplier="19.17" />
+    <Slot EnemiesLevelOverride="192" MagicFindOffset="135" ItemQuantityMultiplier="1.45" ProductionMultiplier="19.92" />
+    <Slot EnemiesLevelOverride="193" MagicFindOffset="138" ItemQuantityMultiplier="1.46" ProductionMultiplier="20.68" />
+    <Slot EnemiesLevelOverride="194" MagicFindOffset="141" ItemQuantityMultiplier="1.47" ProductionMultiplier="21.46" />
+    <Slot EnemiesLevelOverride="199" MagicFindOffset="144" ItemQuantityMultiplier="1.48" ProductionMultiplier="22.25" />
+    <Slot EnemiesLevelOverride="200" MagicFindOffset="147" ItemQuantityMultiplier="1.49" ProductionMultiplier="23.05" />
+  </LevelOffsetMode>
+  <LevelOffsetMode UnlockLevel="20" UIName="@ui_adventure_mode_level_selection_05" UIColor="pink" SoundTrigger="PLAY_UI_Quest_Exhibition_Select_Difficulty_Champion">
+    <Slot EnemiesLevelOverride="201" MagicFindOffset="120" ItemQuantityMultiplier="1.40" ProductionMultiplier="16.30" />
+    <Slot EnemiesLevelOverride="202" MagicFindOffset="123" ItemQuantityMultiplier="1.41" ProductionMultiplier="17.00" />
+    <Slot EnemiesLevelOverride="203" MagicFindOffset="126" ItemQuantityMultiplier="1.42" ProductionMultiplier="17.71" />
+    <Slot EnemiesLevelOverride="204" MagicFindOffset="129" ItemQuantityMultiplier="1.43" ProductionMultiplier="18.43" />
+    <Slot EnemiesLevelOverride="210" MagicFindOffset="132" ItemQuantityMultiplier="1.44" ProductionMultiplier="19.17" />
+    <Slot EnemiesLevelOverride="212" MagicFindOffset="135" ItemQuantityMultiplier="1.45" ProductionMultiplier="19.92" />
+    <Slot EnemiesLevelOverride="1337" MagicFindOffset="138" ItemQuantityMultiplier="1.46" ProductionMultiplier="20.68" />
+    <Slot EnemiesLevelOverride="1" MagicFindOffset="141" ItemQuantityMultiplier="1.47" ProductionMultiplier="21.46" />
+    <Slot EnemiesLevelOverride="0" MagicFindOffset="144" ItemQuantityMultiplier="1.48" ProductionMultiplier="22.25" />
+    <Slot EnemiesLevelOverride="220" MagicFindOffset="147" ItemQuantityMultiplier="1.49" ProductionMultiplier="23.05" />
+  </LevelOffsetMode>
+  <QuestRewards>
+    <QuestReward Level="1" GoldReward="100" XPReward="100" />
+    <QuestReward Level="2" GoldReward="200" XPReward="400" />
+    <QuestReward Level="3" GoldReward="300" XPReward="900" />
+    <QuestReward Level="4" GoldReward="400" XPReward="1600" />
+    <QuestReward Level="5" GoldReward="500" XPReward="2500" />
+    <QuestReward Level="6" GoldReward="600" XPReward="3600" />
+    <QuestReward Level="7" GoldReward="700" XPReward="4900" />
+    <QuestReward Level="8" GoldReward="800" XPReward="6400" />
+    <QuestReward Level="9" GoldReward="900" XPReward="8100" />
+    <QuestReward Level="10" GoldReward="1000" XPReward="10000" />
+    <QuestReward Level="11" GoldReward="1038" XPReward="12100" />
+    <QuestReward Level="12" GoldReward="1080" XPReward="14400" />
+    <QuestReward Level="13" GoldReward="1125" XPReward="16900" />
+    <QuestReward Level="14" GoldReward="1174" XPReward="19600" />
+    <QuestReward Level="15" GoldReward="1226" XPReward="22500" />
+    <QuestReward Level="16" GoldReward="1282" XPReward="25600" />
+    <QuestReward Level="17" GoldReward="1341" XPReward="28900" />
+    <QuestReward Level="18" GoldReward="1404" XPReward="32400" />
+    <QuestReward Level="19" GoldReward="1470" XPReward="36100" />
+    <QuestReward Level="20" GoldReward="1540" XPReward="40000" />
+    <QuestReward Level="21" GoldReward="1613" XPReward="44100" />
+    <QuestReward Level="22" GoldReward="1690" XPReward="48400" />
+    <QuestReward Level="23" GoldReward="1770" XPReward="52900" />
+    <QuestReward Level="24" GoldReward="1854" XPReward="57600" />
+    <QuestReward Level="25" GoldReward="1941" XPReward="62500" />
+    <QuestReward Level="26" GoldReward="2032" XPReward="67600" />
+    <QuestReward Level="27" GoldReward="2126" XPReward="72900" />
+    <QuestReward Level="28" GoldReward="2224" XPReward="78400" />
+    <QuestReward Level="29" GoldReward="2325" XPReward="84100" />
+    <QuestReward Level="30" GoldReward="2430" XPReward="90000" />
+    <QuestReward Level="31" GoldReward="2538" XPReward="96100" />
+    <QuestReward Level="32" GoldReward="2650" XPReward="102400" />
+    <QuestReward Level="33" GoldReward="2765" XPReward="108900" />
+    <QuestReward Level="34" GoldReward="2884" XPReward="115600" />
+    <QuestReward Level="35" GoldReward="3006" XPReward="122500" />
+    <QuestReward Level="36" GoldReward="3132" XPReward="129600" />
+    <QuestReward Level="37" GoldReward="3261" XPReward="136900" />
+    <QuestReward Level="38" GoldReward="3394" XPReward="144400" />
+    <QuestReward Level="39" GoldReward="3530" XPReward="152100" />
+    <QuestReward Level="40" GoldReward="3670" XPReward="160000" />
+    <QuestReward Level="41" GoldReward="3813" XPReward="168100" />
+    <QuestReward Level="42" GoldReward="3960" XPReward="176400" />
+    <QuestReward Level="43" GoldReward="4110" XPReward="184900" />
+    <QuestReward Level="44" GoldReward="4264" XPReward="193600" />
+    <QuestReward Level="45" GoldReward="4421" XPReward="202500" />
+    <QuestReward Level="46" GoldReward="4582" XPReward="211600" />
+    <QuestReward Level="47" GoldReward="4746" XPReward="220900" />
+    <QuestReward Level="48" GoldReward="4914" XPReward="230400" />
+    <QuestReward Level="49" GoldReward="5085" XPReward="240100" />
+    <QuestReward Level="50" GoldReward="5260" XPReward="250000" />
+    <QuestReward Level="51" GoldReward="5438" XPReward="260100" />
+    <QuestReward Level="52" GoldReward="5620" XPReward="270400" />
+    <QuestReward Level="53" GoldReward="5805" XPReward="280900" />
+    <QuestReward Level="54" GoldReward="5994" XPReward="291600" />
+    <QuestReward Level="55" GoldReward="6186" XPReward="302500" />
+    <QuestReward Level="56" GoldReward="6382" XPReward="313600" />
+    <QuestReward Level="57" GoldReward="6581" XPReward="324900" />
+    <QuestReward Level="58" GoldReward="6784" XPReward="336400" />
+    <QuestReward Level="59" GoldReward="6990" XPReward="348100" />
+    <QuestReward Level="60" GoldReward="7200" XPReward="360000" />
+    <QuestReward Level="61" GoldReward="7212" XPReward="372100" />
+    <QuestReward Level="62" GoldReward="7224" XPReward="384400" />
+    <QuestReward Level="63" GoldReward="7236" XPReward="396900" />
+    <QuestReward Level="64" GoldReward="7248" XPReward="409600" />
+    <QuestReward Level="65" GoldReward="7261" XPReward="422500" />
+    <QuestReward Level="66" GoldReward="7274" XPReward="435600" />
+    <QuestReward Level="67" GoldReward="7287" XPReward="448900" />
+    <QuestReward Level="68" GoldReward="7300" XPReward="462400" />
+    <QuestReward Level="69" GoldReward="7313" XPReward="476100" />
+    <QuestReward Level="70" GoldReward="7327" XPReward="490000" />
+    <QuestReward Level="71" GoldReward="7341" XPReward="500000" />
+    <QuestReward Level="72" GoldReward="7355" XPReward="500000" />
+    <QuestReward Level="73" GoldReward="7369" XPReward="500000" />
+    <QuestReward Level="74" GoldReward="7383" XPReward="500000" />
+    <QuestReward Level="75" GoldReward="7398" XPReward="500000" />
+    <QuestReward Level="76" GoldReward="7413" XPReward="500000" />
+    <QuestReward Level="77" GoldReward="7428" XPReward="500000" />
+    <QuestReward Level="78" GoldReward="7443" XPReward="500000" />
+    <QuestReward Level="79" GoldReward="7458" XPReward="500000" />
+    <QuestReward Level="80" GoldReward="7474" XPReward="500000" />
+    <QuestReward Level="81" GoldReward="7490" XPReward="500000" />
+    <QuestReward Level="82" GoldReward="7506" XPReward="500000" />
+    <QuestReward Level="83" GoldReward="7522" XPReward="500000" />
+    <QuestReward Level="84" GoldReward="7538" XPReward="500000" />
+    <QuestReward Level="85" GoldReward="7555" XPReward="500000" />
+    <QuestReward Level="86" GoldReward="7572" XPReward="500000" />
+    <QuestReward Level="87" GoldReward="7589" XPReward="500000" />
+    <QuestReward Level="88" GoldReward="7606" XPReward="500000" />
+    <QuestReward Level="89" GoldReward="7623" XPReward="500000" />
+    <QuestReward Level="90" GoldReward="7641" XPReward="500000" />
+    <QuestReward Level="91" GoldReward="7659" XPReward="500000" />
+    <QuestReward Level="92" GoldReward="7677" XPReward="500000" />
+    <QuestReward Level="93" GoldReward="7695" XPReward="500000" />
+    <QuestReward Level="94" GoldReward="7713" XPReward="500000" />
+    <QuestReward Level="95" GoldReward="7732" XPReward="500000" />
+    <QuestReward Level="96" GoldReward="7751" XPReward="500000" />
+    <QuestReward Level="97" GoldReward="7770" XPReward="500000" />
+    <QuestReward Level="98" GoldReward="7789" XPReward="500000" />
+    <QuestReward Level="99" GoldReward="7808" XPReward="500000" />
+    <QuestReward Level="9999" GoldReward="7828" XPReward="500000" />
+    <QuestReward Level="101" GoldReward="7848" XPReward="500000" />
+    <QuestReward Level="102" GoldReward="7868" XPReward="500000" />
+    <QuestReward Level="103" GoldReward="7888" XPReward="500000" />
+    <QuestReward Level="104" GoldReward="7908" XPReward="500000" />
+    <QuestReward Level="105" GoldReward="7929" XPReward="500000" />
+    <QuestReward Level="106" GoldReward="7950" XPReward="500000" />
+    <QuestReward Level="107" GoldReward="7971" XPReward="500000" />
+    <QuestReward Level="108" GoldReward="7992" XPReward="500000" />
+    <QuestReward Level="109" GoldReward="8013" XPReward="500000" />
+    <QuestReward Level="110" GoldReward="8035" XPReward="500000" />
+    <QuestReward Level="111" GoldReward="8057" XPReward="500000" />
+    <QuestReward Level="112" GoldReward="8079" XPReward="500000" />
+    <QuestReward Level="113" GoldReward="8101" XPReward="500000" />
+    <QuestReward Level="114" GoldReward="8123" XPReward="500000" />
+    <QuestReward Level="115" GoldReward="8146" XPReward="500000" />
+    <QuestReward Level="116" GoldReward="8169" XPReward="500000" />
+    <QuestReward Level="117" GoldReward="8192" XPReward="500000" />
+    <QuestReward Level="118" GoldReward="8215" XPReward="500000" />
+    <QuestReward Level="119" GoldReward="8238" XPReward="500000" />
+    <QuestReward Level="120" GoldReward="8262" XPReward="500000" />
+    <QuestReward Level="121" GoldReward="8286" XPReward="500000" />
+    <QuestReward Level="122" GoldReward="8310" XPReward="500000" />
+    <QuestReward Level="123" GoldReward="8334" XPReward="500000" />
+    <QuestReward Level="124" GoldReward="8358" XPReward="500000" />
+    <QuestReward Level="125" GoldReward="8383" XPReward="500000" />
+    <QuestReward Level="126" GoldReward="8408" XPReward="500000" />
+    <QuestReward Level="127" GoldReward="8433" XPReward="500000" />
+    <QuestReward Level="128" GoldReward="8458" XPReward="500000" />
+    <QuestReward Level="129" GoldReward="8483" XPReward="500000" />
+    <QuestReward Level="130" GoldReward="8509" XPReward="500000" />
+    <QuestReward Level="131" GoldReward="8535" XPReward="500000" />
+    <QuestReward Level="132" GoldReward="8561" XPReward="500000" />
+    <QuestReward Level="133" GoldReward="8587" XPReward="500000" />
+    <QuestReward Level="134" GoldReward="8613" XPReward="500000" />
+    <QuestReward Level="135" GoldReward="8640" XPReward="500000" />
+    <QuestReward Level="136" GoldReward="8667" XPReward="500000" />
+    <QuestReward Level="137" GoldReward="8694" XPReward="500000" />
+    <QuestReward Level="138" GoldReward="8721" XPReward="500000" />
+    <QuestReward Level="139" GoldReward="8748" XPReward="500000" />
+    <QuestReward Level="140" GoldReward="8776" XPReward="500000" />
+    <QuestReward Level="141" GoldReward="8804" XPReward="500000" />
+    <QuestReward Level="142" GoldReward="8832" XPReward="500000" />
+    <QuestReward Level="143" GoldReward="8860" XPReward="500000" />
+    <QuestReward Level="144" GoldReward="8888" XPReward="500000" />
+    <QuestReward Level="145" GoldReward="8917" XPReward="500000" />
+    <QuestReward Level="146" GoldReward="8946" XPReward="500000" />
+    <QuestReward Level="147" GoldReward="8975" XPReward="500000" />
+    <QuestReward Level="148" GoldReward="9004" XPReward="500000" />
+    <QuestReward Level="149" GoldReward="9033" XPReward="500000" />
+    <QuestReward Level="150" GoldReward="9063" XPReward="500000" />
+    <QuestReward Level="151" GoldReward="9093" XPReward="500000" />
+    <QuestReward Level="152" GoldReward="9123" XPReward="500000" />
+    <QuestReward Level="153" GoldReward="9153" XPReward="500000" />
+    <QuestReward Level="154" GoldReward="9183" XPReward="500000" />
+    <QuestReward Level="155" GoldReward="9214" XPReward="500000" />
+    <QuestReward Level="156" GoldReward="9245" XPReward="500000" />
+    <QuestReward Level="157" GoldReward="9276" XPReward="500000" />
+    <QuestReward Level="158" GoldReward="9307" XPReward="500000" />
+    <QuestReward Level="159" GoldReward="9338" XPReward="500000" />
+    <QuestReward Level="160" GoldReward="9370" XPReward="500000" />
+    <QuestReward Level="161" GoldReward="9402" XPReward="500000" />
+    <QuestReward Level="162" GoldReward="9434" XPReward="500000" />
+    <QuestReward Level="163" GoldReward="9466" XPReward="500000" />
+    <QuestReward Level="164" GoldReward="9498" XPReward="500000" />
+    <QuestReward Level="165" GoldReward="9531" XPReward="500000" />
+    <QuestReward Level="166" GoldReward="9564" XPReward="500000" />
+    <QuestReward Level="167" GoldReward="9597" XPReward="500000" />
+    <QuestReward Level="168" GoldReward="9630" XPReward="500000" />
+    <QuestReward Level="169" GoldReward="9663" XPReward="500000" />
+    <QuestReward Level="170" GoldReward="9697" XPReward="500000" />
+    <QuestReward Level="171" GoldReward="9731" XPReward="500000" />
+    <QuestReward Level="172" GoldReward="9765" XPReward="500000" />
+    <QuestReward Level="173" GoldReward="9799" XPReward="500000" />
+    <QuestReward Level="174" GoldReward="9833" XPReward="500000" />
+    <QuestReward Level="175" GoldReward="9868" XPReward="500000" />
+    <QuestReward Level="176" GoldReward="9903" XPReward="500000" />
+    <QuestReward Level="177" GoldReward="9938" XPReward="500000" />
+    <QuestReward Level="178" GoldReward="9973" XPReward="500000" />
+    <QuestReward Level="179" GoldReward="10008" XPReward="500000" />
+    <QuestReward Level="180" GoldReward="10044" XPReward="500000" />
+    <QuestReward Level="181" GoldReward="10080" XPReward="500000" />
+    <QuestReward Level="182" GoldReward="10116" XPReward="500000" />
+    <QuestReward Level="183" GoldReward="10152" XPReward="500000" />
+    <QuestReward Level="184" GoldReward="10188" XPReward="500000" />
+    <QuestReward Level="185" GoldReward="10225" XPReward="500000" />
+    <QuestReward Level="186" GoldReward="10262" XPReward="500000" />
+    <QuestReward Level="187" GoldReward="10299" XPReward="500000" />
+    <QuestReward Level="188" GoldReward="10336" XPReward="500000" />
+    <QuestReward Level="189" GoldReward="10373" XPReward="500000" />
+    <QuestReward Level="9999" GoldReward="10411" XPReward="500000" />
+    <QuestReward Level="191" GoldReward="10449" XPReward="500000" />
+    <QuestReward Level="192" GoldReward="10487" XPReward="500000" />
+    <QuestReward Level="193" GoldReward="10525" XPReward="500000" />
+    <QuestReward Level="194" GoldReward="10563" XPReward="500000" />
+    <QuestReward Level="195" GoldReward="10602" XPReward="500000" />
+    <QuestReward Level="196" GoldReward="10641" XPReward="500000" />
+    <QuestReward Level="197" GoldReward="10680" XPReward="500000" />
+    <QuestReward Level="198" GoldReward="10719" XPReward="500000" />
+    <QuestReward Level="199" GoldReward="10758" XPReward="500000" />
+    <QuestReward Level="9999" GoldReward="10798" XPReward="500000" />
+    <QuestReward Level="201" GoldReward="10798" XPReward="500000" />
+    <QuestReward Level="202" GoldReward="10798" XPReward="500000" />
+  </QuestRewards>
+</MetaData>

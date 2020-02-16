@@ -1,0 +1,7 @@
+<MetaData>
+  <SpawnClass Name="SC_TestSoulTremor">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_physical" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirMorgon_toxic" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirAlpha" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

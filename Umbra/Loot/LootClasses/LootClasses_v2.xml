@@ -1,0 +1,250 @@
+<MetaData>
+  <LootClass Name="LC_trash">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="19" />
+    <Loot>
+      <LootClass Name="Items_trash" MinLevel="1" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_elite">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Miniboss">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Miniboss" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Scarab_Rare">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Miniboss" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="LC_Legendary" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Legendary">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="1" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="200" />
+    <Loot>
+      <LootClass Name="Weapon_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Armor_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Accessories_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent_leg" MinLevel="41" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_UberLambach">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_Elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_ULambach" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Named" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Named">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_Elite" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+      <LootClass Name="Items_Named" MinLevel="1" MaxLevel="9999" Weight="20000" PickOnlyOnce="1" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_lieutenant">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="50000" />
+    <Loot>
+      <LootClass Name="Items_lieutenant" MinLevel="1" MaxLevel="9999" Weight="20000" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_trash">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Weapon_Trash_TBETA" MinLevel="1" MaxLevel="9999" Weight="5000" />
+      <LootClass Name="Armor_Trash_TBETA" MinLevel="1" MaxLevel="9999" Weight="10000" />
+      <LootClass Name="Potions_TBETA" MinLevel="1" MaxLevel="9999" Weight="250" />
+      <LootClass Name="Accessories_Trash_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Gems_TBETA" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Enneracts_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="9999" Weight="1" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="150" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent" MinLevel="22" MaxLevel="9999" Weight="50" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_lieutenant">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Weapon_Lieutenant_TBETA" MinLevel="1" MaxLevel="9999" Weight="5000" />
+      <LootClass Name="Armor_Lieutenant_TBETA" MinLevel="1" MaxLevel="9999" Weight="10000" />
+      <LootClass Name="Potions_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Accessories_Lieutenant_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Enneracts_TBETA" MinLevel="1" MaxLevel="9999" Weight="750" />
+      <LootClass Name="Gems_TBETA" MinLevel="1" MaxLevel="9999" Weight="250" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="35" Weight="5" />
+      <LootClass Name="Uniques_TBETA" MinLevel="35" MaxLevel="9999" Weight="10" />
+      <LootClass Name="Reagent" MinLevel="22" MaxLevel="40" Weight="50" />
+      <LootClass Name="Reagent" MinLevel="40" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="400" />
+      <LootClass Name="LC_Consumable" MinLevel="41" MaxLevel="9999" Weight="25" />
+      <LootClass Name="Reagent_leg" MinLevel="41" MaxLevel="9999" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_elite">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="200" />
+    <Loot>
+      <LootClass Name="Weapon_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Armor_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Potions_TBETA" MinLevel="1" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Accessories_Elite_TBETA" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Enneracts_TBETA" MinLevel="1" MaxLevel="9999" Weight="75" />
+      <LootClass Name="Gems_TBETA" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="40" Weight="2" />
+      <LootClass Name="Uniques_TBETA" MinLevel="40" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent" MinLevel="22" MaxLevel="40" Weight="40" />
+      <LootClass Name="Reagent" MinLevel="40" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="25" />
+      <LootClass Name="LC_Consumable" MinLevel="41" MaxLevel="9999" Weight="10" />
+      <LootClass Name="Reagent_leg" MinLevel="41" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Miniboss">
+    <Pick Value="6" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Weapon_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Armor_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Potions_TBETA" MinLevel="1" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Accessories_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Enneracts_TBETA" MinLevel="1" MaxLevel="9999" Weight="75" />
+      <LootClass Name="Gems_TBETA" MinLevel="1" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Reagent" MinLevel="22" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <LootClass Name="LC_Consumable" MinLevel="41" MaxLevel="9999" Weight="5" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_Named">
+    <Pick Value="8" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Weapon_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Armor_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Potions_TBETA" MinLevel="1" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Accessories_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="200" />
+      <LootClass Name="Enneracts_TBETA" MinLevel="1" MaxLevel="9999" Weight="75" />
+      <LootClass Name="Gems_TBETA" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="40" Weight="2" />
+      <LootClass Name="Uniques_TBETA" MinLevel="40" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent" MinLevel="22" MaxLevel="40" Weight="40" />
+      <LootClass Name="Reagent" MinLevel="40" MaxLevel="9999" Weight="50" />
+      <LootClass Name="Dye" MinLevel="1" MaxLevel="9999" Weight="25" />
+      <LootClass Name="LC_Consumable" MinLevel="41" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent_leg" MinLevel="41" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="Items_ULambach">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="1" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Weapon_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="500" />
+      <LootClass Name="Armor_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="1000" />
+      <LootClass Name="Accessories_Named_TBETA" MinLevel="1" MaxLevel="9999" Weight="200" />
+      <LootClass Name="Uniques_TBETA" MinLevel="1" MaxLevel="9999" Weight="5" />
+      <LootClass Name="Reagent_leg" MinLevel="41" MaxLevel="9999" Weight="10" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="VictoryScreenS+">
+    <Pick Value="5" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="1" Normal="0" Rare="5" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_SariselMode" MinLevel="1" MaxLevel="9999" Weight="300" ForcePick="1" />
+      <LootClass Name="Weapon_SariselMode" MinLevel="1" MaxLevel="9999" Weight="500" ForcePick="1" />
+      <LootClass Name="Accessories_SariselMode" MinLevel="1" MaxLevel="9999" Weight="50" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="VictoryScreenS">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_SariselMode" MinLevel="1" MaxLevel="9999" Weight="300" ForcePick="1" />
+      <LootClass Name="Weapon_SariselMode" MinLevel="1" MaxLevel="9999" Weight="500" ForcePick="1" />
+      <LootClass Name="Accessories_SariselMode" MinLevel="1" MaxLevel="9999" Weight="50" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="VictoryScreenA">
+    <Pick Value="3" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_SariselMode" MinLevel="1" MaxLevel="9999" Weight="300" ForcePick="1" />
+      <LootClass Name="Weapon_SariselMode" MinLevel="1" MaxLevel="9999" Weight="500" ForcePick="1" />
+      <LootClass Name="Accessories_SariselMode" MinLevel="1" MaxLevel="9999" Weight="50" ForcePick="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="VictoryScreenB">
+    <Pick Value="2" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_SariselMode" MinLevel="1" MaxLevel="9999" Weight="300" PickOnlyOnce="1" />
+      <LootClass Name="Weapon_SariselMode" MinLevel="1" MaxLevel="9999" Weight="500" PickOnlyOnce="1" />
+      <LootClass Name="Accessories_SariselMode" MinLevel="1" MaxLevel="9999" Weight="50" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="VictoryScreenC">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity UseRarityAsOverride="1" Legendary="0" Normal="0" Rare="1" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Armor_SariselMode" MinLevel="1" MaxLevel="9999" Weight="300" PickOnlyOnce="1" />
+      <LootClass Name="Weapon_SariselMode" MinLevel="1" MaxLevel="9999" Weight="500" PickOnlyOnce="1" />
+      <LootClass Name="Accessories_SariselMode" MinLevel="1" MaxLevel="9999" Weight="50" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+</MetaData>

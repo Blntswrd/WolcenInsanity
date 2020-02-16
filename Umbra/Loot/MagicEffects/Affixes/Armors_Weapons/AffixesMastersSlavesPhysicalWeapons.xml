@@ -1,0 +1,2450 @@
+<MetaData>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_1" Class="criticalchance" AffixType="suffix" Tier="1">
+    <Enslaved EnslavedClass="slave_all_weapon_1" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="22" />
+      <HiRoll CharacteristicScoreInt="2500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_2" Class="criticalchance" AffixType="suffix" Tier="2">
+    <Enslaved EnslavedClass="slave_all_weapon_2" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="27" />
+      <HiRoll CharacteristicScoreInt="3000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_3" Class="criticalchance" AffixType="suffix" Tier="3">
+    <Enslaved EnslavedClass="slave_all_weapon_3" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="31" />
+      <HiRoll CharacteristicScoreInt="3400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_4" Class="criticalchance" AffixType="suffix" Tier="4">
+    <Enslaved EnslavedClass="slave_all_weapon_4" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="36" />
+      <HiRoll CharacteristicScoreInt="3900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_5" Class="criticalchance" AffixType="suffix" Tier="5">
+    <Enslaved EnslavedClass="slave_all_weapon_5" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="40" />
+      <HiRoll CharacteristicScoreInt="4300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_6" Class="criticalchance" AffixType="suffix" Tier="6">
+    <Enslaved EnslavedClass="slave_all_weapon_6" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="45" />
+      <HiRoll CharacteristicScoreInt="4800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_7" Class="criticalchance" AffixType="suffix" Tier="7">
+    <Enslaved EnslavedClass="slave_all_weapon_7" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="49" />
+      <HiRoll CharacteristicScoreInt="5200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_8" Class="criticalchance" AffixType="suffix" Tier="8">
+    <Enslaved EnslavedClass="slave_all_weapon_8" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="54" />
+      <HiRoll CharacteristicScoreInt="5700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_9" Class="criticalchance" AffixType="suffix" Tier="9">
+    <Enslaved EnslavedClass="slave_all_weapon_9" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="58" />
+      <HiRoll CharacteristicScoreInt="6100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_10" Class="criticalchance" AffixType="suffix" Tier="10">
+    <Enslaved EnslavedClass="slave_all_weapon_10" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="63" />
+      <HiRoll CharacteristicScoreInt="6600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_11" Class="criticalchance" AffixType="suffix" Tier="11">
+    <Enslaved EnslavedClass="slave_all_weapon_11" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="67" />
+      <HiRoll CharacteristicScoreInt="7000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_criticalchance_attackskill_score_12" Class="criticalchance" AffixType="suffix" Tier="12">
+    <Enslaved EnslavedClass="slave_all_weapon_12" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="72" />
+      <HiRoll CharacteristicScoreInt="7500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_1" Class="attackspeed" AffixType="suffix" Tier="1">
+    <Enslaved EnslavedClass="slave_all_weapon_1" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="22" />
+      <HiRoll CharacteristicScoreInt="2500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_2" Class="attackspeed" AffixType="suffix" Tier="2">
+    <Enslaved EnslavedClass="slave_all_weapon_2" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="27" />
+      <HiRoll CharacteristicScoreInt="3000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_3" Class="attackspeed" AffixType="suffix" Tier="3">
+    <Enslaved EnslavedClass="slave_all_weapon_3" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="31" />
+      <HiRoll CharacteristicScoreInt="3400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_4" Class="attackspeed" AffixType="suffix" Tier="4">
+    <Enslaved EnslavedClass="slave_all_weapon_4" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="36" />
+      <HiRoll CharacteristicScoreInt="3900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_5" Class="attackspeed" AffixType="suffix" Tier="5">
+    <Enslaved EnslavedClass="slave_all_weapon_5" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="40" />
+      <HiRoll CharacteristicScoreInt="4300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_6" Class="attackspeed" AffixType="suffix" Tier="6">
+    <Enslaved EnslavedClass="slave_all_weapon_6" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="45" />
+      <HiRoll CharacteristicScoreInt="4800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_7" Class="attackspeed" AffixType="suffix" Tier="7">
+    <Enslaved EnslavedClass="slave_all_weapon_7" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="49" />
+      <HiRoll CharacteristicScoreInt="5200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_8" Class="attackspeed" AffixType="suffix" Tier="8">
+    <Enslaved EnslavedClass="slave_all_weapon_8" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="54" />
+      <HiRoll CharacteristicScoreInt="5700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_9" Class="attackspeed" AffixType="suffix" Tier="9">
+    <Enslaved EnslavedClass="slave_all_weapon_9" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="58" />
+      <HiRoll CharacteristicScoreInt="6100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_10" Class="attackspeed" AffixType="suffix" Tier="10">
+    <Enslaved EnslavedClass="slave_all_weapon_10" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="63" />
+      <HiRoll CharacteristicScoreInt="6600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_11" Class="attackspeed" AffixType="suffix" Tier="11">
+    <Enslaved EnslavedClass="slave_all_weapon_11" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="67" />
+      <HiRoll CharacteristicScoreInt="7000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_attackspeed_score_12" Class="attackspeed" AffixType="suffix" Tier="12">
+    <Enslaved EnslavedClass="slave_all_weapon_12" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="72" />
+      <HiRoll CharacteristicScoreInt="7500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_1" Class="ailmentchance" AffixType="suffix" Tier="1">
+    <Enslaved EnslavedClass="slave_all_weapon_1" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="22" />
+      <HiRoll CharacteristicScoreInt="2500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_2" Class="ailmentchance" AffixType="suffix" Tier="2">
+    <Enslaved EnslavedClass="slave_all_weapon_2" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="27" />
+      <HiRoll CharacteristicScoreInt="3000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_3" Class="ailmentchance" AffixType="suffix" Tier="3">
+    <Enslaved EnslavedClass="slave_all_weapon_3" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="31" />
+      <HiRoll CharacteristicScoreInt="3400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_4" Class="ailmentchance" AffixType="suffix" Tier="4">
+    <Enslaved EnslavedClass="slave_all_weapon_4" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="36" />
+      <HiRoll CharacteristicScoreInt="3900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_5" Class="ailmentchance" AffixType="suffix" Tier="5">
+    <Enslaved EnslavedClass="slave_all_weapon_5" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="40" />
+      <HiRoll CharacteristicScoreInt="4300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_6" Class="ailmentchance" AffixType="suffix" Tier="6">
+    <Enslaved EnslavedClass="slave_all_weapon_6" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="45" />
+      <HiRoll CharacteristicScoreInt="4800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_7" Class="ailmentchance" AffixType="suffix" Tier="7">
+    <Enslaved EnslavedClass="slave_all_weapon_7" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="49" />
+      <HiRoll CharacteristicScoreInt="5200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_8" Class="ailmentchance" AffixType="suffix" Tier="8">
+    <Enslaved EnslavedClass="slave_all_weapon_8" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="54" />
+      <HiRoll CharacteristicScoreInt="5700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_9" Class="ailmentchance" AffixType="suffix" Tier="9">
+    <Enslaved EnslavedClass="slave_all_weapon_9" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="58" />
+      <HiRoll CharacteristicScoreInt="6100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_10" Class="ailmentchance" AffixType="suffix" Tier="10">
+    <Enslaved EnslavedClass="slave_all_weapon_10" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="63" />
+      <HiRoll CharacteristicScoreInt="6600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_11" Class="ailmentchance" AffixType="suffix" Tier="11">
+    <Enslaved EnslavedClass="slave_all_weapon_11" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="67" />
+      <HiRoll CharacteristicScoreInt="7000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_w_statusailment_inflict_chance_score_12" Class="ailmentchance" AffixType="suffix" Tier="12">
+    <Enslaved EnslavedClass="slave_all_weapon_12" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="72" />
+      <HiRoll CharacteristicScoreInt="7500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_1" Class="damagepercent" AffixType="prefix" Tier="1">
+    <Enslaved EnslavedClass="slave_fast_weapon_1" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="15" />
+      <HiRoll DamagePercentFloat="1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_2" Class="damagepercent" AffixType="prefix" Tier="2">
+    <Enslaved EnslavedClass="slave_fast_weapon_2" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="18" />
+      <HiRoll DamagePercentFloat="2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_3" Class="damagepercent" AffixType="prefix" Tier="3">
+    <Enslaved EnslavedClass="slave_fast_weapon_3" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="21" />
+      <HiRoll DamagePercentFloat="2300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_4" Class="damagepercent" AffixType="prefix" Tier="4">
+    <Enslaved EnslavedClass="slave_fast_weapon_4" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="24" />
+      <HiRoll DamagePercentFloat="2600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_5" Class="damagepercent" AffixType="prefix" Tier="5">
+    <Enslaved EnslavedClass="slave_fast_weapon_5" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="27" />
+      <HiRoll DamagePercentFloat="2900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_6" Class="damagepercent" AffixType="prefix" Tier="6">
+    <Enslaved EnslavedClass="slave_fast_weapon_6" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="30" />
+      <HiRoll DamagePercentFloat="3200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_7" Class="damagepercent" AffixType="prefix" Tier="7">
+    <Enslaved EnslavedClass="slave_fast_weapon_7" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="33" />
+      <HiRoll DamagePercentFloat="3500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_8" Class="damagepercent" AffixType="prefix" Tier="8">
+    <Enslaved EnslavedClass="slave_fast_weapon_8" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="36" />
+      <HiRoll DamagePercentFloat="3800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_9" Class="damagepercent" AffixType="prefix" Tier="9">
+    <Enslaved EnslavedClass="slave_fast_weapon_9" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="39" />
+      <HiRoll DamagePercentFloat="4100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_10" Class="damagepercent" AffixType="prefix" Tier="10">
+    <Enslaved EnslavedClass="slave_fast_weapon_10" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="42" />
+      <HiRoll DamagePercentFloat="4400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_11" Class="damagepercent" AffixType="prefix" Tier="11">
+    <Enslaved EnslavedClass="slave_fast_weapon_11" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="45" />
+      <HiRoll DamagePercentFloat="4700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_fast_w_local_damage_percent_all_12" Class="damagepercent" AffixType="prefix" Tier="12">
+    <Enslaved EnslavedClass="slave_fast_weapon_12" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="48" />
+      <HiRoll DamagePercentFloat="5000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_1" Class="damagepercent" AffixType="prefix" Tier="1">
+    <Enslaved EnslavedClass="slave_slow_weapon_1" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="15" />
+      <HiRoll DamagePercentFloat="1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_2" Class="damagepercent" AffixType="prefix" Tier="2">
+    <Enslaved EnslavedClass="slave_slow_weapon_2" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="18" />
+      <HiRoll DamagePercentFloat="2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_3" Class="damagepercent" AffixType="prefix" Tier="3">
+    <Enslaved EnslavedClass="slave_slow_weapon_3" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="21" />
+      <HiRoll DamagePercentFloat="2300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_4" Class="damagepercent" AffixType="prefix" Tier="4">
+    <Enslaved EnslavedClass="slave_slow_weapon_4" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="24" />
+      <HiRoll DamagePercentFloat="2600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_5" Class="damagepercent" AffixType="prefix" Tier="5">
+    <Enslaved EnslavedClass="slave_slow_weapon_5" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="27" />
+      <HiRoll DamagePercentFloat="2900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_6" Class="damagepercent" AffixType="prefix" Tier="6">
+    <Enslaved EnslavedClass="slave_slow_weapon_6" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="30" />
+      <HiRoll DamagePercentFloat="3200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_7" Class="damagepercent" AffixType="prefix" Tier="7">
+    <Enslaved EnslavedClass="slave_slow_weapon_7" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="33" />
+      <HiRoll DamagePercentFloat="3500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_8" Class="damagepercent" AffixType="prefix" Tier="8">
+    <Enslaved EnslavedClass="slave_slow_weapon_8" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="36" />
+      <HiRoll DamagePercentFloat="3800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_9" Class="damagepercent" AffixType="prefix" Tier="9">
+    <Enslaved EnslavedClass="slave_slow_weapon_9" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="39" />
+      <HiRoll DamagePercentFloat="4100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_10" Class="damagepercent" AffixType="prefix" Tier="10">
+    <Enslaved EnslavedClass="slave_slow_weapon_10" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="42" />
+      <HiRoll DamagePercentFloat="4400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_11" Class="damagepercent" AffixType="prefix" Tier="11">
+    <Enslaved EnslavedClass="slave_slow_weapon_11" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="45" />
+      <HiRoll DamagePercentFloat="4700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="master_slow_w_local_damage_percent_all_12" Class="damagepercent" AffixType="prefix" Tier="12">
+    <Enslaved EnslavedClass="slave_slow_weapon_12" />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="48" />
+      <HiRoll DamagePercentFloat="5000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_1" Class="slave_fast_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_1" Class="slave_fast_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_1" Class="slave_fast_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_1" Class="slave_fast_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-5" />
+      <HiRoll DamagePercentFloat="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_2" Class="slave_fast_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_2" Class="slave_fast_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_2" Class="slave_fast_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_2" Class="slave_fast_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-6" />
+      <HiRoll DamagePercentFloat="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_3" Class="slave_fast_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_3" Class="slave_fast_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_3" Class="slave_fast_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_3" Class="slave_fast_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-7" />
+      <HiRoll DamagePercentFloat="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_4" Class="slave_fast_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_4" Class="slave_fast_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_4" Class="slave_fast_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_4" Class="slave_fast_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-8" />
+      <HiRoll DamagePercentFloat="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_5" Class="slave_fast_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_5" Class="slave_fast_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_5" Class="slave_fast_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_5" Class="slave_fast_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-9" />
+      <HiRoll DamagePercentFloat="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_6" Class="slave_fast_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_6" Class="slave_fast_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_6" Class="slave_fast_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_6" Class="slave_fast_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-10" />
+      <HiRoll DamagePercentFloat="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_7" Class="slave_fast_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_7" Class="slave_fast_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_7" Class="slave_fast_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_7" Class="slave_fast_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-11" />
+      <HiRoll DamagePercentFloat="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_8" Class="slave_fast_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_8" Class="slave_fast_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_8" Class="slave_fast_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_8" Class="slave_fast_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-12" />
+      <HiRoll DamagePercentFloat="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_9" Class="slave_fast_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_9" Class="slave_fast_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_9" Class="slave_fast_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_9" Class="slave_fast_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-13" />
+      <HiRoll DamagePercentFloat="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_10" Class="slave_fast_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_10" Class="slave_fast_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_10" Class="slave_fast_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_10" Class="slave_fast_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-14" />
+      <HiRoll DamagePercentFloat="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_11" Class="slave_fast_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_11" Class="slave_fast_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_11" Class="slave_fast_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_11" Class="slave_fast_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-15" />
+      <HiRoll DamagePercentFloat="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_attackspeed_score_12" Class="slave_fast_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_status_ailment_chance_12" Class="slave_fast_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_criticalchance_attackskill_score_12" Class="slave_fast_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="fast_slave_local_damage_percent_all_12" Class="slave_fast_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="axe,sword,gun,dagger,bow" MandatoryKeywords="weapon,fast" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-16" />
+      <HiRoll DamagePercentFloat="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_1" Class="slave_slow_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_1" Class="slave_slow_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_1" Class="slave_slow_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_1" Class="slave_slow_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-5" />
+      <HiRoll DamagePercentFloat="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_2" Class="slave_slow_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_2" Class="slave_slow_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_2" Class="slave_slow_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_2" Class="slave_slow_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-6" />
+      <HiRoll DamagePercentFloat="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_3" Class="slave_slow_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_3" Class="slave_slow_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_3" Class="slave_slow_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_3" Class="slave_slow_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-7" />
+      <HiRoll DamagePercentFloat="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_4" Class="slave_slow_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_4" Class="slave_slow_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_4" Class="slave_slow_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_4" Class="slave_slow_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-8" />
+      <HiRoll DamagePercentFloat="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_5" Class="slave_slow_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_5" Class="slave_slow_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_5" Class="slave_slow_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_5" Class="slave_slow_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-9" />
+      <HiRoll DamagePercentFloat="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_6" Class="slave_slow_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_6" Class="slave_slow_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_6" Class="slave_slow_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_6" Class="slave_slow_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-10" />
+      <HiRoll DamagePercentFloat="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_7" Class="slave_slow_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_7" Class="slave_slow_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_7" Class="slave_slow_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_7" Class="slave_slow_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-11" />
+      <HiRoll DamagePercentFloat="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_8" Class="slave_slow_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_8" Class="slave_slow_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_8" Class="slave_slow_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_8" Class="slave_slow_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-12" />
+      <HiRoll DamagePercentFloat="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_9" Class="slave_slow_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_9" Class="slave_slow_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_9" Class="slave_slow_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_9" Class="slave_slow_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-13" />
+      <HiRoll DamagePercentFloat="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_10" Class="slave_slow_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_10" Class="slave_slow_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_10" Class="slave_slow_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_10" Class="slave_slow_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-14" />
+      <HiRoll DamagePercentFloat="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_11" Class="slave_slow_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_11" Class="slave_slow_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_11" Class="slave_slow_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_11" Class="slave_slow_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-15" />
+      <HiRoll DamagePercentFloat="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_attackspeed_score_12" Class="slave_slow_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_status_ailment_chance_12" Class="slave_slow_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_criticalchance_attackskill_score_12" Class="slave_slow_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="slow_slave_local_damage_percent_all_12" Class="slave_slow_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon,slow" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-16" />
+      <HiRoll DamagePercentFloat="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_1" Class="slave_all_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_1" Class="slave_all_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_1" Class="slave_all_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-5" />
+      <HiRoll CharacteristicScoreInt="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_1" Class="slave_all_weapon_1" AffixType="slave" Tier="1">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="1" LevelMax="30" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-5" />
+      <HiRoll DamagePercentFloat="-1000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_2" Class="slave_all_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_2" Class="slave_all_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_2" Class="slave_all_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-6" />
+      <HiRoll CharacteristicScoreInt="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_2" Class="slave_all_weapon_2" AffixType="slave" Tier="2">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="10" LevelMax="40" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-6" />
+      <HiRoll DamagePercentFloat="-1100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_3" Class="slave_all_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_3" Class="slave_all_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_3" Class="slave_all_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-7" />
+      <HiRoll CharacteristicScoreInt="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_3" Class="slave_all_weapon_3" AffixType="slave" Tier="3">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="20" LevelMax="50" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-7" />
+      <HiRoll DamagePercentFloat="-1200" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_4" Class="slave_all_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_4" Class="slave_all_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_4" Class="slave_all_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-8" />
+      <HiRoll CharacteristicScoreInt="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_4" Class="slave_all_weapon_4" AffixType="slave" Tier="4">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="30" LevelMax="60" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-8" />
+      <HiRoll DamagePercentFloat="-1300" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_5" Class="slave_all_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_5" Class="slave_all_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_5" Class="slave_all_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-9" />
+      <HiRoll CharacteristicScoreInt="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_5" Class="slave_all_weapon_5" AffixType="slave" Tier="5">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="40" LevelMax="120" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-9" />
+      <HiRoll DamagePercentFloat="-1400" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_6" Class="slave_all_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_6" Class="slave_all_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_6" Class="slave_all_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-10" />
+      <HiRoll CharacteristicScoreInt="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_6" Class="slave_all_weapon_6" AffixType="slave" Tier="6">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="50" LevelMax="130" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-10" />
+      <HiRoll DamagePercentFloat="-1500" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_7" Class="slave_all_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_7" Class="slave_all_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_7" Class="slave_all_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-11" />
+      <HiRoll CharacteristicScoreInt="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_7" Class="slave_all_weapon_7" AffixType="slave" Tier="7">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="60" LevelMax="140" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-11" />
+      <HiRoll DamagePercentFloat="-1600" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_8" Class="slave_all_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_8" Class="slave_all_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_8" Class="slave_all_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-12" />
+      <HiRoll CharacteristicScoreInt="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_8" Class="slave_all_weapon_8" AffixType="slave" Tier="8">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="70" LevelMax="150" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-12" />
+      <HiRoll DamagePercentFloat="-1700" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_9" Class="slave_all_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_9" Class="slave_all_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_9" Class="slave_all_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-13" />
+      <HiRoll CharacteristicScoreInt="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_9" Class="slave_all_weapon_9" AffixType="slave" Tier="9">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="80" LevelMax="160" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-13" />
+      <HiRoll DamagePercentFloat="-1800" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_10" Class="slave_all_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_10" Class="slave_all_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_10" Class="slave_all_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-14" />
+      <HiRoll CharacteristicScoreInt="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_10" Class="slave_all_weapon_10" AffixType="slave" Tier="10">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="90" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-14" />
+      <HiRoll DamagePercentFloat="-1900" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_11" Class="slave_all_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_11" Class="slave_all_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_11" Class="slave_all_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-15" />
+      <HiRoll CharacteristicScoreInt="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_11" Class="slave_all_weapon_11" AffixType="slave" Tier="11">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="100" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-15" />
+      <HiRoll DamagePercentFloat="-2000" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_attackspeed_score_12" Class="slave_all_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="attackspeed_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_status_ailment_chance_12" Class="slave_all_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="statusailment_inflict_chance_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_criticalchance_attackskill_score_12" Class="slave_all_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="criticalchance_attackskill_score">
+      <LoRoll CharacteristicScoreInt="-16" />
+      <HiRoll CharacteristicScoreInt="-2100" />
+    </MagicEffect>
+  </Affix>
+  <Affix AffixId="all_slave_local_damage_percent_all_12" Class="slave_all_weapon_12" AffixType="slave" Tier="12">
+    <Enslaved />
+    <DropParams Frequency="0">
+      <ItemLevel LevelMin="110" LevelMax="9999" />
+      <Keywords OptionalKeywords="physical_weapon" MandatoryKeywords="weapon" />
+      <ItemRarity Magic="1" Rare="1" Set="1" Legendary="1" />
+    </DropParams>
+    <MagicEffect EffectId="local_damage_percent_all">
+      <LoRoll DamagePercentFloat="-16" />
+      <HiRoll DamagePercentFloat="-2100" />
+    </MagicEffect>
+  </Affix>
+</MetaData>

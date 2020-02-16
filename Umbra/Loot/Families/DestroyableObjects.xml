@@ -1,0 +1,7 @@
+<Families>
+  <LootClassFamily LootClassFamilyName="destroyable_default">
+    <LootClasses MaxPlayerLevel="9999">
+      <LootChoice LootClassName="Gold_trash" Proba="1" />
+    </LootClasses>
+  </LootClassFamily>
+</Families>

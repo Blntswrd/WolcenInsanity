@@ -1,0 +1,62 @@
+<MetaData>
+  <BaseEntity ID="OutlawsTrapperShadow" EntityName="outlaws_trapper" Scale="1" CanKillAllies="0" />
+  <Faction Name="ShadowOutlaws" />
+  <Keywords Value="outw,lieutenant,melee,shadow" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="1" DamageModifier="1.0" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Lieutenant" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Lieutenant" />
+  <Corpses PresetName="LieutenantCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Ranged" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_OutlawsTrapper_DefaultAttack_Melee_Punch" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_outlaw_trapper_singlebombthrow_shadow" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4" Preferred="10" Max="13" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_outw_trapper_carpetmines_shadow" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4" Preferred="10" Max="13" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="objects/characters/mobs/humanoid/trapper/outw_trapper_shadow/outw_trapper_shadow.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Trapper/OUTW_Trapper.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Outlaws_Trapper_Shadow" ZIconOffset="3.0" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Trapper" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.4" SelectionCapsuleHeight="0.6" SelectionCapsuleZOffset="-0.45" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.ShadowVariation.Shadow_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1.15" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Trapper_voice" />
+</MetaData>

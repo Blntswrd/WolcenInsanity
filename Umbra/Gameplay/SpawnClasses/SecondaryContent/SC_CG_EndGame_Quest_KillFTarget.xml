@@ -1,0 +1,52 @@
+<MetaData>
+  <SpawnClass Name="Sc_EG_KFT_OTW_Thug">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_OTWSB_Thug">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThugShadow" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_COS_DoS">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_COFE_DoF">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_DemonOfFlesh" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_COFY_Knight">
+    <Spawn Type="Actor" ClassName="PacifiedKnight" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_COFY_Golgoth">
+    <Spawn Type="Actor" ClassName="PacifiedGolgoth" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_REPU_Justicar">
+    <Spawn Type="Actor" ClassName="RepublicJusticar" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_SVRI_AlphaPoison">
+    <Spawn Type="Actor" ClassName="SvriirCaveAlphaPoison" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_SVRIF_AlphaFire">
+    <Spawn Type="Actor" ClassName="SvriirAlpha_Fire" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KFT_CALL_TaintedPrimoGuardian">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialGuardian" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

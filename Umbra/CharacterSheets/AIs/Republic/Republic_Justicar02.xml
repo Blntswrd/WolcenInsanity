@@ -1,0 +1,62 @@
+<MetaData>
+  <BaseEntity ID="Justicar_02" EntityName="republic_justicar_02" Scale="1" CanKillAllies="0" />
+  <Faction Name="ACT1_BOSS" />
+  <Keywords Value="repu,boss,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="6" DamageModifier="1.5" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5.5" WalkSpeed="5.5" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="25" CCEffectiveness="10" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Boss_Act1" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="False" FallBack="False" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_RepublicJusticar02_DefaultAttack_Melee" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.5" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_RepublicJusticar02_FocusedShot" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4.0" Preferred="6" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_republicjusticar02_chargeburst" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="10" Max="30" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_republicjusticar02_bumpshotcombo" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_republicjusticar02_meleeshotguncombo" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0.0" Preferred="10" Max="20" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="0.8" Weight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Republic_Edric_B" ZIconOffset="5.0" />
+  <Spawn SpawnAnimation="1" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" CannotBeOverkilled="1" />
+  <GameplayParticles PresetName="size_Justicar" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.5,0.5,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.7" SelectionCapsuleHeight="1" SelectionCapsuleZOffset="-1.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.5" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="Edric_Justicar_voice" SurfaceType="armour" />
+</MetaData>

@@ -1,0 +1,38 @@
+<MetaData>
+  <SpawnClass Name="sc_TEST_EDRIC01">
+    <Spawn Type="Actor" ClassName="Justicar_01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Edric">
+      <BossRank Id="5" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_EDRIC02">
+    <Spawn Type="Actor" ClassName="Justicar_02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Edric">
+      <BossRank Id="5" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_EDRIC03">
+    <Spawn Type="Actor" ClassName="Justicar_03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Edric">
+      <BossRank Id="5" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_VALERIAINTRO">
+    <Spawn Type="Actor" ClassName="Republic_Valeria_Intro" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Valeria" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_LAMBACH01">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Lambach01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_UBERLAMBACH01">
+    <Spawn Type="Actor" ClassName="Uber_Lambach01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_LAMBACH02">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Lambach02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_HEIMLOCK01">
+    <Spawn Type="Actor" ClassName="Heimlock_01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Heimlock" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_HEIMLOCK02">
+    <Spawn Type="Actor" ClassName="Heimlock_02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Heimlock" />
+  </SpawnClass>
+  <SpawnClass Name="sc_TEST_HEIMLOCK03">
+    <Spawn Type="Actor" ClassName="Heimlock_03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Heimlock" />
+  </SpawnClass>
+</MetaData>

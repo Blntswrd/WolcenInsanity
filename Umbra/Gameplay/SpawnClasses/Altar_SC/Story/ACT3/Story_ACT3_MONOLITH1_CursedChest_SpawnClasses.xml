@@ -1,0 +1,31 @@
+<MetaData>
+  <SpawnClass Name="sc_Sty_ACT3_Monolith1_CommonCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Fanatic" NumberMin="6" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT3_Monolith1_UncommonCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LostSoul" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="2" NumberMax="2" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT3_Monolith1_RareCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LostSoul" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="2" NumberMax="2" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT3_Monolith1_LegendaryCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LostSoul" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="2" NumberMax="2" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

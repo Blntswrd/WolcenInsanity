@@ -1,0 +1,63 @@
+<MetaData>
+  <BaseEntity ID="Republic_Valeria_Act2" EntityName="republic_valeria_act1" Scale="1" CanKillAllies="0" />
+  <Faction Name="PlayerFriendly" />
+  <Keywords Value="republic,boss,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="10" WalkSpeed="10" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="50.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <Support PresenceRadius="10.0" CombatRadius="20.0" TravelRadius="5.0" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_ACT1_Support_Valeria_DefaultAttack01" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_ACT2_Support_Valeria_Leap" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="5.0">
+        <Range Min="8" Preferred="12" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_ACT2_Support_Valeria_DualStrike" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_ACT2_Support_Valeria_WarCry" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/npc/Primary/Valeria/NPC_Valeria_Swdswd.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/NPC/NPC_Valeria_SwdSwd.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_Valeria_CharacterNameLabel" ZIconOffset="2.2" />
+  <Spawn SpawnAnimation="" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" CanUseDownState="1" CanSelfRevive="1" SpendReviveTokensIfSelfRevive="0" DownStateDuration="20" DownStateReviveDuration="20" DownSkill="" LifeWhileDownAsPercentOfTotalLife="0" DefaultReviveTokens="1" MaximumReviveTokens="1" />
+  <GameplayParticles PresetName="size_Trapper" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.5" />
+    <MouseSelection SelectionCapsuleRadius="0.6" SelectionCapsuleHeight="1" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.6" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="Valeria_voice" SurfaceType="armour">
+    <ContextualSoundTrigger PresetName="Preset_ValeriaWaitsToBeRevived" />
+    <ContextualSoundTrigger PresetName="Preset_ValeriaIsGettingRevived" />
+  </Audio>
+</MetaData>

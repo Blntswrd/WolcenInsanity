@@ -1,0 +1,102 @@
+<MetaData>
+  <SpawnClass Name="Sc_EG_KNT_OTWF_Trapper">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_OTWSB_KennelMaster">
+    <Spawn Type="Actor" ClassName="OutlawsKennelMasterShadow" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_OTWSBW_Shaman">
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COST_Priest">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Priest" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COSS_Halfbreed">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COSD_Tomberear">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COSU_Spiker">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COW_Reaper">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFLW_Spreader">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Spreader" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFLVR_Sniper">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Sniper" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFMSR_Colossalbreader">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_ColossalBreeder" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFLVT_Cultist">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Cultist" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_REPU_SiegeBeast">
+    <Spawn Type="Actor" ClassName="RepublicSiegebeast" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFUT_Enforcer">
+    <Spawn Type="Actor" ClassName="CultOfFury_Enforcer" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_COFUR_Veteran">
+    <Spawn Type="Actor" ClassName="PacifiedVeteran" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_SVRIP_Spitter">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpitter" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_SVRIW_Spawner">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpawner" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_SVRIF_Spitter">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter_Fire" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_SVRIFW_Screecher">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher_Fire" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_EG_KNT_CALL_Cultist">
+    <Spawn Type="Actor" ClassName="CultOfFury_Cultist" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

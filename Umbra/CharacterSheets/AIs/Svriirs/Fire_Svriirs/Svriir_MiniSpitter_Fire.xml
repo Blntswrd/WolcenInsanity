@@ -1,0 +1,93 @@
+<MetaData>
+  <BaseEntity ID="SvriirMiniSpitter_Fire" EntityName="svriir_minispitter" Scale="0.3" CanKillAllies="0" />
+  <Faction Name="Svriirs" />
+  <Keywords Value="svri,trash,melee,physical,weak" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.6" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.6" DamageModifier="0.6" XPModifier="0.6" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Swarm" />
+    <Perception>
+      <Proximity />
+    </Perception>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Damage WarnThreshold="0.5" DecayRate="" LowHealth="0.25" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_SvriirMiniSpitter_DefaultAttack_range_fire" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="3.5" Preferred="6.0" Max="10.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_SvriirMiniSpitter_DefaultAttack_range_fire" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="4.5" Preferred="6.0" Max="10.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </Approach>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Reptile/Spitter/SVRI_MiniSpitter_Fire/SVRI_MiniSpitter_Fire.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Reptile/Spitter/SVRI_MiniSpitterFire.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Svriirs_Minispitter_Fire" ZIconOffset="1.8" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1.0" DeathSkill="" />
+  <GameplayParticles PresetName="size_Omegababy" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.0,1.0,0.5" IsPushable="0" RagdollMass="175" />
+    <MouseSelection SelectionCapsuleRadius="3.0" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="2.2" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Svriir_Baby_voice" AllowGroupSounds="1" />
+</MetaData>

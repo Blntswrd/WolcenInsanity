@@ -1,0 +1,191 @@
+<MetaData>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_MiniSpecterAether">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_MiniSpecterShadow">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_shadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_LostSoul">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LostSoul" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_MiniHalfBreedPhysical">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_physical" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_MiniHalfBreedShadow">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_PrimordialArmor">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialArmor" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_Cultist">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Cultist" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_HalfBreed">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_Specter">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_CorruptedPrimordialGuardian">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialGuardian" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSDamned_DemonOfSouls">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_DeathCloak">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DeathCloak" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_MiniLanternBearer">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniLanternBearer" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_Zombie">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_ZombieFrost">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_ZombieSoldier">
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_LanternBearer">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_LanternBearerAOE">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer_aoe" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_UndeadSpiker">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_UndeadSpikerFrost">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_COSUndead_Butcher">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_SvriirOmega">
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_SvriirOmegaBaby">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_MiniSpitter">
+    <Spawn Type="Actor" ClassName="SvriirMiniSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_SvriirOmega">
+    <Spawn Type="Actor" ClassName="SvriirCaveOmega" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_SvriirOmegaBaby">
+    <Spawn Type="Actor" ClassName="SvriirCaveOmegaBaby" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_MiniSpitter">
+    <Spawn Type="Actor" ClassName="SvriirCaveMiniSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_SvriirOmega">
+    <Spawn Type="Actor" ClassName="SvriirSeaOmega" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_SvriirOmegaBaby">
+    <Spawn Type="Actor" ClassName="SvriirSeaOmegaBaby" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_MiniSpitter">
+    <Spawn Type="Actor" ClassName="SvriirSeaMiniSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Svriir_Morgon">
+    <Spawn Type="Actor" ClassName="SvriirMorgon" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Svriir_RendMorgon">
+    <Spawn Type="Actor" ClassName="SvriirMorgon_rend" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Svriir_ToxicMorgon">
+    <Spawn Type="Actor" ClassName="SvriirMorgon_toxic" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_OmegaFemale">
+    <Spawn Type="Actor" ClassName="SvriirSeaOmegaFemale" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_OmegaFemale">
+    <Spawn Type="Actor" ClassName="SvriirCaveOmegaFemale" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_OmegaFemale">
+    <Spawn Type="Actor" ClassName="SvriirOmegaFemale" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_BetaScreecher">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_BetaSpawner">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_BetaSpitter">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_BetaScreecher">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaScreecher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_BetaSpawner">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpawner" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveSvriir_BetaSpitter">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_BetaSpitter">
+    <Spawn Type="Actor" ClassName="SvriirSeaBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_BetaSpawner">
+    <Spawn Type="Actor" ClassName="SvriirSeaBetaSpawner" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_SeaSvriir_BetaScreecher">
+    <Spawn Type="Actor" ClassName="SvriirSeaBetaScreecher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Svriir_Alpha">
+    <Spawn Type="Actor" ClassName="SvriirAlpha" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_LandSvriir_Alpha">
+    <Spawn Type="Actor" ClassName="SvriirAlphaPoison" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_CaveASvriir_Alpha">
+    <Spawn Type="Actor" ClassName="SvriirCaveAlphaPoison" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Melee1">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Melee2">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Melee3">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Worg1">
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Worg2">
+    <Spawn Type="Actor" ClassName="OutlawsWorg02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_WorgAlpha">
+    <Spawn Type="Actor" ClassName="OutlawsWorgAlpha" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Trapper">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_TrapperStun">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper_flashbang" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_KennelMaster">
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_Brute">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Outlaw_SadisticThug">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Wildlife_SmallSpider">
+    <Spawn Type="Actor" ClassName="WildSpiderMeleeSmall" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Wildlife_MeleeSpider">
+    <Spawn Type="Actor" ClassName="WildSpiderMelee" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Wildlife_RangeSpider">
+    <Spawn Type="Actor" ClassName="WildSpiderRanged" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_AdventureMode_Wildlife_Bear">
+    <Spawn Type="Actor" ClassName="WildBear" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

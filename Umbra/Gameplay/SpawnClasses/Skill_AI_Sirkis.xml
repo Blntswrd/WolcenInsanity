@@ -1,0 +1,8 @@
+<MetaData>
+  <SpawnClass Name="sc_SirkisRoar_spitters">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpitter" NumberMin="3" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_SirkisRoar_omegas">
+    <Spawn Type="Actor" ClassName="SvriirCaveOmega" NumberMin="12" NumberMax="12" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="3" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

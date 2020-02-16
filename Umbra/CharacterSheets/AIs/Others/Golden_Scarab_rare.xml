@@ -1,0 +1,56 @@
+<MetaData>
+  <BaseEntity ID="Golden_Scarab_rare" EntityName="wild_scarab" Scale="0.5" CanKillAllies="0" />
+  <Faction Name="Boss_Event" />
+  <Keywords Value="Special,golden_scarab" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="2" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="10" WalkSpeed="10" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="150" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="50" StunDuration="5" AlwaysImmune="1" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Scarab_Rare" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Goblin" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" />
+  <Kythera>
+    <Behavior Name="OnlyFlee" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_GoldenScarab_Buff" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="5" Preferred="7" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01" ParticleName="U_Monster_Alt.golden_scarab.permanent_rare" Offset="0,-.25,0" Dir="0,1,0" Scale="2.2" FadeOut="1" IgnoreRotation="0" />
+  </BoneParticles>
+  <RandomModel>
+    <ModelChoice Model="objects/characters/mobs/arthropode/scarab/GOLDEN_Scarab/Golden_Scarab.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Arthropode/GOLDEN_Scarab.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_GoldenScarab_Rare" ZIconOffset="0.6" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Halfbreed" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="0.1" SelectionCapsuleZOffset="-0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="scarab_gold" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="" />
+</MetaData>

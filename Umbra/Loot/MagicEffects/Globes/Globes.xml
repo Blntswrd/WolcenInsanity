@@ -1,0 +1,23 @@
+<MetaData>
+  <Affix AffixId="globe_health" Class="health" AffixType="default">
+    <MagicEffect EffectId="health_regen_percent">
+      <LoRoll ResourcePercentFloat="45" />
+      <HiRoll ResourcePercentFloat="450" />
+    </MagicEffect>
+    <PotionParams IsAffix="0" Permanent="0" EffectActiveTimeMin="1" EffectActiveTimeMax="2" />
+  </Affix>
+  <Affix AffixId="globe_power" Class="power" AffixType="default">
+    <MagicEffect EffectId="umbra_regen_percent">
+      <LoRoll ResourcePercentFloat="3" />
+      <HiRoll ResourcePercentFloat="30" />
+    </MagicEffect>
+    <PotionParams IsAffix="0" Permanent="0" EffectActiveTimeMin="1" EffectActiveTimeMax="2" />
+  </Affix>
+  <Affix AffixId="globe_rage" Class="rage" AffixType="default">
+    <MagicEffect EffectId="umbra_regen_percent">
+      <LoRoll ResourcePercentFloat="-3000" />
+      <HiRoll ResourcePercentFloat="-30000" />
+    </MagicEffect>
+    <PotionParams IsAffix="0" Permanent="0" EffectActiveTimeMin="5" EffectActiveTimeMax="5" />
+  </Affix>
+</MetaData>

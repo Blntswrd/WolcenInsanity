@@ -1,0 +1,26 @@
+<MetaData>
+  <SpawnClass Name="SC_SkillSummon_MeleeSmall">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeSmall" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeSmall_v01">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeSmall_v01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeSmall_v02">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeSmall_v02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeSmall_v03">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeSmall_v03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeBig">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeBig" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeBig_v01">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeBig_v01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeBig_v02">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeBig_v02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="SC_SkillSummon_MeleeBig_v03">
+    <Spawn Type="Actor" ClassName="SkillSummon_MeleeBig_v03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

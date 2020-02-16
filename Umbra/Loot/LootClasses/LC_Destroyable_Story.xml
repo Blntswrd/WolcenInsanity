@@ -1,0 +1,18 @@
+<Metadata>
+  <LootClass Name="Destroyable_Story">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Magic="0" Normal="1" Rare="0" />
+    <NoDrop Value="50000" />
+    <Loot>
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Weapon_TBETA" Weight="150" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Armor_TBETA" Weight="150" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Accessories_TBETA" Weight="50" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Uniques_TBETA" Weight="1" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Potions_TBETA" Weight="50" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Gold_TBETA" Weight="50000" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Gems_TBETA" Weight="30" />
+      <LootClass MaxLevel="9999" MinLevel="1" Name="Chest_Enneracts_TBETA" Weight="10" />
+    </Loot>
+  </LootClass>
+</Metadata>

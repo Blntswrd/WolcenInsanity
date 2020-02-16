@@ -1,0 +1,107 @@
+<MetaData>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_1">
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_2">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_3">
+    <Spawn Type="Actor" ClassName="SvriirMorgon" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_4">
+    <Spawn Type="Actor" ClassName="SvriirMorgon_rend" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_5">
+    <Spawn Type="Actor" ClassName="SvriirMorgon_toxic" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_6">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="60" />
+      <BossRank Id="2" Frequency="40" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_7">
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="60" />
+      <BossRank Id="2" Frequency="40" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_8">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="60" />
+      <BossRank Id="2" Frequency="40" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_Svriir_9">
+    <Spawn Type="Actor" ClassName="SvriirAlphaPoison" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba=".15" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="60" />
+      <BossRank Id="2" Frequency="40" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

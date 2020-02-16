@@ -1,0 +1,60 @@
+<MetaData>
+  <BaseEntity ID="Monolith_Cultist_01" EntityName="cultoffurry_cultist" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="Boss_Event" />
+  <Keywords Value="range,fire,elite" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="5" DamageModifier="1.2" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <BreakBar MaxHealthPercent="50" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_BossModifier_FireHomingProjectile" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Ranged" />
+    <Perception>
+      <Proximity DayMaxDistance="17" NightMaxDistance="17" DetectionTime="0.01" />
+    </Perception>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COFY_Cultist_RangedAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="7" Preferred="10" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive>
+      <Skill Name="AI_COFY_Cultist_MultipleFireballs" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="7" Preferred="10" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Cultist/COFY_Cultist/COFY_Cultist_Prime.cdf" Weight="1" />
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Monolith_Cultist_1" ZIconOffset="3.8" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.25" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="0.8" SelectionCapsuleHeight="2" SelectionCapsuleZOffset="-0.2" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

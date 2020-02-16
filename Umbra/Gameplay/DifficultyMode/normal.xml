@@ -1,0 +1,7 @@
+<Difficulty>
+  <GeneralSettings UIName="@ui_DifficultyMode_Normal" IsDefault="1" AllowMatchmaking="1" AvailableInGameModes="Campaign,Adventure" />
+  <GlobalMultiplier DamageMultiplier="1" HPMultiplier="1" XPMultiplier="1" ItemQuantityMultiplier="50" ItemRarityMultiplier="1" />
+  <ArchetypeSpecificMultipliers>
+    <Multiplier Archetype="archetype_trash" DamageMultiplier="1.0" HPMultiplier="1.0" XPMultiplier="1.0" ItemQuantityMultiplier="50.0" ItemRarityMultiplier="1.0" />
+  </ArchetypeSpecificMultipliers>
+</Difficulty>

@@ -1,0 +1,59 @@
+<MetaData>
+  <BaseEntity ID="Summon_Plagueburst" EntityName="wild_rat" Scale="1" CanKillAllies="0" />
+  <Faction Name="Players" />
+  <Keywords Value="melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.5" />
+  <Attributes Archetype="archetype_summons" HealthModifier="0.2" DamageModifier="0.5" XPModifier="0.5" Protection="" AttackSpeedModifier="2" />
+  <Movement MovementSpeed="8" WalkSpeed="8" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="0" />
+  <Kythera>
+    <Behavior Name="Warrior">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="50.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <Support PresenceRadius="10.0" CombatRadius="20.0" TravelRadius="5.0" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_Summon_Rat_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive />
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="objects/characters/mobs/Non_Humanoid/Rat/WILD_Rat/WILD_rat_02.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Non_Humanoid/Rat/WILD_rat.adb" Weight="1" />
+    </ModelChoice>
+    <ModelChoice Model="objects/characters/mobs/Non_Humanoid/Rat/WILD_Rat/WILD_rat.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Non_Humanoid/Rat/WILD_rat.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Wild_rat" ZIconOffset="1" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Deathcloak" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="0.8" SelectionCapsuleHeight="0.2" SelectionCapsuleZOffset="-1" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="" />
+</MetaData>

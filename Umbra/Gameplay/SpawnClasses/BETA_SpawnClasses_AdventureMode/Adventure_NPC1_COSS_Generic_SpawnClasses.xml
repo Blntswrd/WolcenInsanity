@@ -1,0 +1,433 @@
+<MetaData>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DeathCloak" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialArmor" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_5">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_6">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_shadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_7">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_8">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniLanternBearer" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_9">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_physical" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_10">
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_11">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer_aoe" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" BossProba=".1">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_12">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_13">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_14">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_15">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_16">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_17">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".15" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_18">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialGuardian" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".15" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC1_COSS_19">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" BossProba=".15" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="6" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="6" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest5">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest6">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest7">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialGuardian" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_Quest8">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_TutoQuest1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_FrostImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_MultipleProjectiles" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_TutoQuest2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+      <ChoiceBossModifiers Id="BossModifier_Fast" />
+      <ChoiceBossModifiers Id="BossModifier_Tough" />
+      <ChoiceBossModifiers Id="BossModifier_Unstoppable" />
+      <ChoiceBossModifiers Id="BossModifier_FireImbued" />
+      <ChoiceBossModifiers Id="BossModifier_LightningImbued" />
+      <ChoiceBossModifiers Id="BossModifier_PhysicalImbued" />
+      <ChoiceBossModifiers Id="BossModifier_RendImbued" />
+      <ChoiceBossModifiers Id="BossModifier_SacredImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ShadowImbued" />
+      <ChoiceBossModifiers Id="BossModifier_ToxicImbued" />
+      <ChoiceBossModifiers Id="BossModifier_AetherImbued" />
+      <ChoiceBossModifiers Id="BossModifier_Regeneration" />
+      <ChoiceBossModifiers Id="BossModifier_Powerful" />
+      <ChoiceBossModifiers Id="BossModifier_ElementalShield" />
+      <ChoiceBossModifiers Id="BossModifier_MaterialShield" />
+      <ChoiceBossModifiers Id="BossModifier_OccultShield" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_COSS_TutoQuest3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="5" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

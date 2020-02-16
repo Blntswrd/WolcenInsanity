@@ -1,0 +1,42 @@
+<MetaData>
+  <BaseEntity ID="CultOfFlesh_FleshForest_Heart" EntityName="cultofflesh_heart" Scale="2.1" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="cofe,undead,elite,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" Movable="0" Hookable="0" />
+  <Movement MovementSpeed="0" WalkSpeed="0" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_cultofflesh_fleshheart_drop" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="0" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Motionless" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills />
+  <HUD UIName="@ui_AIName_Cofe_Heart" ZIconOffset="5" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" CannotBeOverkilled="1" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.5,1.5,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="1" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="flesh" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" />
+</MetaData>

@@ -1,0 +1,41 @@
+<MetaData>
+  <SpawnClass Name="Sc_CG_CBF_EdricP1">
+    <Spawn Type="Actor" ClassName="Justicar_01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_CBF_EdricP2">
+    <Spawn Type="Actor" ClassName="Justicar_02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_CBF_EdricP3">
+    <Spawn Type="Actor" ClassName="Justicar_03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_CBF_HeimlockP1">
+    <Spawn Type="Actor" ClassName="Heimlock_01" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_CBF_HeimlockP2">
+    <Spawn Type="Actor" ClassName="Heimlock_02" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_CBF_HeimlockP3">
+    <Spawn Type="Actor" ClassName="Heimlock_03" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="4" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_UB_LambachP1">
+    <Spawn Type="Actor" ClassName="Uber_Lambach01" NumberMin="1" NumberMax="1" LevelMin="80" LevelMax="80" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_UB_LambachP1_100">
+    <Spawn Type="Actor" ClassName="Uber_Lambach01" NumberMin="1" NumberMax="1" LevelMin="100" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_UB_LambachP1_120">
+    <Spawn Type="Actor" ClassName="Uber_Lambach01" NumberMin="1" NumberMax="1" LevelMin="120" LevelMax="120" LevelOffset="0" Center="0" SpawnOverTime="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Lambach" />
+  </SpawnClass>
+</MetaData>

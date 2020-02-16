@@ -1,0 +1,68 @@
+<MetaData>
+  <BaseEntity ID="Janaris_Cultist" EntityName="cultofsouls_cultist" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,undead,elite,range,summoner" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueOverride="" />
+  <Attributes Archetype="archetype_elite" HealthModifier="3" DamageModifier="1.5" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5.5" WalkSpeed="5.5" />
+  <InterruptionParams InterruptChance="0.05" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <BreakBar MaxHealthPercent="25" CCEffectiveness="10" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <DefaultBossModifiers>
+    <BossModifier Name="AI_cultofsouls_cultist_resurect" />
+    <BossModifier Name="AI_BossModifier_MovingIce_DZ" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Elite" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCorpsePreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Ranged" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="False" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_CultOfSouls_Cultist_DefaultAttack_Ranged" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="3">
+        <Range Min="0.0" Preferred="8.0" Max="15.0" MinWeight="0.0" PreferredWeight="0.5" MaxWeight="1.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+      <Skill Name="AI_cultofsouls_cultist_summonundead" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="100.0">
+        <Range Min="0.0" Preferred="10" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_cultofsouls_cultist_summonundead" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="0.0" Preferred="10" Max="20" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Approach>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Cultist/COSS_Cultist/COSS_Cultist_02.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Cultist/COSS_Cultist.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Janaris" ZIconOffset="3" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.25" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="1.05" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="" />
+</MetaData>

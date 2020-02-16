@@ -1,0 +1,2260 @@
+<Metadata>
+  <LootClass Name="UncommonConsumableQuest">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="UncommonConsumable_Every1H" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Every2H" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_ChestArmor" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Glove" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Pants" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Boots" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Helmet" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Pauldron" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="UncommonConsumable_Accessories" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <LootClass Name="UncommonConsumable_Belt" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="UncommonConsumable_Ring" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="UncommonConsumable_Amulet" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="UncommonConsumable_Gems" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="UncommonConsumable_Reagent" MinLevel="5" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Every1H">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Sword_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Sword_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Sword_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Sword_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Sword_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Sword_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Sword_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Sword_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Sword_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Sword_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Sword_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Sword_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Sword_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Sword_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Sword_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Sword_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Axe_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Axe_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Axe_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Axe_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Axe_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Axe_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Axe_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Axe_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Axe_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Axe_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Axe_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Axe_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Axe_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Axe_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Axe_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Axe_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1h_Shield_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1h_Shield_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1h_Shield_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1h_Shield_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1h_Shield_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1h_Shield_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1h_Shield_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1h_Shield_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1h_Shield_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1h_Shield_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1h_Shield_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1h_Shield_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1h_Shield_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1h_Shield_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1h_Shield_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1h_Shield_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Dagger_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Dagger_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Dagger_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Dagger_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Dagger_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Dagger_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Dagger_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Dagger_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Dagger_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Dagger_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Dagger_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Dagger_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Dagger_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Dagger_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Dagger_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Dagger_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Hammer_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Hammer_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Hammer_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Hammer_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Hammer_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Hammer_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Hammer_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Hammer_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Hammer_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Hammer_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Hammer_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Hammer_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Hammer_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Hammer_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Hammer_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Hammer_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_OffHand_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_OffHand_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_OffHand_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_OffHand_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_OffHand_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_OffHand_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_OffHand_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_OffHand_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_OffHand_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_OffHand_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_OffHand_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_OffHand_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_OffHand_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_OffHand_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_OffHand_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_OffHand_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1h_pistol_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1h_pistol_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1h_pistol_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1h_pistol_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1h_pistol_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1h_pistol_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1h_pistol_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1h_pistol_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1h_pistol_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1h_pistol_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1h_pistol_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1h_pistol_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1h_pistol_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1h_pistol_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1h_pistol_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1h_pistol_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Every2H">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Bow_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Bow_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Bow_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Bow_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Bow_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Bow_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Bow_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Bow_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Bow_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Bow_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Bow_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Bow_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Bow_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Bow_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Bow_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Bow_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Staff_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Staff_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Staff_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Staff_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Staff_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Staff_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Staff_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Staff_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Staff_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Staff_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Staff_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Staff_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Staff_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Staff_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Staff_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Staff_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Sword_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Sword_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Sword_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Sword_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Sword_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Sword_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Sword_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Sword_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Sword_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Sword_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Sword_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Sword_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Sword_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Sword_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Sword_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Sword_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Axe_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Axe_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Axe_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Axe_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Axe_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Axe_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Axe_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Axe_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Axe_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Axe_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Axe_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Axe_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Axe_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Axe_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Axe_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Axe_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Hammer_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Hammer_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Hammer_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Hammer_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Hammer_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Hammer_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Hammer_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Hammer_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Hammer_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Hammer_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Hammer_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Hammer_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Hammer_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Hammer_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Hammer_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Hammer_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_ChestArmor">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="Mage_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Warrior_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Heavy_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Rogue_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Glove">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="Mage_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Warrior_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Heavy_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Rogue_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Pants">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="2" Name="Mage_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Warrior_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Heavy_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Rogue_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Boots">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="2" Name="Mage_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Warrior_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Heavy_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Rogue_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Helmet">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="3" Name="Mage_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Warrior_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Heavy_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Rogue_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Pauldron">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="3" Name="Mage_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Warrior_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Heavy_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Rogue_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Accessories">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Alchemist_Sash" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Heavy_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Assassin_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Gladiator_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Templar_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Topaz_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Aquamarine_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Sapphire_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Emerald_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Ruby_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Bloodstar_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Steel_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Amethyst_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Ruby_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Goldstone_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Emerald_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Omnistar_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Alchemist_Sash_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Heavy_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Assassin_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Gladiator_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Templar_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Topaz_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Aquamarine_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Sapphire_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Bloodstar_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Steel_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Amethyst_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Goldstone_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Omnistar_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Alchemist_Sash_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Heavy_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Assassin_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Gladiator_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Templar_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Topaz_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Aquamarine_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Sapphire_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Bloodstar_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Steel_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Amethyst_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Goldstone_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Omnistar_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Alchemist_Sash_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Heavy_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Assassin_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Gladiator_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Templar_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Topaz_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Aquamarine_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Sapphire_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Bloodstar_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Steel_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Amethyst_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Goldstone_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Omnistar_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Alchemist_Sash_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Heavy_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Assassin_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Gladiator_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Templar_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Topaz_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Aquamarine_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Sapphire_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Bloodstar_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Steel_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Amethyst_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Goldstone_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Omnistar_Amulet_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Belt">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Alchemist_Sash" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Heavy_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Assassin_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Gladiator_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Templar_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Alchemist_Sash_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Heavy_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Assassin_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Gladiator_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Templar_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Alchemist_Sash_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Heavy_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Assassin_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Gladiator_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Templar_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Alchemist_Sash_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Heavy_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Assassin_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Gladiator_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Templar_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Alchemist_Sash_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Heavy_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Assassin_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Gladiator_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Templar_Waistband_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Ring">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Topaz_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Aquamarine_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Sapphire_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Emerald_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Ruby_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Bloodstar_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Steel_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Topaz_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Aquamarine_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Sapphire_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Bloodstar_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Steel_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Topaz_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Aquamarine_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Sapphire_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Bloodstar_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Steel_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Topaz_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Aquamarine_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Sapphire_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Bloodstar_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Steel_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Topaz_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Aquamarine_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Sapphire_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Bloodstar_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Steel_Ring_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Amulet">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="200" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="8" Name="Amethyst_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Ruby_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Goldstone_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Emerald_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Omnistar_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Amethyst_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Goldstone_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Omnistar_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Amethyst_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Goldstone_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Omnistar_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Amethyst_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Goldstone_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Omnistar_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Amethyst_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Goldstone_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Omnistar_Amulet_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Gems">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="0" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="14" MinLevel="7" Name="Fire_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Fire_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Fire_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Fire_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Fire_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Fire_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Fire_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Fire_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Fire_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Fire_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Fire_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Fire_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Lightning_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Lightning_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Lightning_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Lightning_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Lightning_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Lightning_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Lightning_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Lightning_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Lightning_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Lightning_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Lightning_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Lightning_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Frost_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Frost_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Frost_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Frost_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Frost_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Frost_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Frost_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Frost_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Frost_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Frost_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Frost_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Frost_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Umbra_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Umbra_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Umbra_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Umbra_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Umbra_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Umbra_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Umbra_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Umbra_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Umbra_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Umbra_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Umbra_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Umbra_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="sacred_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="sacred_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="sacred_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="sacred_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="sacred_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="sacred_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="sacred_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="sacred_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="sacred_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="sacred_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="sacred_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="sacred_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="shadow_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="shadow_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="shadow_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="shadow_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="shadow_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="shadow_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="shadow_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="shadow_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="shadow_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="shadow_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="shadow_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="shadow_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="physical_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="physical_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="physical_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="physical_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="physical_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="physical_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="physical_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="physical_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="physical_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="physical_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="physical_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="physical_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Poison_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Poison_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Poison_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Poison_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Poison_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Poison_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Poison_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Poison_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Poison_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Poison_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Poison_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Poison_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="rend_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="rend_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="rend_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="rend_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="rend_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="rend_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="rend_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="rend_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="rend_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="rend_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="rend_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="rend_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Utility_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Utility_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Utility_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Utility_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Utility_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Utility_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Utility_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Utility_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Utility_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Utility_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Utility_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Utility_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Toughness_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Toughness_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Toughness_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Toughness_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Toughness_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Toughness_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Toughness_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Toughness_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Toughness_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Toughness_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Toughness_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Toughness_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="41" Name="Special_gem" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="UncommonConsumable_Reagent">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="5" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="15" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="20" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="9999" Normal="1" Magic="0" Rare="0" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumableQuest">
+    <Pick Value="1" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="0" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="RareConsumable_Every1H" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Every2H" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_ChestArmor" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Glove" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Pants" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Boots" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Helmet" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Pauldron" MinLevel="1" MaxLevel="9999" Weight="100" />
+      <LootClass Name="RareConsumable_Accessories" MinLevel="1" MaxLevel="9999" Weight="10" />
+      <LootClass Name="RareConsumable_Belt" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="RareConsumable_Ring" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="RareConsumable_Amulet" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="RareConsumable_Gems" MinLevel="10" MaxLevel="9999" Weight="10" />
+      <LootClass Name="RareConsumable_Reagent" MinLevel="5" MaxLevel="9999" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Every1H">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Sword_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Sword_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Sword_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Sword_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Sword_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Sword_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Sword_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Sword_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Sword_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Sword_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Sword_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Sword_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Sword_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Sword_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Sword_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Sword_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Axe_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Axe_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Axe_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Axe_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Axe_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Axe_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Axe_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Axe_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Axe_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Axe_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Axe_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Axe_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Axe_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Axe_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Axe_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Axe_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1h_Shield_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1h_Shield_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1h_Shield_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1h_Shield_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1h_Shield_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1h_Shield_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1h_Shield_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1h_Shield_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1h_Shield_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1h_Shield_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1h_Shield_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1h_Shield_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1h_Shield_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1h_Shield_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1h_Shield_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1h_Shield_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Dagger_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Dagger_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Dagger_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Dagger_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Dagger_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Dagger_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Dagger_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Dagger_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Dagger_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Dagger_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Dagger_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Dagger_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Dagger_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Dagger_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Dagger_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Dagger_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_Hammer_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_Hammer_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_Hammer_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_Hammer_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_Hammer_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_Hammer_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_Hammer_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_Hammer_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_Hammer_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_Hammer_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_Hammer_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_Hammer_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_Hammer_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_Hammer_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_Hammer_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_Hammer_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1H_OffHand_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1H_OffHand_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1H_OffHand_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1H_OffHand_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1H_OffHand_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1H_OffHand_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1H_OffHand_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1H_OffHand_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1H_OffHand_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1H_OffHand_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1H_OffHand_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1H_OffHand_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1H_OffHand_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1H_OffHand_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1H_OffHand_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1H_OffHand_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="1h_pistol_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="1h_pistol_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="1h_pistol_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="1h_pistol_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="1h_pistol_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="1h_pistol_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="1h_pistol_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="1h_pistol_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="1h_pistol_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="1h_pistol_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="1h_pistol_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="1h_pistol_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="1h_pistol_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="1h_pistol_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="1h_pistol_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="1h_pistol_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Every2H">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Bow_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Bow_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Bow_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Bow_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Bow_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Bow_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Bow_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Bow_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Bow_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Bow_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Bow_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Bow_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Bow_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Bow_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Bow_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Bow_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Staff_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Staff_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Staff_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Staff_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Staff_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Staff_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Staff_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Staff_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Staff_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Staff_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Staff_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Staff_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Staff_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Staff_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Staff_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Staff_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Sword_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Sword_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Sword_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Sword_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Sword_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Sword_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Sword_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Sword_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Sword_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Sword_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Sword_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Sword_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Sword_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Sword_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Sword_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Sword_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Axe_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Axe_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Axe_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Axe_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Axe_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Axe_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Axe_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Axe_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Axe_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Axe_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Axe_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Axe_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Axe_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Axe_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Axe_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Axe_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="2H_Hammer_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="2H_Hammer_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="2H_Hammer_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="2H_Hammer_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="2H_Hammer_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="2H_Hammer_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="2H_Hammer_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="2H_Hammer_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="2H_Hammer_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="2H_Hammer_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="2H_Hammer_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="2H_Hammer_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="2H_Hammer_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="2H_Hammer_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="2H_Hammer_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="2H_Hammer_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_ChestArmor">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="Mage_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Warrior_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Heavy_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Rogue_ChestArmor_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_ChestArmor_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_ChestArmor_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_ChestArmor_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_ChestArmor_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_ChestArmor_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_ChestArmor_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_ChestArmor_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_ChestArmor_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_ChestArmor_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_ChestArmor_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_ChestArmor_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_ChestArmor_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_ChestArmor_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_ChestArmor_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_ChestArmor_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Glove">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="1" Name="Mage_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Warrior_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Heavy_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="1" Name="Rogue_Glove_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Glove_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Glove_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Glove_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Glove_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Glove_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Glove_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Glove_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Glove_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Glove_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Glove_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Glove_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Glove_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Glove_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Glove_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Glove_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Pants">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="2" Name="Mage_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Warrior_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Heavy_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Rogue_Pants_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Pants_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Pants_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Pants_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Pants_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Pants_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Pants_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Pants_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Pants_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Pants_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Pants_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Pants_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Pants_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Pants_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Pants_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Pants_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Boots">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="2" Name="Mage_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Warrior_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Heavy_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="2" Name="Rogue_Boots_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Boots_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Boots_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Boots_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Boots_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Boots_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Boots_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Boots_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Boots_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Boots_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Boots_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Boots_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Boots_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Boots_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Boots_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Boots_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Helmet">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="3" Name="Mage_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Warrior_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Heavy_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Rogue_Helmet_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Helmet_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Helmet_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Helmet_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Helmet_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Helmet_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Helmet_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Helmet_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Helmet_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Helmet_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Helmet_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Helmet_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Helmet_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Helmet_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Helmet_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Helmet_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Pauldron">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="4" MinLevel="3" Name="Mage_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Mage_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Mage_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Mage_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Mage_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Mage_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Mage_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Mage_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Mage_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Mage_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Mage_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Mage_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Mage_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Mage_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Mage_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Mage_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Warrior_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Warrior_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Warrior_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Warrior_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Warrior_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Warrior_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Warrior_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Warrior_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Warrior_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Warrior_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Warrior_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Warrior_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Warrior_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Warrior_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Warrior_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Warrior_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Heavy_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Heavy_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Heavy_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Heavy_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Heavy_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Heavy_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Heavy_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Heavy_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Heavy_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Heavy_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Heavy_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Heavy_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Heavy_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Heavy_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Heavy_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Heavy_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="4" MinLevel="3" Name="Rogue_Pauldron_Tier1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="8" MinLevel="5" Name="Rogue_Pauldron_Tier2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="12" MinLevel="9" Name="Rogue_Pauldron_Tier3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="16" MinLevel="13" Name="Rogue_Pauldron_Tier4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="17" Name="Rogue_Pauldron_Tier5" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="24" MinLevel="21" Name="Rogue_Pauldron_Tier6" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="28" MinLevel="25" Name="Rogue_Pauldron_Tier7" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="32" MinLevel="29" Name="Rogue_Pauldron_Tier8" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="36" MinLevel="33" Name="Rogue_Pauldron_Tier9" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="37" Name="Rogue_Pauldron_Tier10" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="45" MinLevel="41" Name="Rogue_Pauldron_Tier11" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="51" MinLevel="46" Name="Rogue_Pauldron_Tier12" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="57" MinLevel="52" Name="Rogue_Pauldron_Tier13" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="63" MinLevel="58" Name="Rogue_Pauldron_Tier14" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="69" MinLevel="64" Name="Rogue_Pauldron_Tier15" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="70" Name="Rogue_Pauldron_Tier16" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Accessories">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Alchemist_Sash" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Heavy_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Assassin_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Gladiator_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Templar_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Topaz_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Aquamarine_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Sapphire_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Emerald_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Ruby_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Bloodstar_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Steel_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Amethyst_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Ruby_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Goldstone_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Emerald_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Omnistar_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Alchemist_Sash_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Heavy_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Assassin_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Gladiator_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Templar_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Topaz_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Aquamarine_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Sapphire_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Bloodstar_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Steel_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Amethyst_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Goldstone_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Omnistar_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Alchemist_Sash_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Heavy_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Assassin_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Gladiator_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Templar_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Topaz_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Aquamarine_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Sapphire_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Bloodstar_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Steel_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Amethyst_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Goldstone_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Omnistar_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Alchemist_Sash_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Heavy_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Assassin_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Gladiator_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Templar_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Topaz_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Aquamarine_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Sapphire_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Bloodstar_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Steel_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Amethyst_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Goldstone_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Omnistar_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Alchemist_Sash_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Heavy_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Assassin_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Gladiator_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Templar_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Topaz_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Aquamarine_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Sapphire_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Bloodstar_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Steel_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Amethyst_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Goldstone_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Omnistar_Amulet_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Belt">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Alchemist_Sash" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Heavy_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Assassin_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Gladiator_Belt" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="6" Name="Templar_Waistband" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Alchemist_Sash_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Heavy_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Assassin_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Gladiator_Belt_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Templar_Waistband_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Alchemist_Sash_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Heavy_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Assassin_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Gladiator_Belt_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Templar_Waistband_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Alchemist_Sash_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Heavy_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Assassin_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Gladiator_Belt_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Templar_Waistband_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Alchemist_Sash_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Heavy_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Assassin_Waistband_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Gladiator_Belt_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Templar_Waistband_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Ring">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="6" Name="Topaz_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Aquamarine_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Sapphire_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Emerald_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Ruby_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Bloodstar_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="7" Name="Steel_Ring" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Topaz_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Aquamarine_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Sapphire_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Bloodstar_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Steel_Ring_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Topaz_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Aquamarine_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Sapphire_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Bloodstar_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Steel_Ring_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Topaz_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Aquamarine_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Sapphire_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Bloodstar_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Steel_Ring_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Topaz_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Aquamarine_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Sapphire_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Bloodstar_Ring_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Steel_Ring_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Amulet">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="1" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="1" Rare="0" Legendary="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="200" Rare="200" Legendary="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="200" Rare="499" Legendary="1" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="2495" Legendary="500" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="20" MinLevel="8" Name="Amethyst_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Ruby_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Goldstone_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Emerald_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="20" MinLevel="8" Name="Omnistar_Amulet" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Amethyst_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Ruby_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Goldstone_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Emerald_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="40" MinLevel="21" Name="Omnistar_Amulet_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Amethyst_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Ruby_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Goldstone_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Emerald_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="50" MinLevel="41" Name="Omnistar_Amulet_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Amethyst_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Ruby_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Goldstone_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Emerald_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="60" MinLevel="51" Name="Omnistar_Amulet_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Amethyst_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Ruby_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Goldstone_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Emerald_Amulet_4" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="61" Name="Omnistar_Amulet_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Gems">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="0" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="14" MinLevel="7" Name="Fire_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Fire_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Fire_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Fire_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Fire_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Fire_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Fire_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Fire_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Fire_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Fire_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Fire_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Fire_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Lightning_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Lightning_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Lightning_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Lightning_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Lightning_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Lightning_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Lightning_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Lightning_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Lightning_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Lightning_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Lightning_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Lightning_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Frost_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Frost_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Frost_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Frost_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Frost_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Frost_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Frost_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Frost_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Frost_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Frost_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Frost_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Frost_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Umbra_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Umbra_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Umbra_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Umbra_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Umbra_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Umbra_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Umbra_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Umbra_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Umbra_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Umbra_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Umbra_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Umbra_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="sacred_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="sacred_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="sacred_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="sacred_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="sacred_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="sacred_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="sacred_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="sacred_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="sacred_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="sacred_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="sacred_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="sacred_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="shadow_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="shadow_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="shadow_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="shadow_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="shadow_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="shadow_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="shadow_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="shadow_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="shadow_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="shadow_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="shadow_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="shadow_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="physical_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="physical_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="physical_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="physical_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="physical_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="physical_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="physical_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="physical_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="physical_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="physical_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="physical_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="physical_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Poison_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Poison_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Poison_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Poison_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Poison_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Poison_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Poison_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Poison_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Poison_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Poison_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Poison_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Poison_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="rend_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="rend_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="rend_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="rend_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="rend_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="rend_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="rend_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="rend_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="rend_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="rend_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="rend_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="rend_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Utility_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Utility_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Utility_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Utility_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Utility_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Utility_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Utility_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Utility_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Utility_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Utility_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Utility_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Utility_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="14" MinLevel="7" Name="Toughness_Gem_Tier_01" Weight="40" />
+      <Item MaxLevel="24" MinLevel="15" Name="Toughness_Gem_Tier_02" Weight="40" />
+      <Item MaxLevel="34" MinLevel="25" Name="Toughness_Gem_Tier_03" Weight="40" />
+      <Item MaxLevel="44" MinLevel="35" Name="Toughness_Gem_Tier_04" Weight="40" />
+      <Item MaxLevel="54" MinLevel="45" Name="Toughness_Gem_Tier_05" Weight="40" />
+      <Item MaxLevel="64" MinLevel="55" Name="Toughness_Gem_Tier_06" Weight="40" />
+      <Item MaxLevel="74" MinLevel="65" Name="Toughness_Gem_Tier_07" Weight="40" />
+      <Item MaxLevel="84" MinLevel="75" Name="Toughness_Gem_Tier_08" Weight="40" />
+      <Item MaxLevel="94" MinLevel="85" Name="Toughness_Gem_Tier_09" Weight="40" />
+      <Item MaxLevel="104" MinLevel="95" Name="Toughness_Gem_Tier_10" Weight="40" />
+      <Item MaxLevel="114" MinLevel="105" Name="Toughness_Gem_Tier_11" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="115" Name="Toughness_Gem_Tier_12" Weight="40" />
+      <Item MaxLevel="9999" MinLevel="41" Name="Special_gem" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="RareConsumable_Reagent">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="2" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="3" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="5" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="15" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="20" Normal="0" Magic="0" Rare="0" />
+      <RarityAtLevel Level="9999" Normal="0" Magic="0" Rare="0" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_1" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_2" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_3" Weight="1" PickOnlyOnce="1" />
+      <Item MaxLevel="9999" MinLevel="1" Name="Reagent_4" Weight="1" PickOnlyOnce="1" />
+    </Loot>
+  </LootClass>
+</Metadata>

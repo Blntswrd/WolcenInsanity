@@ -1,0 +1,60 @@
+<MetaData>
+  <BaseEntity ID="MercyArena_Brute" EntityName="outlaws_brute" Scale="1.5" CanKillAllies="0" />
+  <Faction Name="Outlaws" />
+  <Keywords Value="outw,elite,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="3" DamageModifier="1.0" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="5.5" WalkSpeed="5.5" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Lieutenant" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Lieutenant" />
+  <Corpses PresetName="LieutenantCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="15.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_OutlawsBrute_DefaultAttack_Melee" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="4" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_OutlawsBrute_BrutalStrike" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="100.0">
+        <Range Min="0.0" Preferred="4.5" Max="6" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="objects/characters/mobs/humanoid/kennelmaster/outw_kennelmaster_shadow/outw_kennelmaster_2hmr.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/KennelMaster/OUTW_KennelMaster_2Hmr.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_MercyArena_Wallbreaker" ZIconOffset="3.0" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Trapper" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.5" />
+    <MouseSelection SelectionCapsuleRadius="1.4" SelectionCapsuleHeight="0.6" SelectionCapsuleZOffset="-0.45" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Head" ParticleName="U_Monster.ShadowVariation.Shadow_Zombie_EyesLight" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.ShadowVariation.Shadow_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Kennelmaster_voice" />
+</MetaData>

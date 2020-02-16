@@ -1,0 +1,58 @@
+<MetaData>
+  <BaseEntity ID="Named_InfantryCrossBow" EntityName="pacified_infantry_ranged" Scale="1.4" CanKillAllies="0" />
+  <Faction Name="CultOfFury" />
+  <Keywords Value="cofy,elite,range,physical,named" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_Named" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="3" WalkSpeed="3" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="35" CCEffectiveness="15" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_BossModifier_RandomLightning_CloseRange" />
+  </DefaultBossModifiers>
+  <LootClass>
+    <Loot Class="LC_Named" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Ranged" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="30.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_REPU_Sniper_TakeAim" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="15" Max="20" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Infantry/REPU_Infantry/REPU_InfantryCrossbow.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Sniper/REPU_Sniper.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Named_InfantryCrossBow" ZIconOffset="3.1" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.8,0.8,0.5" IsPushable="0" RagdollMass="300" />
+    <MouseSelection SelectionCapsuleRadius="0.7" SelectionCapsuleHeight="0.7" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.7" ProjectileCapsuleHeight="4.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SurfaceType="armour" />
+  <RandomVoice>
+    <VoiceChoice VoiceName="Human_Male_Clean_A_voice" Weight="1" />
+    <VoiceChoice VoiceName="Human_Male_Clean_B_voice" Weight="1" />
+  </RandomVoice>
+</MetaData>

@@ -1,0 +1,51 @@
+<MetaData>
+  <BaseEntity ID="CultOfFury_Instigator" EntityName="cultoffury_instigator" Scale="0.85" CanKillAllies="0" />
+  <Faction Name="CultOfFury" />
+  <Keywords Value="cofy,heavy,trash,melee,fire" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="2" />
+  <Attributes Archetype="archetype_trash" HealthModifier="2" DamageModifier="1" XPModifier="1.5" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COFY_Instigator_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="3" Max="5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster_Alt.Instigator.Permanent01" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="0" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster_Alt.Instigator.Permanent01_light" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="0" IgnoreRotation="0" />
+  </BoneParticles>
+  <HUD UIName="@ui_AIName_Cofy_Instigator" ZIconOffset="3.8" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_mediumplus" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" IsPushable="0" RagdollMass="225" />
+    <MouseSelection SelectionCapsuleRadius="1.4" SelectionCapsuleHeight="0.8" SelectionCapsuleZOffset="0" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="fury_demons" OverrideScale="1.15" />
+  </VisualParams>
+  <Audio SwitchSoundName="Instigator_voice" AllowGroupSounds="1" />
+</MetaData>

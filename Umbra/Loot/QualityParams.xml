@@ -1,0 +1,112 @@
+<Metadata>
+  <Quality Value="1" DamageMin="0" DamageMax="0" ArmorMin="0" ArmorMax="0" ShieldArmorMin="0" ShieldArmorMax="0">
+    <Range LevelMin="1" LevelMax="4" Proba="50" />
+    <Range LevelMin="5" LevelMax="9" Proba="50" />
+    <Range LevelMin="10" LevelMax="14" Proba="50" />
+    <Range LevelMin="15" LevelMax="19" Proba="50" />
+    <Range LevelMin="20" LevelMax="24" Proba="50" />
+    <Range LevelMin="25" LevelMax="29" Proba="45" />
+    <Range LevelMin="30" LevelMax="34" Proba="45" />
+    <Range LevelMin="35" LevelMax="39" Proba="40" />
+    <Range LevelMin="40" LevelMax="44" Proba="35" />
+    <Range LevelMin="45" LevelMax="49" Proba="30" />
+    <Range LevelMin="50" LevelMax="54" Proba="25" />
+    <Range LevelMin="55" LevelMax="59" Proba="20" />
+    <Range LevelMin="60" LevelMax="64" Proba="15" />
+    <Range LevelMin="65" LevelMax="69" Proba="10" />
+    <Range LevelMin="70" LevelMax="74" Proba="5" />
+    <Range LevelMin="75" LevelMax="79" Proba="4" />
+    <Range LevelMin="80" LevelMax="84" Proba="3" />
+    <Range LevelMin="85" LevelMax="89" Proba="2" />
+    <Range LevelMin="90" LevelMax="94" Proba="1" />
+    <Range LevelMin="95" LevelMax="9999" Proba="1" />
+  </Quality>
+  <Quality Value="2" DamageMin="10" DamageMax="10" ArmorMin="10" ArmorMax="10" ShieldArmorMin="10" ShieldArmorMax="10">
+    <Range LevelMin="1" LevelMax="4" Proba="30" />
+    <Range LevelMin="5" LevelMax="9" Proba="30" />
+    <Range LevelMin="10" LevelMax="14" Proba="30" />
+    <Range LevelMin="15" LevelMax="19" Proba="30" />
+    <Range LevelMin="20" LevelMax="24" Proba="30" />
+    <Range LevelMin="25" LevelMax="29" Proba="30" />
+    <Range LevelMin="30" LevelMax="34" Proba="30" />
+    <Range LevelMin="35" LevelMax="39" Proba="30" />
+    <Range LevelMin="40" LevelMax="44" Proba="30" />
+    <Range LevelMin="45" LevelMax="49" Proba="30" />
+    <Range LevelMin="50" LevelMax="54" Proba="30" />
+    <Range LevelMin="55" LevelMax="59" Proba="30" />
+    <Range LevelMin="60" LevelMax="64" Proba="30" />
+    <Range LevelMin="65" LevelMax="69" Proba="30" />
+    <Range LevelMin="70" LevelMax="74" Proba="30" />
+    <Range LevelMin="75" LevelMax="79" Proba="30" />
+    <Range LevelMin="80" LevelMax="84" Proba="30" />
+    <Range LevelMin="85" LevelMax="89" Proba="30" />
+    <Range LevelMin="90" LevelMax="94" Proba="30" />
+    <Range LevelMin="95" LevelMax="9999" Proba="30" />
+  </Quality>
+  <Quality Value="3" DamageMin="20" DamageMax="20" ArmorMin="20" ArmorMax="20" ShieldArmorMin="20" ShieldArmorMax="20">
+    <Range LevelMin="1" LevelMax="4" Proba="20" />
+    <Range LevelMin="5" LevelMax="9" Proba="20" />
+    <Range LevelMin="10" LevelMax="14" Proba="20" />
+    <Range LevelMin="15" LevelMax="19" Proba="20" />
+    <Range LevelMin="20" LevelMax="24" Proba="20" />
+    <Range LevelMin="25" LevelMax="29" Proba="20" />
+    <Range LevelMin="30" LevelMax="34" Proba="20" />
+    <Range LevelMin="35" LevelMax="39" Proba="20" />
+    <Range LevelMin="40" LevelMax="44" Proba="20" />
+    <Range LevelMin="45" LevelMax="49" Proba="20" />
+    <Range LevelMin="50" LevelMax="54" Proba="20" />
+    <Range LevelMin="55" LevelMax="59" Proba="20" />
+    <Range LevelMin="60" LevelMax="64" Proba="20" />
+    <Range LevelMin="65" LevelMax="69" Proba="20" />
+    <Range LevelMin="70" LevelMax="74" Proba="20" />
+    <Range LevelMin="75" LevelMax="79" Proba="20" />
+    <Range LevelMin="80" LevelMax="84" Proba="20" />
+    <Range LevelMin="85" LevelMax="89" Proba="20" />
+    <Range LevelMin="90" LevelMax="94" Proba="20" />
+    <Range LevelMin="95" LevelMax="9999" Proba="20" />
+  </Quality>
+  <Quality Value="4" DamageMin="30" DamageMax="30" ArmorMin="30" ArmorMax="30" ShieldArmorMin="30" ShieldArmorMax="30">
+    <Range LevelMin="1" LevelMax="4" Proba="10" />
+    <Range LevelMin="5" LevelMax="9" Proba="10" />
+    <Range LevelMin="10" LevelMax="14" Proba="10" />
+    <Range LevelMin="15" LevelMax="19" Proba="10" />
+    <Range LevelMin="20" LevelMax="24" Proba="10" />
+    <Range LevelMin="25" LevelMax="29" Proba="10" />
+    <Range LevelMin="30" LevelMax="34" Proba="10" />
+    <Range LevelMin="35" LevelMax="39" Proba="10" />
+    <Range LevelMin="40" LevelMax="44" Proba="10" />
+    <Range LevelMin="45" LevelMax="49" Proba="10" />
+    <Range LevelMin="50" LevelMax="54" Proba="10" />
+    <Range LevelMin="55" LevelMax="59" Proba="10" />
+    <Range LevelMin="60" LevelMax="64" Proba="10" />
+    <Range LevelMin="65" LevelMax="69" Proba="10" />
+    <Range LevelMin="70" LevelMax="74" Proba="10" />
+    <Range LevelMin="75" LevelMax="79" Proba="10" />
+    <Range LevelMin="80" LevelMax="84" Proba="10" />
+    <Range LevelMin="85" LevelMax="89" Proba="10" />
+    <Range LevelMin="90" LevelMax="94" Proba="10" />
+    <Range LevelMin="95" LevelMax="9999" Proba="10" />
+  </Quality>
+  <Quality Value="5" DamageMin="50" DamageMax="50" ArmorMin="50" ArmorMax="50" ShieldArmorMin="50" ShieldArmorMax="50">
+    <Range LevelMin="1" LevelMax="4" Proba="100" />
+    <Range LevelMin="5" LevelMax="9" Proba="0" />
+    <Range LevelMin="10" LevelMax="14" Proba="0" />
+    <Range LevelMin="15" LevelMax="19" Proba="0" />
+    <Range LevelMin="20" LevelMax="24" Proba="0" />
+    <Range LevelMin="25" LevelMax="29" Proba="1" />
+    <Range LevelMin="30" LevelMax="34" Proba="2" />
+    <Range LevelMin="35" LevelMax="39" Proba="3" />
+    <Range LevelMin="40" LevelMax="44" Proba="5" />
+    <Range LevelMin="45" LevelMax="49" Proba="10" />
+    <Range LevelMin="50" LevelMax="54" Proba="15" />
+    <Range LevelMin="55" LevelMax="59" Proba="20" />
+    <Range LevelMin="60" LevelMax="64" Proba="25" />
+    <Range LevelMin="65" LevelMax="69" Proba="30" />
+    <Range LevelMin="70" LevelMax="74" Proba="35" />
+    <Range LevelMin="75" LevelMax="79" Proba="40" />
+    <Range LevelMin="80" LevelMax="84" Proba="50" />
+    <Range LevelMin="85" LevelMax="89" Proba="60" />
+    <Range LevelMin="90" LevelMax="94" Proba="70" />
+    <Range LevelMin="95" LevelMax="9999" Proba="80" />
+  </Quality>
+</Metadata>

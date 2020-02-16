@@ -1,0 +1,54 @@
+<MetaData>
+  <BaseEntity ID="OutlawsBanditDaggersShadow" EntityName="outlaws_bandit_daggers_shadow" Scale="1" CanKillAllies="0" />
+  <Faction Name="ShadowOutlaws" />
+  <Keywords Value="outw,trash,melee,shadow" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_trash" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="6" WalkSpeed="6" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <Perception>
+      <Proximity />
+    </Perception>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_OutlawsBanditShadow_2daggers" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.5" Max="2.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </DefaultBasicAttack>
+    <Offensive />
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_Outlaws_MeleeBandit_Shadow" ZIconOffset="2.3" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.3" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.6,0.6,0.4" IsPushable="0" RagdollMass="250" />
+    <MouseSelection SelectionCapsuleRadius="0.6" SelectionCapsuleHeight="1.5" SelectionCapsuleZOffset="-0.40" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.6" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.ShadowVariation.Shadow_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" SwitchSoundName="Outlaw_Female_A_voice" />
+</MetaData>

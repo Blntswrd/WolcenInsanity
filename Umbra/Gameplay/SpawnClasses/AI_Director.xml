@@ -1,0 +1,7 @@
+<MetaData>
+  <SpawnClass Name="ai_director_eviscerator">
+    <Spawn Type="Actor" ClassName="Eviscerator" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0">
+      <BossRank Id="0" Frequency="10" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

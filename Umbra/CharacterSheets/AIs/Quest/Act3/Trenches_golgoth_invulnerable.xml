@@ -1,0 +1,66 @@
+<MetaData>
+  <BaseEntity ID="Trenches_Golgoth_Invulnerable" EntityName="pacified_golgoth" Scale="0.9" CanKillAllies="0" />
+  <Faction Name="Boss_Event" />
+  <Keywords Value="repu,elite,melee,lightning,boss" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="1000" DamageModifier="1.25" XPModifier="2" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="25" CCEffectiveness="10" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="False" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_REPU_Golgoth_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2" Max="5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_REPU_Golgoth_Fulguropunch" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="10" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_REPU_Golgoth_IEM" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="5" Max="10" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_REPU_Golgoth_QuickCharge" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="7" Max="12" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_REPU_Golgoth_QuickCharge" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="7" Max="15" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Approach>
+  </Skills>
+  <HUD UIName="@ui_AIName_Republic_Golgoth" ZIconOffset="4.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_repugolgoth" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1,1,0.5" />
+    <MouseSelection SelectionCapsuleRadius="2" SelectionCapsuleHeight="1.3" SelectionCapsuleZOffset="-1.0" />
+    <ProjectileCollision ProjectileCapsuleRadius="2" ProjectileCapsuleHeight="5" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.6" SphereZOffset="0.6" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Head" ParticleName="U_Monster.FuryVariants.Fury_Zombie_EyesLight" Offset="0,0,0" Dir="0,1,0" Scale="1.5" />
+    <BoneParticle BoneName="Bip01 Spine3" ParticleName="U_Monster.FuryVariants.Fury_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="2" />
+    <BoneParticle BoneName="Bip01" ParticleName="U_Monster_Alt.golgoth.permanent" Offset="0,0,0" Dir="1,0,0" Scale="1" FadeOut="1" IgnoreRotation="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="" SurfaceType="metal" />
+</MetaData>

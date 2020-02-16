@@ -1,0 +1,5 @@
+<MetaData>
+  <SpawnClass Name="sc_GameplayIngredient_MonsterGenerator">
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

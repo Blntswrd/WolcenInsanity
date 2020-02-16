@@ -1,0 +1,77 @@
+<MetaData>
+  <BaseEntity ID="CultOfFury_Spirit" EntityName="cultoffury_spirit" Scale="1" CanKillAllies="0" />
+  <Faction Name="CultOfFury" />
+  <Keywords Value="cofy,trash,weak,melee,fire" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_trash" HealthModifier="1" DamageModifier="1" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="0.05" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCorpsePreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="0" />
+  <Kythera>
+    <Behavior Name="Swarm" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COFY_Spirit_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.5" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster_Alt.fury_lostsoul.permanent" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="1" />
+  </BoneParticles>
+  <HUD UIName="@ui_AIName_Cofy_Spirit" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="AI_COFY_Spirit_FuryMissile" CannotBeOverkilled="1" />
+  <GameplayParticles PresetName="size_MiniSpecter" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="200" Ghost="1" />
+    <MouseSelection SelectionCapsuleRadius="1.05" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="fury_demons" OverrideScale="1" />
+  </VisualParams>
+  <Audio SurfaceType="ghost" />
+</MetaData>

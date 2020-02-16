@@ -1,0 +1,25 @@
+<MetaData>
+  <SpawnClass Name="FMP_SC_DEV_COSS_EASY_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="FMP_SC_DEV_COSS_MEDIUM_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="FMP_SC_DEV_COSS_HARD_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="8" NumberMax="12" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="FMP_SC_DEV_OTLW_EASY_1">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="FMP_SC_DEV_OTLW_MEDIUM_1">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="FMP_SC_DEV_OTLW_HARD_1">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="4" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="3" NumberMax="5" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

@@ -1,0 +1,17 @@
+<MetaData>
+  <Chest Name="Adventure_Sarisel_Chest" DefaultModel="objects/architecture/primordial/primordials_props_chest_sarisel.cga" Rarity="normal" Sound_Opening="" Particle_Base="Loot.chest.Chest_Blue" Particle_Base_Scale="1" Particle_Base_Offset="0,0,0" Particle_OnOpen="loot.chest.basic_open" Particle_OnOpen_Scale="1" Particle_OnOpen_Offset="0,0,0" Particle_OnLoot="loot.chest.basic_loot" Particle_OnLoot_Scale="1" Particle_OnLoot_Offset="0,0,0" UIName="" IconZOffset="1.5">
+    <LootClasses NumberOfLootMin="15" NumberOfLootMax="20" OneByOneLoot="1">
+      <LootClass LootClassName="Chest_Gems_TBETA" Weight="25" />
+      <LootClass LootClassName="Chest_Uniques_TBETA" Weight="5" />
+      <LootClass LootClassName="Chest_Weapon_Sarisel" Weight="500" />
+      <LootClass LootClassName="Chest_Armor_Sarisel" Weight="500" />
+      <LootClass LootClassName="Reagent" Weight="1" ReqLevelMin="15" ReqLevelMax="44" />
+      <LootClass LootClassName="Reagent" Weight="3" ReqLevelMin="45" ReqLevelMax="59" />
+      <LootClass LootClassName="Reagent" Weight="5" ReqLevelMin="60" ReqLevelMax="104" />
+      <LootClass LootClassName="Reagent" Weight="10" ReqLevelMin="105" ReqLevelMax="9999" />
+      <LootClass LootClassName="Reagent_leg" Weight="1" ReqLevelMin="51" ReqLevelMax="75" />
+      <LootClass LootClassName="Reagent_leg" Weight="3" ReqLevelMin="76" ReqLevelMax="9999" />
+    </LootClasses>
+    <Shape Angle="180" RadiusMin="1" RadiusMax="4" />
+  </Chest>
+</MetaData>

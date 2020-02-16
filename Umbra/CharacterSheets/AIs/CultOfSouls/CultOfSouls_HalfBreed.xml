@@ -1,0 +1,60 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_HalfBreed" EntityName="cultofsouls_halfbreed" Scale="1.2" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,damned,lieutenant,frost,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="1.2" />
+  <Attributes Archetype="archetype_lieutenant" HealthModifier="1.0" DamageModifier="1.0" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="10" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Lieutenant" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Lieutenant" />
+  <Corpses PresetName="LieutenantCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_HalfBreed_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="3.0">
+        <Range Min="0.0" Preferred="2.0" Max="3.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_HalfBreed_SoulCharge" Orientated="Always" Interruptible="False" Enabled="True" BaseWeight="10.0">
+        <Range Min="5.0" Preferred="10.0" Max="10.0" MinWeight="0.0" PreferredWeight="10.0" MaxWeight="10.0" />
+      </Skill>
+      <Skill Name="AI_halfbreed_jumpattack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="3.0" Preferred="20.0" Max="20.0" MinWeight="0.0" PreferredWeight="10.0" MaxWeight="10.0" />
+        <PreviousSkillWeights type="bb">
+          <AI_HalfBreed_BumpAttack type="bb">
+            <ChainCooldown type="float" />
+            <Weight type="float" />
+          </AI_HalfBreed_BumpAttack>
+        </PreviousSkillWeights>
+      </Skill>
+    </Offensive>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_CoS_HalfBreedOfSoul" ZIconOffset="2.0" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Halfbreed" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.7,0.7,0.55" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="0.2" SelectionCapsuleZOffset="-0.7" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.2" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="ghoul_voice" />
+</MetaData>

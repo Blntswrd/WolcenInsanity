@@ -1,0 +1,81 @@
+<MetaData>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_CommonCC_1">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirMiniSpitter" NumberMin="6" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnakeCave" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnake" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_CommonCC_2">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="6" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_CommonCC_3">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper_flashbang" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_UncommonCC_1">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirMiniSpitter" NumberMin="6" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnakeCave" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnake" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirAlphaPoison" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_UncommonCC_2">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="6" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_UncommonCC_3">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper_flashbang" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_RareCC_1">
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="2" NumberMax="2" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="SvriirMiniSpitter" NumberMin="6" NumberMax="8" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnakeCave" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="WildSnake" NumberMin="3" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirAlphaPoison" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_RareCC_2">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper_flashbang" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="sc_Sty_ACT2_Tunnel_RareCC_3">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="4" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="6" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0.75" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThug" NumberMin="1" NumberMax="1" UseMonsterManagerMonsterLevel="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="1" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

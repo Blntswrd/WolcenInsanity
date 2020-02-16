@@ -1,0 +1,32 @@
+<MetaData>
+  <Panel Id="Altars_Merchant_weapon" IconId="1">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Weapon_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Merchant_armor" IconId="2">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Armor_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Merchant_uniques" IconId="2" SellingPriceMultiplier="1">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Uniques_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Merchant_accessories" IconId="3" SellingPriceMultiplier="1">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Accessories_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Merchant_potion" IconId="5" SellingPriceMultiplier="3">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Potions_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Jeweler_Panel" IconId="8" />
+  <Panel Id="Altars_Merchant_Gems" IconId="9" AlternativeCurrency="1" SellingPriceMultiplier="0.03">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Gems_MerchantAltars" />
+  </Panel>
+  <Panel Id="Altars_Merchant_Panel" IconId="7" />
+  <Panel Id="BetaTech1_Archivist_Enneracts" IconId="4">
+    <LevelParams LevelMin="1" LevelMax="9999" LootClass="Enneracts_MerchantAltars" />
+  </Panel>
+  <Merchant Name="Altars_Merchant" UIName="@ui_altar_merchant" Temporary="1" BuyingPriceMultiplier="1">
+    <Panel Id="Altars_Merchant_weapon" />
+    <Panel Id="Altars_Merchant_accessories" />
+    <Panel Id="Altars_Merchant_uniques" />
+    <Panel Id="Altars_Merchant_Gems" />
+    <Panel Id="reclaim" />
+  </Merchant>
+</MetaData>

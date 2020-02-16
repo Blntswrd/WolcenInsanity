@@ -1,0 +1,36 @@
+<Metadata>
+  <LootClass Name="LC_Endgame_LoreQuest">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="3" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="5" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="15" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="20" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="90" Normal="1" Magic="0" Rare="0" Legendary="1" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="9999" MinLevel="1" Name="1h_sword_tier16" Weight="1" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="LC_Endgame_LoreQuest_Gems">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity>
+      <RarityAtLevel Level="1" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="2" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="3" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="5" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="15" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="20" Normal="1" Magic="0" Rare="0" Legendary="1" />
+      <RarityAtLevel Level="90" Normal="1" Magic="0" Rare="0" Legendary="1" />
+    </Rarity>
+    <NoDrop Value="0" />
+    <Loot>
+      <Item MaxLevel="9999" MinLevel="1" Name="Fire_Gem_Tier_01" Weight="1" />
+    </Loot>
+  </LootClass>
+</Metadata>

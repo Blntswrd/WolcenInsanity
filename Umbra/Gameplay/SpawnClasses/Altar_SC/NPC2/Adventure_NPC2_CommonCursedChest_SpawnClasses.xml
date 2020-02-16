@@ -1,0 +1,50 @@
+<MetaData>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="2" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_DeathCloak" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer_aoe" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie_frost" NumberMin="7" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialArmor" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniHalfBreed_shadow" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Corrupted_PrimordialArmor" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_aether" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_MiniSpecter_shadow" NumberMin="1" NumberMax="3" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_5">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBaby" NumberMin="3" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirMorgon_toxic" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirBetaScreecher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpawner" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_6">
+    <Spawn Type="Actor" ClassName="SvriirOmega" NumberMin="7" NumberMax="9" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirMorgon" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="SvriirBetaSpitter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_7">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsWorg01" NumberMin="5" NumberMax="7" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="1" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsKennelMaster" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper_flashbang" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_Adv_NPC2_CommonCC_8">
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee01" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee02" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditMelee03" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsBanditRanged" NumberMin="2" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="2" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

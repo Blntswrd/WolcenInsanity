@@ -1,0 +1,17 @@
+<MetaData>
+  <SpawnClass Name="test_arena_spawnclass_COSS_0">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" />
+  </SpawnClass>
+  <SpawnClass Name="test_arena_spawnclass_COSS_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Zombie_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" />
+  </SpawnClass>
+  <SpawnClass Name="test_arena_spawnclass_COSS_2">
+    <Spawn Type="Actor" ClassName="CultOfSouls_ZombieSoldier" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" />
+  </SpawnClass>
+  <SpawnClass Name="test_arena_spawnclass_COSS_3">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" />
+  </SpawnClass>
+  <SpawnClass Name="test_arena_spawnclass_COSS_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_UndeadSpiker_frost" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" />
+  </SpawnClass>
+</MetaData>

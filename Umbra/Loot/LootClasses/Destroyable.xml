@@ -1,0 +1,20 @@
+<MetaData>
+  <LootClass Name="destroyable_0_5">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="0" Magic="7" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_trash" MinLevel="0" MaxLevel="9999" Weight="150" />
+    </Loot>
+  </LootClass>
+  <LootClass Name="destroyable_5_10">
+    <Pick Value="4" />
+    <Level Value="1" />
+    <Rarity Legendary="0" Normal="0" Rare="7" Magic="77" />
+    <NoDrop Value="0" />
+    <Loot>
+      <LootClass Name="Gold_trash" MinLevel="0" MaxLevel="9999" Weight="150" />
+    </Loot>
+  </LootClass>
+</MetaData>

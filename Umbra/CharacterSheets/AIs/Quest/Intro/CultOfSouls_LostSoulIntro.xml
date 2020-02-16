@@ -1,0 +1,77 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_LostSoulIntro" EntityName="cultofsouls_lost_soul" Scale="1.0" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="undead,trash,melee,frost" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.8" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.8" DamageModifier="0.8" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="4" WalkSpeed="4" />
+  <InterruptionParams InterruptChance="0.0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Swarm" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COSS_LostSoulIntro_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="1.0" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <HUD UIName="@ui_AIName_CoS_Lost_Soul" ZIconOffset="2.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1.0" DeathSkill="" />
+  <GameplayParticles PresetName="size_MiniSpecter" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="200" Ghost="1" />
+    <MouseSelection SelectionCapsuleRadius="1.05" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.Specter.White_Aura_Tail_01" Offset="0,0,0" Dir="0,0,1" Scale="1" FadeOut="1" IgnoreRotation="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="" OverrideScale="1" />
+  </VisualParams>
+  <Audio SurfaceType="ghost" />
+</MetaData>

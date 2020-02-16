@@ -1,0 +1,17 @@
+<MetaData>
+  <SpawnClass Name="sc_SvriirBetaSpawner_land">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBabySpawned" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_SvriirBetaSpawner_sea">
+    <Spawn Type="Actor" ClassName="SvriirSeaOmegaBabySpawned" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_SvriirBetaSpawner_cave">
+    <Spawn Type="Actor" ClassName="SvriirCaveOmegaBabySpawned" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_SvriirBetaSpawner_eggthrowFire">
+    <Spawn Type="Actor" ClassName="SvriirOmegaBabySpawned_Fire" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_GiantSpawner">
+    <Spawn Type="Actor" ClassName="SvriirMiniSpitter" NumberMin="2" NumberMax="2" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

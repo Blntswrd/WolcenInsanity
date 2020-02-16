@@ -1,0 +1,191 @@
+<MetaData>
+  <SpawnClass Name="Sc_CG_KT_COFYPriest_1">
+    <Spawn Type="Actor" ClassName="PacifiedPriest" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_ColossalBreeder_1">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_ColossalBreeder" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_FleshCultist_1">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Cultist" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_UndeadPriest_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Priest" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_AssassinRepu_1">
+    <Spawn Type="Actor" ClassName="RepublicAssassin" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_ShadowThug_1">
+    <Spawn Type="Actor" ClassName="OutlawsSadisticThugShadow" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Brute_1">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Sc_CG_KT_Brute">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Trapper_1">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Sc_CG_KT_Trapper">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Halfbreed_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Cultist_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Cultist" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Reaper_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Butcher_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Butcher" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_SvriirAlpha_1">
+    <Spawn Type="Actor" ClassName="SvriirAlpha_Fire" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Knight_1">
+    <Spawn Type="Actor" ClassName="PacifiedKnight" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_COFY_SiegeBeast_1">
+    <Spawn Type="Actor" ClassName="PacifiedSiegebeast" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Justicar_1">
+    <Spawn Type="Actor" ClassName="RepublicJusticar" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_DOF_1">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_DemonOfFlesh" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_DOS_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_DemonOfSouls" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="2" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Brute_Easy_1">
+    <Spawn Type="Actor" ClassName="OutlawsBrute" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Sc_CG_KT_Brute">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Halfbreed_Easy_1">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_COFY_Cultist_4">
+    <Spawn Type="Actor" ClassName="CultOfFury_Cultist" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_COFY_Veteran_4">
+    <Spawn Type="Actor" ClassName="PacifiedVeteran" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Veteran_4">
+    <Spawn Type="Actor" ClassName="RepublicVeteran" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_COFY_Assassin_4">
+    <Spawn Type="Actor" ClassName="PacifiedAssassin" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Enforcer_4">
+    <Spawn Type="Actor" ClassName="CultOfFury_Enforcer" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_FleshHalfbreed_4">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Halfbreed" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Spreader_4">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Spreader" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Sniper_4">
+    <Spawn Type="Actor" ClassName="RepublicSniper" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_FeshSniper_4">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Sniper" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Shaman_4">
+    <Spawn Type="Actor" ClassName="OutlawsShaman" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Trapper_4">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Sc_CG_KT_Trapper">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_AssassinNamed_4">
+    <Spawn Type="Actor" ClassName="MercyArena_Assassin" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Reaper_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_Specter" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Halfbreed_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Tombbearer_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_LanternBearer" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Spawner_4">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpawner" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0">
+      <BossRank Id="1" Frequency="100" />
+    </Spawn>
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Trapper_Easy_4">
+    <Spawn Type="Actor" ClassName="OutlawsTrapper" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" ForceEntityName="Sc_CG_KT_Trapper" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Halfbreed_Easy_4">
+    <Spawn Type="Actor" ClassName="CultOfSouls_HalfBreed" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="Sc_CG_KT_Spawner_Easy_4">
+    <Spawn Type="Actor" ClassName="SvriirCaveBetaSpawner" NumberMin="4" NumberMax="4" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="100" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>

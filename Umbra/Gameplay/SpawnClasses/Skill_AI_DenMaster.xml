@@ -1,0 +1,13 @@
+<MetaData>
+  <SpawnClass Name="sc_OutlawDenMaster">
+    <Spawn Type="Actor" ClassName="SvriirMorgon" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="10" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="SvriirMorgon_rend" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="10" />
+    </Spawn>
+    <Spawn Type="Actor" ClassName="SvriirMorgon_toxic" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="0" BossProba="0" LootClassOverride="" XPBonusPercent="100" IgnoreAnimation="0">
+      <BossRank Id="3" Frequency="10" />
+    </Spawn>
+  </SpawnClass>
+</MetaData>

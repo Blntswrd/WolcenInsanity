@@ -1,0 +1,80 @@
+<MetaData>
+  <BaseEntity ID="InnerSanctum_Enforcer" EntityName="cultoffury_enforcer" Scale="1.5" CanKillAllies="0" />
+  <Faction Name="Boss_Event" />
+  <Keywords Value="elite,melee,fire,boss" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" />
+  <Attributes Archetype="archetype_elite" HealthModifier="10" DamageModifier="0.8" XPModifier="5" Protection="" />
+  <Movement MovementSpeed="5" WalkSpeed="5" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="25" CCEffectiveness="10" RegenerationDelay="15" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_Miniboss" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Boss" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Generic">
+      <EngageOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack />
+    <Offensive>
+      <Skill Name="AI_COFY_Enforcer_Enrage" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1000">
+        <Range Min="0" Preferred="5" Max="100" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="0.7" Weight="0" />
+      </Skill>
+      <Skill Name="AI_COFY_Enforcer_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="4" Max="6" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_COFY_Enforcer_DefaultAttack_Enraged" Orientated="BeforeCast" Interruptible="False" Enabled="False" BaseWeight="1.0">
+        <Range Min="0" Preferred="4" Max="6" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Other>
+      <Skill Name="AI_InnerSanctum_Enforcer_Summon" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_InnerSanctum_Enforcer_Summon2" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_InnerSanctum_Enforcer_Dialogs_01" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_InnerSanctum_Enforcer_Dialogs_02" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_InnerSanctum_Enforcer_Dialogs_03" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_InnerSanctum_Enforcer_Dialogs_04" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0" Preferred="2" Max="3" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Other>
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Non_Humanoid/Enforcer/COFY_Enforcer/COFY_Enforcer_Sinadrahel.cdf" Weight="1" />
+  </RandomModel>
+  <HUD UIName="@ui_AIName_InnerSanctum_Enforcer" ZIconOffset="3.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_mediumplus" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.9,0.9,0.5" IsPushable="0" />
+    <MouseSelection SelectionCapsuleRadius="1" SelectionCapsuleHeight="1.2" SelectionCapsuleZOffset="-0.6" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="fury_demons" OverrideScale="1.3" />
+  </VisualParams>
+  <Audio SwitchSoundName="Enforcer_voice" AllowGroupSounds="0" />
+</MetaData>

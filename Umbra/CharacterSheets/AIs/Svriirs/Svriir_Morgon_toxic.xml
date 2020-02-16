@@ -1,0 +1,79 @@
+<MetaData>
+  <BaseEntity ID="SvriirMorgon_toxic" EntityName="svriir_morgon_poison" Scale="1.3" CanKillAllies="0" />
+  <Faction Name="Svriirs" />
+  <Keywords Value="svri,trash,melee,physical,heavy" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="2" />
+  <Attributes Archetype="archetype_trash" HealthModifier="2" DamageModifier="1" XPModifier="2" Protection="" />
+  <Movement MovementSpeed="3" WalkSpeed="3" />
+  <InterruptionParams InterruptChance="0.05" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="20.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" Avoidance="True" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+    <ContextSteering type="bb">
+      <Enabled type="bool" />
+      <CurrentSteeringProfile type="string" />
+      <NeighbourRange type="float" />
+      <ObstacleRange type="float" />
+      <MaxIterations type="int" />
+      <InitialStepSize type="float" />
+      <StepSizeDecay type="float" />
+      <RandomSpacing type="bool" />
+      <Swarm type="bb">
+        <GlobalGoal type="bb">
+          <Weight type="float" />
+        </GlobalGoal>
+        <ObstacleAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+        </ObstacleAvoidance>
+        <CollisionAvoidance type="bb">
+          <k type="float" />
+          <TimeHorizon type="float" />
+          <PersonalSpace type="float" />
+        </CollisionAvoidance>
+      </Swarm>
+    </ContextSteering>
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_SvriirMorgon_toxic_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="2.0" Max="3.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <Pick Model="Objects/characters/mobs/Reptile/Screecher/SVRI_Morgon/SVRI_Morgon_Poison.cdf" Weight="1" />
+    <Pick Model="Objects/characters/mobs/Reptile/Screecher/SVRI_Morgon/SVRI_Morgon_Poison_02.cdf" Weight="1" />
+  </RandomModel>
+  <HUD UIName="@ui_AIName_Svriirs_Morgon_Poison" ZIconOffset="1.8" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0" DeathSkill="" />
+  <GameplayParticles PresetName="size_Omega" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.9,0.9,0.5" IsPushable="0" RagdollMass="280" />
+    <MouseSelection SelectionCapsuleRadius="1.0" SelectionCapsuleHeight="0.01" SelectionCapsuleZOffset="-0.60" />
+    <ProjectileCollision ProjectileCapsuleRadius="1" ProjectileCapsuleHeight="5.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.5" SphereZOffset="0.5" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio SwitchSoundName="Svriir_Morgon_voice" AllowGroupSounds="1" />
+</MetaData>

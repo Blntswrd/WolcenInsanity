@@ -1,0 +1,82 @@
+<MetaData>
+  <BaseEntity ID="Charger" EntityName="sarisel_chosen_charger" Scale="1" CanKillAllies="0" />
+  <Faction Name="ChosenCharger" />
+  <Keywords Value="elite,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="15" />
+  <Attributes Archetype="archetype_elite" HealthModifier="3" DamageModifier="1.5" XPModifier="1" Protection="" />
+  <Movement MovementSpeed="8.5" WalkSpeed="8.5" />
+  <InterruptionParams InterruptChance="0" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BreakBar MaxHealthPercent="50" CCEffectiveness="20" RegenerationDelay="10" ExtraDamagePercentWhileBroken="20" StunDuration="5" AlwaysImmune="1" />
+  <BlownAwayParams CanBeBlownAway="0" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers>
+    <Modifier Name="AI_Charger_Initialization" />
+    <Modifier Name="AI_Chosen_Charger_SummonDamageForward" />
+  </DefaultBossModifiers>
+  <LootClass />
+  <AliveLootPreset Name="AliveLoot_Elite" />
+  <Corpses PresetName="EliteCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="SpecialMonster">
+      <AssaultOverride type="string" />
+      <PressuringOverride type="string" />
+      <IntroductionOverride type="string" />
+    </Behavior>
+    <BT FleeOnLowHealthChance="0.0" EngageRange="100.0" MeleeAttack="True" FallBack="False" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <Target SticknessBias="0.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="None" />
+    <Perception>
+      <Proximity DayMaxDistance="100" NightMaxDistance="100" DetectionTime="0.01" />
+    </Perception>
+  </Kythera>
+  <Skills>
+    <Offensive>
+      <Skill Name="AI_Chosen_Charger_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="3.0" Max="4.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Chosen_Charger_Charge" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="15.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Chosen_Charger_Recall" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Offensive>
+    <Approach>
+      <Skill Name="AI_Charger_StartPhase3" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Sarisel_Initialization" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Approach>
+    <Taunt>
+      <Skill Name="AI_Charger_Taunt1" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+      <Skill Name="AI_Charger_Taunt2" Orientated="Never" Interruptible="False" Enabled="True" BaseWeight="3.0" MaxRepeats="1">
+        <Range Min="0.0" Preferred="30.0" Max="30.0" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+      </Skill>
+    </Taunt>
+  </Skills>
+  <HUD UIName="@ui_AIName_Charger" ZIconOffset="4.5" />
+  <Spawn SpawnAnimation="rise_out_ground" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="1" DeathSkill="" />
+  <GameplayParticles PresetName="size_Charger" />
+  <Capsules>
+    <EntityPhysics ColliderSize="1.0,0.5,0.9" />
+    <MouseSelection SelectionCapsuleRadius="1.5" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="0.5" />
+    <ProjectileCollision ProjectileCapsuleRadius="1.0" ProjectileCapsuleHeight="0.3" CanSnapOnCenterWhenColliding="0" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="0" SwitchSoundName="CHOS_Charger_voice" />
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 FX" ParticleName="U_Monster.Charger.Charger_Under_Aura_02_BW" Offset="0,0,0" Dir="1,1,0" Scale="1.25" />
+    <BoneParticle BoneName="Bip01 Crown02" ParticleName="U_Monster.Charger.Charger_Back_Aura_01_BW" Offset="0,0.75,0" Dir="0,0,1" Scale="1" />
+    <BoneParticle BoneName="Bip01 Spine3" ParticleName="U_Monster.Charger.Charger_ChestAura_01_BW" Offset="-0.2,0,0" Dir="0,0,1" Scale="1" />
+  </BoneParticles>
+</MetaData>

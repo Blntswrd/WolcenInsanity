@@ -1,0 +1,71 @@
+<MetaData>
+  <BaseEntity ID="CultOfSouls_Runner" EntityName="cultofsouls_zombie_runner" Scale="1" CanKillAllies="0" />
+  <Faction Name="CultOfSouls" />
+  <Keywords Value="coss,undead,trash,physical,melee" />
+  <SpawnClassParams SpawnLevelMin="1" SpawnLevelMax="9999" SpawnWeight="1" CombatPointValueMultiplier="0.8" />
+  <Attributes Archetype="archetype_trash" HealthModifier="0.8" DamageModifier="0.8" XPModifier="0.8" Protection="" />
+  <Movement MovementSpeed="10" WalkSpeed="10" />
+  <InterruptionParams InterruptChance="1.00" />
+  <StunParams IgnoreStunChance="0" StunCooldown="0" FreezeCooldown="0" />
+  <BlownAwayParams CanBeBlownAway="1" BlownAwayAnimationTag="" />
+  <DefaultBossModifiers />
+  <LootClass>
+    <Loot Class="LC_trash" fProba="1" />
+  </LootClass>
+  <AliveLootPreset Name="AliveLoot_Trash" />
+  <Corpses PresetName="TrashCadaverPreset" />
+  <BasicAIParams ClampToNavmesh="1" MaxTurnRate="360" UseAvoidance="1" />
+  <Kythera>
+    <Behavior Name="Warrior" />
+    <BT FleeOnLowHealthChance="0.0" EngageRange="10.0" MeleeAttack="True" FallBack="True" IdleWander="False" />
+    <Movement ClampToNavMesh="True" />
+    <SlowdownAtPathEnd type="bool" />
+    <Target SticknessBias="30.0" DistanceBias="6.0" DamageBias="0.0" AggressionBias="1.0" AggressionDecay="10.0" Category="Melee" />
+  </Kythera>
+  <Skills>
+    <DefaultBasicAttack>
+      <Skill Name="AI_COFE_Runner_DefaultAttack" Orientated="BeforeCast" Interruptible="False" Enabled="True" BaseWeight="1.0">
+        <Range Min="0.0" Preferred="1.0" Max="4.5" MinWeight="0.0" PreferredWeight="0.0" MaxWeight="0.0" />
+        <Health Min="0.0" Max="1.0" Weight="0.0" />
+        <Target ShieldWeight="0.0" RangedWeight="0.0" MeleeWeight="0.0">
+          <Health Min="0.0" Max="1.0" Weight="0.0" />
+        </Target>
+      </Skill>
+    </DefaultBasicAttack>
+    <Approach />
+  </Skills>
+  <RandomModel>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Zombie/COSS_Zombie/COSS_Zombie_01.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Zombie/COSS_Zombie_Runner.adb" Weight="1" />
+    </ModelChoice>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Zombie/COSS_Zombie/COSS_Zombie_06.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Zombie/COSS_Zombie_Runner.adb" Weight="1" />
+    </ModelChoice>
+    <ModelChoice Model="Objects/characters/mobs/Humanoid/Zombie/COSS_Zombie/COSS_Zombie_08.cdf" Weight="1">
+      <ADBChoice ADB="Animations/Mannequin/ADB/Mobs/Humanoid/Zombie/COSS_Zombie_Runner.adb" Weight="1" />
+    </ModelChoice>
+  </RandomModel>
+  <HUD UIName="@ui_AIName_CoS_Zombie_Runner" ZIconOffset="2.7" />
+  <Spawn SpawnAnimation="rise_out_ground_fast" TransparencyAtSpawn="0" />
+  <Death UseDeathAnimation="0.1" DeathSkill="" />
+  <GameplayParticles PresetName="size_medium" />
+  <Capsules>
+    <EntityPhysics ColliderSize="0.4,0.4,0.5" IsPushable="0" RagdollMass="225" />
+    <MouseSelection SelectionCapsuleRadius="1.05" SelectionCapsuleHeight="1.0" SelectionCapsuleZOffset="-0.4" />
+    <ProjectileCollision ProjectileCapsuleRadius="0.8" ProjectileCapsuleHeight="3.0" CanSnapOnCenterWhenColliding="1" />
+    <VegetationCollision SphereRadius="0.4" SphereZOffset="0.4" />
+  </Capsules>
+  <BoneParticles>
+    <BoneParticle BoneName="Bip01 Head" ParticleName="U_Monster.FrostVariation.Frost_Zombie_EyesLight" Offset="0,0,0" Dir="0,1,0" Scale="1.1" />
+    <BoneParticle BoneName="Bip01 Spine2" ParticleName="U_Monster.FrostVariation.Frost_Zombie_01" Offset="0,0,0" Dir="0,1,0" Scale="1" />
+  </BoneParticles>
+  <VisualParams>
+    <HitParticleParams BaseHitScale="1" DirectionalHitScale="1" CriticalHitScale="1" />
+    <BloodDecals Preset="default" OverrideScale="1" />
+  </VisualParams>
+  <Audio AllowGroupSounds="1" />
+  <RandomVoice>
+    <VoiceChoice VoiceName="CultZombie_A_voice" Weight="1" />
+    <VoiceChoice VoiceName="CultZombie_B_voice" Weight="1" />
+  </RandomVoice>
+</MetaData>

@@ -1,0 +1,127 @@
+{
+	"EulaAgreement":	false,
+	"NewsReadIds":	["ContentPatch1", "ContentPatch2"],
+	"AccountCosmeticInventory":	{
+		"CosmeticColorsUnlocked":	{
+			"version":	0,
+			"bitmask":	"000144244008000208000c01b002000000010000000000000000000000000000"
+		},
+		"CosmeticWeaponsUnlocked":	{
+			"version":	0,
+			"bitmask":	"e1c7400000128200d29a4cddf203149097250060ec7ffd1e00000040c3fe0f000090080000000000000000000000000000000000000000000000000000000000"
+		},
+		"CosmeticArmorsUnlocked":	{
+			"version":	0,
+			"bitmask":	"94c901eaa7b0ee6f000070ffeec3b3aeac9cd72d020040fdc6f906855ebf971f010060ff731e4118cf9bfe4d020050ffc8f1000800000000a000000000000000"
+		}
+	},
+	"SoftcoreNormal":	{
+		"CompletedStory":	true,
+		"ExpeditionsMaxLevelReached":	99,
+		"CityBuilding":	{
+			"Version":	0,
+			"FinishedTurns":	54,
+			"FinishedProjects":	[{
+					"Name":	"city_hall_training_equipment"
+				}, {
+					"Name":	"city_hall_batch_one_dependency"
+				}, {
+					"Name":	"bank_construct"
+				}, {
+					"Name":	"city_hall_batch_two_dependency"
+				}, {
+					"Name":	"seekers_garrison_construct"
+				}, {
+					"Name":	"city_hall_roadworks"
+				}, {
+					"Name":	"city_hall_aqueduct"
+				}, {
+					"Name":	"trade_assembly_construct"
+				}, {
+					"Name":	"city_hall_sewers"
+				}, {
+					"Name":	"buy_stash_1"
+				}, {
+					"Name":	"wonder_2_construct"
+				}, {
+					"Name":	"city_hall_irrigation"
+				}, {
+					"Name":	"enneract_lab_construct"
+				}, {
+					"Name":	"wonder_1_construct"
+				}, {
+					"Name":	"buy_stash_2"
+				}, {
+					"Name":	"city_hall_crop_rotation"
+				}, {
+					"Name":	"city_hall_batch_three_dependency"
+				}, {
+					"Name":	"enneract_lab_skillcopy_1"
+				}, {
+					"Name":	"injector_seat_construct"
+				}, {
+					"Name":	"siphon_chamber_construct"
+				}, {
+					"Name":	"city_hall_windmill"
+				}, {
+					"Name":	"shipyard_construct"
+				}, {
+					"Name":	"dark_market_construct"
+				}, {
+					"Name":	"anankis_artifact_construct"
+				}, {
+					"Name":	"city_hall_trauma_center"
+				}, {
+					"Name":	"transmutation_forge_construct"
+				}, {
+					"Name":	"dark_market_item_quality_upgrade"
+				}, {
+					"Name":	"city_hall_working_conditions"
+				}, {
+					"Name":	"dark_market_item_rarity_upgrade"
+				}, {
+					"Name":	"wonder_5_construct"
+				}, {
+					"Name":	"wonder_3_construct"
+				}, {
+					"Name":	"wonder_4_construct"
+				}, {
+					"Name":	"transmutation_forge_upgrade"
+				}, {
+					"Name":	"dark_market_leg_reagent_upgrade"
+				}, {
+					"Name":	"city_hall_education"
+				}, {
+					"Name":	"wonder_6_construct"
+				}, {
+					"Name":	"city_hall_sawmill"
+				}, {
+					"Name":	"city_hall_iron_mines"
+				}],
+			"OngoingProjects":	[],
+			"OngoingEventProjects":	[],
+			"PendingRewards":	[],
+			"RewardInstances":	[],
+			"RolledProjects":	[{
+					"Name":	"ruins_cordanon_seekers_expedition"
+				}, {
+					"Name":	"ezaneal_shrine_seekers_expedition"
+				}, {
+					"Name":	"anankis_seekers_expedition"
+				}, {
+					"Name":	"bro_dawn_diplomats_expedition"
+				}, {
+					"Name":	"gomora_diplomats_expedition"
+				}, {
+					"Name":	"kuei_diplomats_expedition"
+				}],
+			"PendingEvents":	[],
+			"TurnsUntilNextNarrativeEventRoll":	0,
+			"TimedProductionFactors":	[],
+			"NETypeCooldowns":	[],
+			"NECooldowns":	[],
+			"CECooldowns":	[],
+			"TurnsUntilNextCourierEventRoll":	2
+		}
+	}
+}

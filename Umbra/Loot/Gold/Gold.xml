@@ -1,0 +1,18 @@
+<MetaData>
+  <Golds>
+    <Item Name="GOLD_1_5" MinVal="1" MaxVal="50" />
+    <Item Name="GOLD_3_7" MinVal="3" MaxVal="70" />
+    <Item Name="GOLD_7_13" MinVal="7" MaxVal="130" />
+    <Item Name="GOLD_10_16" MinVal="10" MaxVal="160" />
+    <Item Name="GOLD_14_20" MinVal="14" MaxVal="200" />
+    <Item Name="GOLD_20_25" MinVal="20" MaxVal="250" />
+    <Item Name="GOLD_25_30" MinVal="25" MaxVal="300" />
+    <Item Name="GOLD_35_40" MinVal="35" MaxVal="400" />
+    <Item Name="GOLD_40_45" MinVal="40" MaxVal="450" />
+    <Item Name="GOLD_45_50" MinVal="45" MaxVal="500" />
+    <Item Name="GOLD_50_55" MinVal="50" MaxVal="550" />
+    <Item Name="GOLD_55_60" MinVal="55" MaxVal="6000" />
+    <Item Name="GOLD_60_65" MinVal="60" MaxVal="65000" />
+    <Item Name="GOLD_65_70" MinVal="650" MaxVal="70000" />
+  </Golds>
+</MetaData>

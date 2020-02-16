@@ -1,0 +1,9 @@
+<MetaData>
+  <SpawnClass Name="sc_GamescomalphaRoar_zombies">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Zombie" NumberMin="6" NumberMax="6" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="3" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+  <SpawnClass Name="sc_GamescomalphaRoar_lieutenants">
+    <Spawn Type="Actor" ClassName="CultOfFlesh_Spreader" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+    <Spawn Type="Actor" ClassName="CultOfFlesh_ColossalBreeder" NumberMin="1" NumberMax="1" LevelMin="1" LevelMax="9999" LevelOffset="0" Center="0" SpawnOverTime="1" BossProba="0" LootClassOverride="" XPBonusPercent="0" IgnoreAnimation="0" />
+  </SpawnClass>
+</MetaData>
