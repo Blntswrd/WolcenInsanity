@@ -43,4 +43,5 @@ If you prefer to use the original, more restricted use of the modifiers, you can
 To make items more exiting, most items have now a chance to get more affixes and magic items have a low chance for sockets. 
 If you don't like this feel free to alter or delete "\Game\Umbra\Loot\PrefixSuffixParams.xml". 
 
+---
 Feel free to contribute and modify :D
