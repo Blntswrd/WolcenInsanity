@@ -90,22 +90,22 @@
     <SkillModifier XP="4348114" Level="88" Effect="damage_weapon_percent" Param1="0.8" Param2="0.8" UIDesc="@ui_AST_ParamBonus_WeaponDamage" />
     <SkillModifier XP="4783806" Level="89" Effect="damage_weapon_percent" Param1="0.8" Param2="0.8" UIDesc="@ui_AST_ParamBonus_WeaponDamage" />
     <SkillModifier XP="5263076" Level="90" Effect="damage_weapon_percent" Param1="0.8" Param2="0.8" UIDesc="@ui_AST_ParamBonus_WeaponDamage" />
-    <SkillVariant Level="5" Mode="Additive" UID="player_Sniper_variant_6 Cost="0" />
-    <SkillVariant Level="5" Mode="Additive" UID="player_Sniper_variant_15 Cost="0" />
-    <SkillVariant Level="8" Mode="Additive" UID="player_Sniper_variant_16 Cost="0" />
-    <SkillVariant Level="11" Mode="Additive" UID="player_Sniper_variant_4 Cost="0" />
-    <SkillVariant Level="14" Mode="Additive" UID="player_Sniper_variant_1 Cost="0" />
-    <SkillVariant Level="17" Mode="Additive" UID="player_Sniper_variant_12 Cost="0" />
-    <SkillVariant Level="20" Mode="Additive" UID="player_Sniper_variant_10 Cost="0" />
-    <SkillVariant Level="23" Mode="Additive" UID="player_Sniper_variant_7 Cost="0" />
-    <SkillVariant Level="26" Mode="Additive" UID="player_Sniper_variant_11 Cost="0" />
-    <SkillVariant Level="29" Mode="Additive" UID="player_Sniper_variant_8 Cost="0" />
-    <SkillVariant Level="32" Mode="Additive" UID="player_Sniper_variant_5 Cost="0" />
-    <SkillVariant Level="35" Mode="Additive" UID="player_Sniper_variant_14 Cost="0" />
-    <SkillVariant Level="38" Mode="Additive" UID="player_Sniper_variant_2 Cost="0" />
-    <SkillVariant Level="41" Mode="Additive" UID="player_Sniper_variant_3 Cost="0" />
-    <SkillVariant Level="44" Mode="Additive" UID="player_Sniper_variant_13 Cost="0" />
-    <SkillVariant Level="47" Mode="Additive" UID="player_Sniper_variant_9 Cost="0" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_Sniper_variant_6" Cost="0" />
+    <SkillVariant Level="5" Mode="Additive" UID="player_Sniper_variant_15" Cost="0" />
+    <SkillVariant Level="8" Mode="Additive" UID="player_Sniper_variant_16" Cost="0" />
+    <SkillVariant Level="11" Mode="Additive" UID="player_Sniper_variant_4" Cost="0" />
+    <SkillVariant Level="14" Mode="Additive" UID="player_Sniper_variant_1" Cost="0" />
+    <SkillVariant Level="17" Mode="Additive" UID="player_Sniper_variant_12" Cost="0" />
+    <SkillVariant Level="20" Mode="Additive" UID="player_Sniper_variant_10" Cost="0" />
+    <SkillVariant Level="23" Mode="Additive" UID="player_Sniper_variant_7" Cost="0" />
+    <SkillVariant Level="26" Mode="Additive" UID="player_Sniper_variant_11" Cost="0" />
+    <SkillVariant Level="29" Mode="Additive" UID="player_Sniper_variant_8" Cost="0" />
+    <SkillVariant Level="32" Mode="Additive" UID="player_Sniper_variant_5" Cost="0" />
+    <SkillVariant Level="35" Mode="Additive" UID="player_Sniper_variant_14" Cost="0" />
+    <SkillVariant Level="38" Mode="Additive" UID="player_Sniper_variant_2" Cost="0" />
+    <SkillVariant Level="41" Mode="Additive" UID="player_Sniper_variant_3" Cost="0" />
+    <SkillVariant Level="44" Mode="Additive" UID="player_Sniper_variant_13" Cost="0" />
+    <SkillVariant Level="47" Mode="Additive" UID="player_Sniper_variant_9" Cost="0" />
     <SkillPoints Level="5" Amount="1" />
     <SkillPoints Level="11" Amount="1" />
     <SkillPoints Level="17" Amount="1" />
