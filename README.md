@@ -12,7 +12,7 @@ Due to the way mob levels are hardcoded, mobs only have proper values until leve
 ## How to install? 
 
 All folders except "savegames" shall be copied into the "Wolcen\Game" folder, so that you for example have the folder "Wolcen\Game\Umbra".
-Those folders are the unpacked and modified equivalent of the respective .pak file. The folders will be read with priority when playing offline. This way the mods will not be overwritten when the game updates. Normally no files should be replaced, unless you are updating the mod or have oder mods already installed.
+Those folders are the unpacked and modified equivalent of the respective .pak file. The folders will be read with priority when playing offline. This way the mods will not be overwritten when the game updates. Normally no files should be replaced, unless you are updating the mod or have mods already installed.
 
 If this does not work, create, for every folder under "Game" a .zip file and rename it .pak, replacing the original one. (Don't forget the backup, also this way you should never attempt to go online and with every update the mod will be overwritten.)
 
@@ -27,14 +27,14 @@ You can copy the savegame folder to "C:\Users\[Your Username]\Saved Games\Wolcen
 
 Under characters is the Test.json file of the character, after pasting it you will find it in the game to play. This character has very fast movement and attack speed, good area clear and very high damage to make sure every map area of every level is easily playable. Watch out for the Havoc Orb, it will destroy your framerate for a short while, especially on slower machines. This is due to the projectiles modifier on one of the weapons and the skill modifiers.
 
-### Modified item quantity in DifficultyMode
+### Modified item quantity in normal difficulty 
 
 The item quantity is highly increased due to the file "\Umbra\Gameplay\DifficultyMode\normal.xml". If you prefer less drops or it causes too many performance problems feel free to delete the file or change the value. (Rarity chances are unchanged)
 
 
 ### Slightly modified passive tree
 
-The passive tree is currently slightly modified, currently only a projectile number node is changed, if you prefer the original tree you can delete the entire "\Umbra\Skills\Passive" folder. The tree will likely be changed in the future to make it stronger and more exiting to play. 
+The passive tree is currently slightly modified, currently only a projectile number node is changed, if you prefer the original tree you can delete the entire "\Umbra\Skills\Passive" folder. The tree will likely be changed in the future to make it stronger and more exciting to play. 
 
 ### All active skill modifiers are free (you can enable all at once)
 
@@ -42,7 +42,7 @@ If you prefer to use the original, more restricted use of the modifiers, you can
 
 ### Legendaries and Rares have more affixes, Magics have low socket chance
 
-To make items more exiting, most items have now a chance to get more affixes and magic items have a low chance for sockets. 
+To make items more exciting, most items have now a chance to get more affixes and magic items have a low chance for sockets. 
 If you don't like this feel free to alter or delete "\Game\Umbra\Loot\PrefixSuffixParams.xml". 
 
 ---
