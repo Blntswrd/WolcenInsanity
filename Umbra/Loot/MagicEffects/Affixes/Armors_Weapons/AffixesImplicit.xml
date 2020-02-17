@@ -1030,7 +1030,7 @@
     </DropParams>
     <MagicEffect EffectId="attackspeed_final_percent">
       <LoRoll CharacteristicFinalPercentInt="-25" />
-      <HiRoll CharacteristicFinalPercentInt="-250" />
+      <HiRoll CharacteristicFinalPercentInt="-25" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="local_damage_2h" AffixType="default">
