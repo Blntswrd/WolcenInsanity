@@ -18,7 +18,7 @@
     </DropParams>
     <MagicEffect EffectId="attackspeed_final_percent">
       <LoRoll CharacteristicFinalPercentInt="-25" />
-      <HiRoll CharacteristicFinalPercentInt="-200" />
+      <HiRoll CharacteristicFinalPercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_ring_melee_damage_2" Class="" AffixType="default">
@@ -51,7 +51,7 @@
     </DropParams>
     <MagicEffect EffectId="health_percent">
       <LoRoll HealthPercentInt="-20" />
-      <HiRoll HealthPercentInt="-250" />
+      <HiRoll HealthPercentInt="-99" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_all_attributes_2" Class="" AffixType="default">
@@ -920,7 +920,7 @@
     </DropParams>
     <MagicEffect EffectId="criticalchance_final_percent">
       <LoRoll CharacteristicFinalPercentInt="-50" />
-      <HiRoll CharacteristicFinalPercentInt="-500" />
+      <HiRoll CharacteristicFinalPercentInt="-70" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_the_thing_all_resistance_score_percent_2" Class="" AffixType="default">
@@ -1492,7 +1492,7 @@
     </DropParams>
     <MagicEffect EffectId="material_damage_percent">
       <LoRoll DamagePercentInt="-25" />
-      <HiRoll DamagePercentInt="-150" />
+      <HiRoll DamagePercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_abyssal_elemental_damage_percent_2" Class="" AffixType="default">
@@ -1503,7 +1503,7 @@
     </DropParams>
     <MagicEffect EffectId="elemental_damage_percent">
       <LoRoll DamagePercentInt="-25" />
-      <HiRoll DamagePercentInt="-150" />
+      <HiRoll DamagePercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_abyssal_health_pts_2" Class="" AffixType="default">
@@ -1547,7 +1547,7 @@
     </DropParams>
     <MagicEffect EffectId="damage_percent">
       <LoRoll DamagePercentInt="-30" />
-      <HiRoll DamagePercentInt="-150" />
+      <HiRoll DamagePercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_firstmen_forceshield_pts_2" Class="" AffixType="default">
@@ -1602,7 +1602,7 @@
     </DropParams>
     <MagicEffect EffectId="all_resistance">
       <LoRoll CharacteristicScoreInt="-40" />
-      <HiRoll CharacteristicScoreInt="-200" />
+      <HiRoll CharacteristicScoreInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_quickblade_agility_pts_2" Class="" AffixType="default">
@@ -1635,7 +1635,7 @@
     </DropParams>
     <MagicEffect EffectId="non_dot_damage_percent">
       <LoRoll DamagePercentFloat="-30" />
-      <HiRoll DamagePercentFloat="-500" />
+      <HiRoll DamagePercentFloat="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_agony_willpower_pts_2" Class="" AffixType="default">
@@ -1833,7 +1833,7 @@
     </DropParams>
     <MagicEffect EffectId="willpower_pts">
       <LoRoll AttributeFlatInt="-15" />
-      <HiRoll AttributeFlatInt="-200" />
+      <HiRoll AttributeFlatInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_amulet_kardis_forceshield_pts_2" Class="" AffixType="default">
@@ -2273,7 +2273,7 @@
     </DropParams>
     <MagicEffect EffectId="stamina_regeneration_percent">
       <LoRoll ResourcePercentFloat="-50" />
-      <HiRoll ResourcePercentFloat="-500" />
+      <HiRoll ResourcePercentFloat="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_figurehead_resistance_score_percent_2" Class="" AffixType="default">
@@ -2328,7 +2328,7 @@
     </DropParams>
     <MagicEffect EffectId="minion_health_percent">
       <LoRoll HealthPercentInt="-40" />
-      <HiRoll HealthPercentInt="-200" />
+      <HiRoll HealthPercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_necromancer_minion_damage_percent_2" Class="" AffixType="default">
@@ -2636,7 +2636,7 @@
     </DropParams>
     <MagicEffect EffectId="elemental_damage_percent">
       <LoRoll DamagePercentInt="-40" />
-      <HiRoll DamagePercentInt="-200" />
+      <HiRoll DamagePercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_champion_helmet_occult_damage_percent_2" Class="" AffixType="default">
@@ -2647,7 +2647,7 @@
     </DropParams>
     <MagicEffect EffectId="occult_damage_percent">
       <LoRoll DamagePercentInt="-40" />
-      <HiRoll DamagePercentInt="-200" />
+      <HiRoll DamagePercentInt="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_champion_helmet_attack_speed_2" Class="" AffixType="default">
@@ -3054,7 +3054,7 @@
     </DropParams>
     <MagicEffect EffectId="non_dot_damage_percent">
       <LoRoll DamagePercentFloat="-25" />
-      <HiRoll DamagePercentFloat="-150" />
+      <HiRoll DamagePercentFloat="-80" />
     </MagicEffect>
   </Affix>
   <Affix AffixId="unique_curse_ring_ailment_spread_2" Class="" AffixType="default">
